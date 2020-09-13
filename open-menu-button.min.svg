@@ -1,0 +1,7 @@
+<svg version="1.1" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+ <g fill="currentcolor" stroke-linejoin="bevel" stroke-width="2">
+  <rect x="5" y="9" width="20" height="2" style="paint-order:stroke markers fill"/>
+  <rect x="5" y="14" width="20" height="2" style="paint-order:stroke markers fill"/>
+  <rect x="5" y="19" width="20" height="2" style="paint-order:stroke markers fill"/>
+ </g>
+</svg>
