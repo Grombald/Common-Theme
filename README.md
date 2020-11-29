@@ -21,16 +21,16 @@ Changelog:
 - Sandbox Edition: The style for your Sandbox wiki (https://github.com/Grombald/Common-Theme/tree/Sandbox-edition)
 - BHL Compatibilizer: Makes the Common Theme as compatible with the BHL as it gets (https://github.com/Grombald/Common-Theme/tree/BHL-Compatibilizer)
 
-**License:**
-The Common Theme is licensed under CC BY-SA 3.0 Unported: (https://creativecommons.org/licenses/by-sa/3.0/)
+**License:** The Common Theme is licensed under CC BY-SA 3.0 Unported: (https://creativecommons.org/licenses/by-sa/3.0/)
 
 **Attribution:**
+
     SCP Sigma 9 - Common Theme 1.3.7
     [2020 Wikidot Theme - CC BY-SA 3.0]
     Created for the SCP Foundation by Aelanna
     Edited for SCP Foundation by Crayne, Dr Devan, anqxyr, DrMagnus, pxdnbluesoul
     Rereleased as Common Theme by Dr_Grom
- 
+
     Extensions:
     - Font Awesome 4.3.0 by @davegandy under SIL OFL 1.1 (Font) and MIT License (CSS)
     - Bugfixes, top- and sidebar-mods by Dr_Grom
