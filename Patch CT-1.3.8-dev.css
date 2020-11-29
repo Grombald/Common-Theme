@@ -1,10 +1,10 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 @import url('/local--files/component:theme/font-bauhaus.css');
 @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
  /*
-    SCP Sigma 9 - Common Theme 1.3.8 Developing
+    SCP Sigma 9 - Common Theme 1.3.8-dev
     [2020 Wikidot Theme - CC BY-SA 3.0]
     Created for the SCP Foundation by Aelanna
     Edited for SCP Foundation by Crayne, Dr Devan, anqxyr, DrMagnus, psdnbluesoul
@@ -16,6 +16,108 @@
     - Interwiki-module by Resure
     - Credit-module by C-take, physicslike, sinazugawa Nanimono Demonai, improved by Dr Devan and Boyu12, and adapted Dr_Grom
     - Colmod by Boyu12
+
+    Editing note: As this file is not meant to be loaded as a patch, but to be merged into the main release manually, every portion that is just to be removed is to start with a *
 */
 
-/* Nothing yet, but soooon */
+/* Fixes */
+h2, h3, h4, h5, h6, *h7 {
+}
+
+#side-bar a:visited {
+    color: var(--ct_col_link);
+}
+ 
+#breadcrumbs {
+    font-weight: normal;
+}
+
+#top-bar .open-menu a {
+    background-color: #fff;
+    background-color: var(--ct_col_m_sidebar-button-bg);
+    border: .2em solid #888;
+    border: var(--ct_brd_m_sidebar-button);
+    color: #888;
+    color: var(--ct_col_m_sidebar-button-txt);
+}
+
+iframe.scpnet-interwiki-frame {
+    height: 337px;
+}
+@media (min-width: 768px) {
+    iframe.scpnet-interwiki-frame {
+        *height: 325px;
+    }
+}
+
+/* Fake HTML elements and basic formating classes */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+}
+.h2, .h3, .h4, .h5, .h6 {
+    letter-spacing: 1px;
+    margin: 0.5em 0 0.4em;
+    padding: 0;
+}
+.h1 {
+    color: #901;
+    color: var(--ct_col_h1-txt);
+    font-size: 190%;
+    font-weight: bold;
+    margin: 0.7em 0 0.6em;
+    padding: 0;
+}
+.h2 {
+    font-weight: normal;
+    font-size: 150%;
+}
+.h3 {
+    font-weight: bold;
+    font-size: 130%;
+}
+.h4 {
+    font-weight: bold;
+    font-size: 120%;
+}
+.h5 {
+    font-weight: bold;
+    font-size: 100%;
+}
+.h6 {
+    font-weight: bold;
+    font-size: 90%;
+}
+.b {
+    font-weight: bold;
+}
+.em {
+    font-style: italic;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.toc {
+    background-color: #F7F7F7;
+    border: 1px dashed gray;
+    padding: 0.5em 20px;
+    text-align: left;
+    white-space: nowrap;
+}
+.toc p {
+    margin: 0;
+}
+.toc-title {
+    margin: 0.2em 0;
+}
+.toc-list {
+    margin: 0.5em 0;
+}
