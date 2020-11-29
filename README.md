@@ -28,7 +28,7 @@ Changelog:
 - Sandbox Edition: The style for your Sandbox wiki (https://github.com/Grombald/Common-Theme/tree/Sandbox-edition)
 - BHL Compatibilizer: Makes the Common Theme as compatible with the BHL as it gets (https://github.com/Grombald/Common-Theme/tree/BHL-Compatibilizer)
 
-**License:** The Common Theme is licensed under CC BY-SA 3.0 Unported: (https://creativecommons.org/licenses/by-sa/3.0/)<br>
+**License:** The Common Theme is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" title="Titel">CC BY-SA 3.0 Unported</a> <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
 
 **Attribution:**
