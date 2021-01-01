@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+@import url('https://grombald.github.io/Common-Theme/css/de/Common-Theme-DE-Edition.css');
+@import url('https://grombald.github.io/Common-Theme/css/Sigma-9-Common-Sandbox-Theme-1.0.css');
+ 
+/* SCP Sigma 9 - Common Theme 1.3.8 - DE-Sandbox-Edition - CC BY-SA 3.0 - by Dr_Grom */
+ 
+:root {
+    --ct_dim_sidebar-link-images: 40px;
+}
+ 
+/* Referenz-Box */
+.ref-box {
+    background: #e5ffe5;
+    border: 1px solid #660000;
+    border: var(--ct_brd_sidebar-elements);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-radius: var(--ct_dim_sidebar-border-radius);
+        -webkit-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+        -moz-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    left: -256.2px;  
+    margin-bottom: 15px;  
+    padding: 0 10px;
+    position: absolute;
+    top: 350px;
+    width: 195.6px;
+}
+.ref-box ul {
+    list-style: disc;
+    padding-left: 16px;
+}
+@media (max-width: 767px) {
+    .ref-box{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .ref-box {
+        left: -230.6px;
+    }
+}
+ 
+/* Show "Safe Draft" button in the Sandbox */
+#edit-save-draft-button {
+    display: initial;
+}
