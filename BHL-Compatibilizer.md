@@ -14,7 +14,7 @@ Place this code under the include-module of the BHT and derivatives:
 
 If you encounter compatibility problems with the BHL theme and your own wiki's changes to the theme, set up an own compatibilizer and import this one to your CSS with the following line:
 ```
-@import url('http://o5command-int.wdfiles.com/local--code/tech-team:bhl-compatibility-theme/1');
+@import url('https://grombald.github.io/Common-Theme/css/min/Common-Theme-Extension_BHL-Compatibilizer-1.0.min.css');
 ```
 
 *See also: http://o5command-int.wikidot.com/tech-team:bhl-compatibility-theme*
