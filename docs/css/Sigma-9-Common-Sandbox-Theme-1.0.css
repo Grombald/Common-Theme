@@ -1,0 +1,58 @@
+﻿/*
+    SCP Sigma 9 - Common Theme - Sandbox Edition 1.0
+    [2020 Wikidot Theme - CC BY-SA 3.0]
+    Created for the SCP Foundation by Aelanna
+    Edited for SCP Foundation by Crayne, Dr Devan, anqxyr, DrMagnus, psdnbluesoul
+ 
+    Extensions:
+    - Font Awesome 4.3.0 by @davegandy under SIL OFL 1.1 (Font) and MIT License (CSS)
+    - Common Theme, bugfixes, top- and sidebar-mods by Dr_Grom
+    - Support for Asian languages by Nanimono Demonai
+    - Interwiki-module by Resure
+    - Credit-module by C-take, physicslike, sinazugawa Nanimono Demonai, improved by Dr Devan and Boyu12, and adapted Dr_Grom
+    - Colmod by Boyu12
+    - Sandbox Edition by Dr_Grom
+*/
+ 
+:root {
+    --ct_bg_header-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/body_bg.png');
+    --ct_bg_header-logo: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/logo.png'); 
+    --ct_col_searchbox-gradient-1: #063830;
+    --ct_col_searchbox-gradient-2: #126657;
+    --ct_col_searchbox-gradient-3: #228977;
+    --ct_col_searchbox-gradient-4: #2B9885;
+}
+ 
+/* This changes the header images */
+div#container-wrap {
+    background-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/body_bg.png');
+    background-image: var(--ct_bg_header-image); 
+}
+#header {
+    background-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/logo.png');
+    background-image: var(--ct_bg_header-logo);
+}
+ 
+/* This adjusts the search box's color */
+#search-top-box-input {
+    background-color: #063830;
+    background-color: var(--ct_col_searchbox-gradient-1);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    background-color: #126657;
+    background-color: var(--ct_col_searchbox-gradient-2);
+}
+#search-top-box-form input[type=submit] {
+    background-color: #126657;
+    background-color: var(--ct_col_searchbox-gradient-2);
+    background: linear-gradient(to bottom, #228977,#126657,#063830);
+    background: linear-gradient(to bottom, var(--ct_col_searchbox-gradient-3),var(--ct_col_searchbox-gradient-2),var(--ct_col_searchbox-gradient-1));
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    background-color: #228977;
+    background-color: var(--ct_col_searchbox-gradient-3);
+    background: linear-gradient(to bottom, #2B9885,#228977,#126657);
+    background: linear-gradient(to bottom, var(--ct_col_searchbox-gradient-4),var(--ct_col_searchbox-gradient-3),var(--ct_col_searchbox-gradient-2));
+}
