@@ -10,31 +10,20 @@
 
 Please see this page for installation instructions: http://o5command-int.wikidot.com/tech-team:common-theme
 
-**Current version: 1.3.7**
+**Current version: 1.3.8**
 
-Changelog:
-- 1.3.7: Added new classes: hyphens, justify, indent, no-indent, also several bugfixes
-- 1.3.6: Added a missing shadow.
-- 1.3.5: Added a missing variable.
-- 1.3.4: Fixed a bug in the mobile topbar.
-- 1.3.3: Fixed a bug in the header-text-scaling.
-- 1.3.2: Fixed a bug of the image-box.
-- 1.3.1: Fixed a bug of the social-media link icons in the sidebar.
-- 1.3: Added all bugfixes and support for all modifications
-- 1.1/1.2: Changed the height of the interwiki module, as it got a new line.
-- 1.0: Initial release, basically a copy of EN's theme Rev. 78 from 2019-04-11.
-
-**Branches:**
-- Sandbox Edition: The style for your Sandbox wiki (https://github.com/Grombald/Common-Theme/tree/Sandbox-edition)
-- BHL Compatibilizer: Makes the Common Theme as compatible with the BHL as it gets (https://github.com/Grombald/Common-Theme/tree/BHL-Compatibilizer)
+**Extensions:**
+- Sandbox Edition: The style for your Sandbox wiki
+- BHL Compatibilizer: Makes the Common Theme as compatible with the BHL as it gets
+- Forum enhancements: Makes the Forum thread's layout more clear and more intuitive
 
 **License:** The Common Theme is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" title="Titel">CC BY-SA 3.0 Unported</a> <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
 
 **Attribution:**
 
-    SCP Sigma 9 - Common Theme 1.3.7
-    [2020 Wikidot Theme - CC BY-SA 3.0]
+    SCP Sigma 9 - Common Theme 1.3.8
+    [2021 Wikidot Theme - CC BY-SA 3.0]
     Created for the SCP Foundation by Aelanna
     Edited for SCP Foundation by Crayne, Dr Devan, anqxyr, DrMagnus, pxdnbluesoul
     Rereleased as Common Theme by Dr_Grom
