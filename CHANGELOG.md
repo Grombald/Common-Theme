@@ -16,29 +16,21 @@ The indenting can be changed by adding this code and modifying the dimension:
 [[/module]]
 ```
  
-**1.3.6**
-* Added a missing shadow.
+**1.3.6:** Added a missing shadow.
 
-**1.3.5**
-* Added a missing variable
+**1.3.5:** Added a missing variable
 
-**1.3.4**
-* Fixed a bug in the mobile topbar.
+**1.3.4:** Fixed a bug in the mobile topbar.
 
-**1.3.3**
-* Fixed a bug in the header-text-scaling.
+**1.3.3:** Fixed a bug in the header-text-scaling.
 
-**1.3.2**
-* Fixed a bug of the image-box
-* Lost unminified code of this version
+**1.3.2:** Fixed a bug of the image-box
 
-**1.3.1**
-* Fixed a bug of the social-media link icons in the sidebar.
+**1.3.1:** Fixed a bug of the social-media link icons in the sidebar.
 
-**1.3**
+**1.3:**
 * Full overhaul, optimization and partly rewrite of the theme
 * Added bugfixes
 * Added modification support
 
-**1.2**
-Last pre-optimization release, basically the Revision 78 from SCP-EN's theme http://www.scpwiki.com/component:theme with a few changed dimensions of the interwiki-module
+**1.2:** Last pre-optimization release, basically the Revision 78 from SCP-EN's theme http://www.scpwiki.com/component:theme with a few changed dimensions of the interwiki-module
