@@ -15,8 +15,8 @@
 */
  
 :root {
-    --ct_bg_header-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/body_bg.png');
-    --ct_bg_header-logo: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/logo.png'); 
+    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/img/sandbox/body_bg.png');
+    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/img/sandbox/ogo.png'); 
     --ct_col_searchbox-gradient-1: #063830;
     --ct_col_searchbox-gradient-2: #126657;
     --ct_col_searchbox-gradient-3: #228977;
@@ -25,11 +25,11 @@
  
 /* This changes the header images */
 div#container-wrap {
-    background-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/body_bg.png');
+    background-image: url('https://grombald.github.io/Common-Theme/img/sandbox/body_bg.png');
     background-image: var(--ct_bg_header-image); 
 }
 #header {
-    background-image: url('http://scp-int-sandbox.wdfiles.com/local--files/component:theme/logo.png');
+    background-image: url('https://grombald.github.io/Common-Theme/img/sandbox/logo.png');
     background-image: var(--ct_bg_header-logo);
 }
  
