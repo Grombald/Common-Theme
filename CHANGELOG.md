@@ -15,8 +15,7 @@ The indenting can be changed by adding this code and modifying the dimension:
 :root { --ct_dim_text-indent: 2em; }
 [[/module]]
 ```
-<br>
-<br>
+ 
 **1.3.6**
 * Added a missing shadow.
 
