@@ -154,7 +154,7 @@ script + div.page-tags:before {
     text-decoration: none;
 }
 .selektor .s_selektiert p {
-    background: #700 url(http://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png) repeat-x left -1400px;
+    background: #700 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x left -1400px;
     background: var(--ct_col_tab-menu-bg-selected);
     color: #fff;
     color: var(--ct_col_tab-menu-bg-selected-txt);
