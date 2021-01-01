@@ -1,6 +1,22 @@
 <h2 align="center">Common-Theme Changelog</h2>
 
-**1.3.7 (Current version)**
+**1.3.8 (Current version)**
+* Now only available on GitHub
+* Several bugfixes
+
+Added new classes:
+* Classes to imitate HTML elements, like .h2 or .b
+* Classes for aligning text: *.align-center*, *.align-right*, *.float-left* and *.float-right*
+* Classes to imitate a table of contents: *.toc*, *.toc-title* and *.toc-list*
+* A new variant of the content panel class set: White-Paper. Example: http://scp-wiki-de.wikidot.com/task-forces
+
+Added new extension: Forum enhancements
+Add the following to your theme below the other import-lines to install:
+```
+@import url('https://grombald.github.io/Common-Theme/css/min/Common-Theme-Extension_Forum-enhancements-1.0.min.css');
+```
+
+**1.3.7**
 * Several bugfixes
 
 Added new classes: 
