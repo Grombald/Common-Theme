@@ -9,7 +9,7 @@ Changes in your Sandbox's Theme (component:theme):
 ```
 [[code type="css"]]
 @import url('http://YOUR-WIKI.wdfiles.com/local--code/component:theme/1');
-@import url('http://o5command-int.wdfiles.com/local--files/tech-team:common-theme/Sigma-9-Common-Sandbox-Theme-1.0.min.css');
+@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Sandbox-Theme-1.0.min.css');
  
 /*
     SCP Sigma 9 - Common Theme - Sandbox Edition 1.0
