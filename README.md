@@ -12,7 +12,7 @@ Please see this page for installation instructions: http://o5command-int.wikidot
 
 **Current version: 1.3.8**
 
-**Extensions:**
+**Optional extensions:**
 - Sandbox Edition: The style for your Sandbox wiki
 - BHL Compatibilizer: Makes the Common Theme as compatible with the BHL as it gets
 - Forum enhancements: Makes the Forum thread's layout more clear and more intuitive
