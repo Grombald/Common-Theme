@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* Black Highlighter Theme Compatibilizer for use with the Sigma-9 Common Theme - CC BY-SA 3.0 - by Dr_Grom. See http://o5command-int.wikidot.com/tech-team:bhl-compatibility-theme for more info. */
+
+@supports(--css:variables) {
+
+#top-bar div ul li a.homebutton {
+    background: url('/local--files/component:theme/home_fff.png') center 8px no-repeat;
+    color: transparent;
+}
+#top-bar div ul li:hover a.homebutton {
+    background: url('/local--files/component:theme/home_fff.png') center 8px no-repeat;
+}
+
+.topbar_arrow {
+    color: rgb(var(--swatch-menutxt-light-color));
+    top: 7px;
+}
+
+#top-bar li ul li img {
+  position: relative;
+}
+
+#top-bar div > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    --box-shadow: rgba(var(--swatch-menutxt-dark-color,12,12,12),0.5);
+    -webkit-box-shadow: 0 .125rem .375rem rgba(12,12,12,.5);
+    -moz-box-shadow: 0 .125rem .375rem rgba(12,12,12,.5);
+    -webkit-box-shadow: 0 .125rem .375rem var(--box-shadow);
+    -moz-box-shadow: 0 .125rem .375rem var(--box-shadow);
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    z-index: 20;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .375rem rgba(12,12,12,.5);
+    box-shadow: 0 .125rem .375rem var(--box-shadow);
+    border: .0625rem solid #0c0c0c;
+    border: var(--border-styling);
+    background: rgba(48,48,52,.93);
+    background: rgba(var(--swatch-menubg-dark-color),.93);
+    width: auto;
+    min-width: 100%;
+    max-width: 61.25rem;
+    letter-spacing: .0625rem;
+    text-align: center;
+	margin-top: 0;
+}
+#top-bar div > ul > li > ul > li:hover > ul {
+    --box-shadow: rgba(var(--swatch-menutxt-dark-color,12,12,12),0.5);
+}
+#top-bar div > ul > li > ul > li:hover > ul > li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -o-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -moz-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    break-inside: avoid;
+    transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    box-sizing: border-box;
+    margin: 0 -.0625rem -.0625rem 0;
+    border-collapse: collapse;
+    padding: 0;
+    width: auto;
+    height: 2rem;
+    word-break: normal;
+}
+#top-bar div > ul > li > ul > li:hover > ul > li:first-child {
+    margin-top: -.0625rem;
+}
+
+#top-bar div > ul > li > ul > li > ul > li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -o-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -moz-transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    break-inside: avoid;
+    transition: background-color 80ms cubic-bezier(.4,0,.2,1);
+    box-sizing: border-box;
+    margin: 0 -.0625rem -.0625rem 0;
+    border-collapse: collapse;
+    padding: 0;
+    width: auto;
+    height: 2rem;
+    word-break: normal;
+}
+#top-bar div > ul > li > ul > li > ul > li:hover {
+    background: hsla(0,0%,98.8%,.15);
+    background: rgba(var(--swatch-menubg-color),.15);
+}
+#top-bar div > ul > li > ul > li > ul > li:hover {
+    background-color: rgba(0,0,0,0);
+    background-color: rgba(var(--dark-accent),.05);
+}
+#top-bar div > ul > li > ul > li > ul > li:hover::before {
+    -webkit-clip-path: polygon(80% 0,100% 0,100% 100%,0 100%);
+    top: -100%;
+    clip-path: polygon(80% 0,100% 0,100% 100%,0 100%);
+}
+#top-bar div > ul > li > ul > li > ul > li:hover::after {
+    position: absolute;
+    right: -10%;
+    z-index: 5;
+    width: 100%;
+    width: 70%;
+    height: 100%;
+    content: " ";
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,80% 100%);
+    bottom: -100%;
+    clip-path: polygon(0 0,100% 0,100% 100%,80% 100%);
+}
+
+#top-bar div > ul > li > ul > li > ul > li > a {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    justify-content: center;
+    border: 0 solid rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
+    padding: 0 1em;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color)) !important;
+    font-size: .875rem;
+    font-size: -webkit-calc(var(--base-font-size)*0.93333*0.875);
+    font-size: -moz-calc(var(--base-font-size)*0.93333*0.875);
+    font-size: calc(var(--base-font-size)*0.93333*0.875);
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+#side-bar div.menu-item {
+    padding-left: inherit;
+}
+#side-bar .side-block > div.menu-item > a {
+    height: auto;
+    width: calc(0.9375rem * 0.93333 * 19 - 0.9375rem * 0.93333 * 2) !important;
+}
+#side-bar .side-links {
+    align-items: center;
+    justify-content: center;
+}
+#side-bar .side-links a {
+    padding: .25rem;
+    margin: .25rem .1rem;
+}
+
+#side-bar .side-block > .collapsible-block .collapsible-block-folded {
+	background: -webkit-linear-gradient(80deg,rgba(140,20,25,.45),rgba(140,20,25,.55));
+	background: -moz-linear-gradient(80deg,rgba(140,20,25,.45) 0,rgba(140,20,25,.55) 100%);
+	background: -o-linear-gradient(80deg,rgba(140,20,25,.45) 0,rgba(140,20,25,.55) 100%);
+	background: linear-gradient(10deg,rgba(140,20,25,.45),rgba(140,20,25,.55));
+	background: var(--gradient-sidemenu-header);
+	min-height: 1.25rem;
+}
+
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a,
+.page-rate-widget-box .cancel a {
+    height: auto;
+}
+.borderless-tabs .yui-navset .yui-content {
+    border-top: solid 5px rgba(244,244,244,.25);
+}
+
+
+ 
+
+#side-bar .colmod-link-top a:first-child {
+	background:-webkit-linear-gradient(80deg,rgba(140,20,25,.45),rgba(140,20,25,.55));
+	background:-moz-linear-gradient(80deg,rgba(140,20,25,.45) 0,rgba(140,20,25,.55) 100%);
+	background:-o-linear-gradient(80deg,rgba(140,20,25,.45) 0,rgba(140,20,25,.55) 100%);
+	background:linear-gradient(10deg,rgba(140,20,25,.45),rgba(140,20,25,.55));
+	background:var(--gradient-sidemenu-header);
+	min-height:1.25rem
+}
+#side-bar .colmod-link-top a {
+	--text-shadow:rgb(var(--swatch-border-color,12,12,12));
+	display:block;
+	height:1.25rem;
+	color:#fcfcfc;
+	color:rgb(var(--swatch-menutxt-light-color));
+	font-size:.7875rem;
+	font-size:-webkit-calc(var(--base-font-size)*0.93333*0.9);
+	font-size:-moz-calc(var(--base-font-size)*0.93333*0.9);
+	font-size:calc(var(--base-font-size)*0.93333*0.9);
+	font-weight:700;
+	letter-spacing:.2rem;
+	line-height:1.25rem;
+	text-align:center;
+	text-shadow:.063rem .063rem .063rem #0c0c0c;
+	text-shadow:.063rem .063rem .063rem var(--text-shadow);
+	text-transform:uppercase;
+	position:relative;
+	padding-right:2rem
+}
+#side-bar div.colmod-block {
+	-webkit-flex-basis:100%;
+	-ms-flex-preferred-size:100%;
+	flex-basis:100%;
+	text-align:right
+}
+#side-bar .colmod-link-top a:hover {
+	background-color:#b42323;
+	background-color:rgba(var(--swatch-primary));
+	text-decoration:none
+}
+#side-bar .colmod-link-top a:after {
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url(http://scptestwiki.wdfiles.com/local--files/squeeze%3Anav%3Aside/arr_drop.svg);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	width:2rem;
+	height:100%;
+	content:""
+	-webkit-filter:invert(100%);
+	filter:invert(100%)
+}
+#side-bar .colmod-link-top a:last-child:after {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+#side-bar div.colmod-content {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-right:2rem solid rgba(12,12,12,.08);
+	border-right:2rem solid rgba(var(--swatch-border-color),.08)
+}
+#side-bar div.colmod-content .menu-item:last-of-type {
+	border-bottom:none
+}
+#side-bar .colmod-link-top a:last-child {
+	background:rgba(140,20,25,.5);
+	background:rgba(var(--medium-accent))
+	border-bottom:.125rem solid rgba(12,12,12,.08);
+	border-bottom:.125rem solid rgba(var(--swatch-border-color),.08)
+	font-size:.875rem;
+	font-size:-webkit-calc(var(--base-font-size)*0.93333);
+	font-size:-moz-calc(var(--base-font-size)*0.93333);
+	font-size:calc(var(--base-font-size)*0.93333)
+}
+
+@media only screen and (max-width:768px) {
+	#side-bar .colmod-link-top a {
+		letter-spacing:.1rem
+	}
+}
+
+}
