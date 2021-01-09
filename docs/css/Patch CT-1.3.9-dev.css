@@ -4,9 +4,19 @@
 
 :root {
     --ct_col_hr: #aaa;
+    --ct_brd_tab_content: 1px solid #808080;
+    --ct_col_tab_content-border-top: #243356;
 }
 
 hr {
     background-color: #aaa;
     background-color: var(--ct_col_hr);
+}
+
+.yui-navset .yui-content,
+.yui-navset .yui-navset-top .yui-content {
+    border: 1px solid #808080;
+    border: var(--ct_brd_tab_content);
+    border-top-color: #243356;
+    border-top-color: var(--ct_col_tab_content-border-top);
 }
