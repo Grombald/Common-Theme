@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* SCP Sigma 9 - Common Theme - Dev-Patch 1.3.9 - CC BY-SA 3.0 - by Dr_Grom */
+
+:root {
+    --ct_col_hr: #aaa;
+}
+
+hr {
+    background-color: #aaa;
+    background-color: var(--ct_col_hr);
+}
