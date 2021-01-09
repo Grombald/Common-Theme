@@ -1,5 +1,24 @@
-﻿@charset "utf-8";
- 
+@charset "utf-8";
+
 /* SCP Sigma 9 - Common Theme - Dark-Mode 1.0 - CC BY-SA 3.0 - by Dr_Grom */
 
+:root {
+    --ct_bg_body: #171719;
+    --ct_col_body-txt: #eee;
+    --ct_col_h1-txt: #b11;
+    --ct_col_link: #e11;
+    --ct_bg_sidebar-default: #3333;
+    --ct_col_image-block-contrast: #333;
+    --ct_col_tab-bg: #212124;
+    --ct_col_tab-menu-border: #666;
+    --ct_col_blockquote-bg: #202023;
+    --ct_brd_blockquote: 1px dashed #666;
+    --ct_col_code-bg: #232326;
+    --ct_col_code-border: #aaa;
+    
+    --ct_col_hr: #555;
+}
 
+hr {
+    background-color: var(--ct_col_hr);
+}
