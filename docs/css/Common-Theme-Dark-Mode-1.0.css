@@ -18,14 +18,22 @@
     --ct_col_tab_content-border-top: #444;
     --ct_col_hr: #555;
     --ct_col_toc-bg: #232326;
-    --ct_bg_sidebar-default: #19191b !important;
+    --ct_bg_sidebar-default: #19191b;
     --ct_col_sidebar-elements: #b11;
     --ct_brd_sidebar-elements: 1px solid #766;
     --ct_shd_sidebar-block: 0 2px 6px rgba(119,102,102,.5);
+    --ct_col_sidebar-subtext: #888;
+    --ct_col_rate-primary: #533;
+    --ct_col_rate-secondary: #ece4e0;
+    --ct_col_page-title-border: #777;
+    --ct_col_account-submenu-bg: #222;
+    --ct_col_account-submenu-link: #e11;
+    --ct_col_account-submenu-link-hover: #e11;
+    --ct_brd_account-submenu: 1px solid #555;
 }
 
 #side-bar .side-block {
-    background-color: var(--ct_bg_sidebar-default);
+    background-color: var(--ct_bg_sidebar-default) !important;
 }
 
 /* These are elements with missing variables that will be added to the CT in the next update */
@@ -42,7 +50,6 @@ hr {
 }
 
 #toc {
-    border: var(--ct_brd_toc);
     background-color: var(--ct_col_toc-bg);
 }
 
