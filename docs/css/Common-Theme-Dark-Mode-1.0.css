@@ -18,8 +18,17 @@
     --ct_col_tab_content-border-top: #444;
     --ct_col_hr: #555;
     --ct_col_toc-bg: #232326;
+    --ct_bg_sidebar-default: #19191b !important;
+    --ct_col_sidebar-elements: #b11;
+    --ct_brd_sidebar-elements: 1px solid #766;
+    --ct_shd_sidebar-block: 0 2px 6px rgba(119,102,102,.5);
 }
 
+#side-bar .side-block {
+    background-color: var(--ct_bg_sidebar-default);
+}
+
+/* These are elements with missing variables that will be added to the CT in the next update */
 hr {
     background-color: var(--ct_col_hr);
 }
@@ -44,4 +53,7 @@ hr {
 
 #side-bar div.menu-item .sub-text {
     color: var(--ct_col_sidebar-subtext);
+}
+#side-bar .side-block {
+    box-shadow: var(--ct_shd_sidebar-block);
 }
