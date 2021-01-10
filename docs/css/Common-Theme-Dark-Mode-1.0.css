@@ -21,7 +21,7 @@
     --ct_bg_sidebar-default: #19191b;
     --ct_col_sidebar-elements: #b11;
     --ct_brd_sidebar-elements: 1px solid #766;
-    --ct_shd_sidebar-block: 0 2px 6px rgba(119,102,102,.5);
+    --ct_shd_sidebar-block: 0 2px 6px rgba(7,0,0,.5);
     --ct_col_sidebar-subtext: #888;
     --ct_col_rate-primary: #533;
     --ct_col_rate-secondary: #ece4e0;
@@ -63,4 +63,11 @@ hr {
 }
 #side-bar .side-block {
     box-shadow: var(--ct_shd_sidebar-block);
+}
+#account-options {
+    background-color: var(--ct_col_account-submenu-bg);
+    border: var(--ct_brd_account-submenu);
+}
+#account-options li a:hover {
+    color: var(--ct_col_account-submenu-link-hover);
 }
