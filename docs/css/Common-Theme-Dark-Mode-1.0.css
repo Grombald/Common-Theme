@@ -17,6 +17,7 @@
     --ct_brd_tab_content: 1px solid #454545;
     --ct_col_tab_content-border-top: #444;
     --ct_col_hr: #555;
+    --ct_col_toc-bg: #232326;
 }
 
 hr {
@@ -29,4 +30,18 @@ hr {
     border: var(--ct_brd_tab_content);
     border-top-color: #243356;
     border-top-color: var(--ct_col_tab_content-border-top);
+}
+
+#toc {
+    border: var(--ct_brd_toc);
+    background-color: var(--ct_col_toc-bg);
+}
+
+.yui-content blockquote,
+.yui-content .code {
+    border: var(--ct_brd_blockquote);
+}
+
+#side-bar div.menu-item .sub-text {
+    color: var(--ct_col_sidebar-subtext);
 }
