@@ -6,6 +6,8 @@
     --ct_col_hr: #aaa;
     --ct_brd_tab_content: 1px solid #808080;
     --ct_col_tab_content-border-top: #243356;
+    --ct_col_toc-bg: #f7f7f7;
+    --ct_brd_toc: 1px dashed #808080;
 }
 
 hr {
@@ -19,4 +21,18 @@ hr {
     border: var(--ct_brd_tab_content);
     border-top-color: #243356;
     border-top-color: var(--ct_col_tab_content-border-top);
+}
+
+#toc {
+    border: var(--ct_brd_toc);
+    background-color: var(--ct_col_toc-bg);
+}
+
+.yui-content blockquote,
+.yui-content .code {
+    border: var(--ct_brd_blockquote);
+}
+
+#side-bar div.menu-item .sub-text {
+    color: var(--ct_col_sidebar-subtext);
 }
