@@ -99,3 +99,6 @@ hr {
     border-bottom: solid 1px #eeeee0;
 	padding: 5px 10px;
 }
+.alt-container {
+	padding: 0;
+}
