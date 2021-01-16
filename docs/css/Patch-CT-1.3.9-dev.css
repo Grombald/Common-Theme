@@ -93,11 +93,16 @@ hr {
     background-color: var(--ct_col_body-txt);
     color: var(--ct_col_body-txt);
 }
+.alternate {
+    padding: 5px 10px;
+}
 .alternate:nth-child(2n) {
     background-color: rgba(255,255,255,.9);
     border-top: solid 1px #eeeee0;
     border-bottom: solid 1px #eeeee0;
-	padding: 5px 10px;
+}
+.alternate:last-child {
+    border-bottom: 0;
 }
 .alt-container {
 	padding: 0;
