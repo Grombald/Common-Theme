@@ -87,6 +87,9 @@ div.sexy-box div.image-container img {
 .content-panel .panel-footer {
     color: #eeeee0;
 }
+.alternate:nth-child(2n) {
+    background-color: rgba(64,64,64,.8);
+}
 
 /* Page menus */
 .preview-message {
