@@ -66,6 +66,28 @@ div.sexy-box div.image-container img {
     border-color: var(--ct_col_code-border);
 }
 
+/* Content panel */
+
+.content-panel.series.standalone {
+    background: #222220;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(68,68,68,0.3), inset 0 10px rgba(68,68,68,0.05), inset 0 10px 20px rgba(68,68,68,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+    border-color: #101010;
+}
+.content-panel {
+    background-color: #444440;
+    border-color: #101010;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(102,102,102,0.3), inset 0 10px rgba(102,102,102,0.2), inset 0 10px 20px rgba(102,102,102,0.25), inset 0 -15px 30px rgba(0,0,0,0.1);
+}
+.content-panel .panel-body {
+    background: #2f2e2a url('https://grombald.github.io/Common-Theme/img/panel-bg-gradient-reverse.png') bottom repeat-x;
+}
+.content-panel .panel-heading {
+    color: #eee;
+}
+.content-panel .panel-footer {
+    color: #eeeee0;
+}
+
 /* Page menus */
 .preview-message {
     background-color: var(--ct_col_image-block-contrast);
