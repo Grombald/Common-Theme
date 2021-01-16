@@ -89,6 +89,9 @@ hr {
     background-color: var(--ct_col_body-txt);
     color: var(--ct_col_body-txt);
 }
+.bblock:hover {
+    background-color: var(--ct_col_body-txt);
+}
 .dblock {
     background-color: var(--ct_col_body-txt);
     color: var(--ct_col_body-txt);
