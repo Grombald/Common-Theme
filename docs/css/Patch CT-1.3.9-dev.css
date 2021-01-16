@@ -12,6 +12,9 @@
     --ct_col_account-submenu-bg: #fff;
     --ct_col_account-submenu-link-hover: #000;
     --ct_brd_account-submenu: 1px solid #888;
+    --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
+    --ct_brd_tab-menu: solid #a3a3a3;
+    --ct_col_tab-menu-text: #000;
 }
 
 hr {
@@ -35,6 +38,13 @@ hr {
 .yui-content blockquote,
 .yui-content .code {
     border: var(--ct_brd_blockquote);
+}
+
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
+    border: var(--ct_brd_tab-menu);
+    color: var(--ct_col_tab-menu-text);
 }
 
 #side-bar div.menu-item .sub-text {
