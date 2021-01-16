@@ -2,10 +2,10 @@
 <svg version="1.1" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <defs>
 <linearGradient id="a" x1="50" x2="50" y1="200" gradientUnits="userSpaceOnUse">
-<stop stop-color="#343429" stop-opacity=".75686" offset="0"/>
-<stop stop-color="#343429" stop-opacity=".070588" offset=".575"/>
-<stop stop-color="#343429" stop-opacity="0" offset=".6"/>
-<stop stop-color="#2f2e2a" stop-opacity="0" offset="1"/>
+<stop stop-color="#343430" stop-opacity=".75686" offset="0"/>
+<stop stop-color="#343430" stop-opacity=".070588" offset=".575"/>
+<stop stop-color="#343430" stop-opacity="0" offset=".6"/>
+<stop stop-color="#2e2e2c" stop-opacity="0" offset="1"/>
 </linearGradient>
 </defs>
 <metadata>
