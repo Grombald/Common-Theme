@@ -62,6 +62,9 @@ hr {
 #side-bar .side-block {
     box-shadow: var(--ct_shd_sidebar-block);
 }
+#side-bar a.newpage {
+    color: var(--ct_col_link);
+}
 #account-options {
     background-color: var(--ct_col_account-submenu-bg);
     border: var(--ct_brd_account-submenu);
