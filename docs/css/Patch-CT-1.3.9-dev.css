@@ -104,6 +104,6 @@ hr {
 .alternate:last-child {
     border-bottom: 0;
 }
-.alt-container {
+.content-panel .panel-body.alt-container {
 	padding: 0;
 }
