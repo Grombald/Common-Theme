@@ -89,6 +89,7 @@ div.sexy-box div.image-container img {
 }
 .alternate:nth-child(2n) {
     background-color: rgba(64,64,64,.8);
+    border-color: #666660;
 }
 
 /* Page menus */
