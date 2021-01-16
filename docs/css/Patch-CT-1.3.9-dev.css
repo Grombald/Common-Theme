@@ -70,3 +70,24 @@ hr {
 #account-options li a:hover {
     color: var(--ct_col_account-submenu-link-hover);
 }
+.preview-message {
+    top: -7px;
+}
+
+.yui-content blockquote,
+.yui-content .blockquote,
+.yui-content .code {
+    background: #fff;
+    background: var(--ct_bg_body);
+    border-color: #999;
+	border-color: var(--ct_brd_blockquote);
+}
+
+.bblock {
+    background-color: var(--ct_col_body-txt);
+    color: var(--ct_col_body-txt);
+}
+.dblock {
+    background-color: var(--ct_col_body-txt);
+    color: var(--ct_col_body-txt);
+}
