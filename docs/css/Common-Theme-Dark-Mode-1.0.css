@@ -19,7 +19,7 @@
     --ct_col_hr: #555;
     --ct_col_toc-bg: #232326;
     --ct_bg_sidebar-default: #19191b;
-    --ct_col_sidebar-elements: #b11;
+    --ct_col_sidebar-elements: #a11;
     --ct_brd_sidebar-elements: 1px solid #766;
     --ct_shd_sidebar-block: 0 2px 6px rgba(7,0,0,.5);
     --ct_col_sidebar-subtext: #888;
@@ -45,4 +45,8 @@
 }
 .yui-navset .yui-nav a em, .yui-navset .yui-navset-top .yui-nav a em {
     border-color: var(--ct_col_tab-menu-border);
+}
+.yui-navset .yui-nav a:hover, .yui-navset .yui-nav a:focus {
+    background: #777;
+    background-image: linear-gradient(to bottom, #777, #555 90%, #333 100%);
 }
