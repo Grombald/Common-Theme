@@ -3,6 +3,14 @@
 /* SCP Sigma 9 - Common Theme - Dev-Patch 1.3.9 - CC BY-SA 3.0 - by Dr_Grom */
 
 :root {
+ --ct_cnt_alt-slogan-txt: "Auf Deutsch";
+ --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg.svg');
+}
+div#container-wrap {
+    background-size: 100px 400px;
+}
+
+:root {
     --ct_col_hr: #aaa;
     --ct_brd_tab_content: 1px solid #808080;
     --ct_col_tab_content-border-top: #243356;
