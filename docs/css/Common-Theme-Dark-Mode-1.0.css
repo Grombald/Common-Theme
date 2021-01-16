@@ -35,10 +35,12 @@
     --ct_col_tab-menu-border: #333;
 }
 
+/* Sidebar */
 #side-bar .side-block {
     background-color: var(--ct_bg_sidebar-default) !important;
 }
 
+/* Tabview */
 .yui-navset .yui-nav a, .yui-navset .yui-navset-top .yui-nav a {
     background: #404040;
     background-image: linear-gradient(to bottom, #444, #444 90%, #2a2a2a 100%);
@@ -49,4 +51,24 @@
 .yui-navset .yui-nav a:hover, .yui-navset .yui-nav a:focus {
     background: #777;
     background-image: linear-gradient(to bottom, #777, #555 90%, #333 100%);
+}
+
+/* Custom classes */
+.keycap {
+    background-color: var(--ct_col_code-bg);
+    border-color: #777 #555 #555 #777;
+}
+div.sexy-box {
+    background: var(--ct_col_code-bg);
+    border-color: var(--ct_col_code-border);
+}
+div.sexy-box div.image-container img {
+    border-color: var(--ct_col_code-border);
+}
+
+/* Page menus */
+.preview-message {
+    background-color: var(--ct_col_image-block-contrast);
+    border: 1px solid #b11;
+    opacity: 1;
 }
