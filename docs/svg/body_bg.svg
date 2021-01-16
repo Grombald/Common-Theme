@@ -34,14 +34,14 @@
 <dc:format>image/svg+xml</dc:format>
 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
 <dc:title/>
-<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
 <dc:creator>
 <cc:Agent>
 <dc:title>Grom</dc:title>
 </cc:Agent>
 </dc:creator>
 </cc:Work>
-<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
 <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
 <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
 <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
