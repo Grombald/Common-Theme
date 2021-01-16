@@ -32,7 +32,7 @@
     --ct_brd_account-submenu: 1px solid #555;
     --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
     --ct_col_tab-menu-text: var(--ct_col_body-txt);
-    --ct_brd_tab-menu: solid #454545;
+    --ct_col_tab-menu-border: #454545;
 }
 
 #side-bar .side-block {
