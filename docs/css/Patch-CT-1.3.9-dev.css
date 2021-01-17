@@ -23,7 +23,7 @@ div#container-wrap {
     --ct_col_account-submenu-link-hover: #000;
     --ct_brd_account-submenu: 1px solid #888;
     --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
-    --ct_col_tab-menu-border: #a3a3a3;
+    --ct_col_tab-menu-border: #444;
     --ct_col_tab-menu-text: #000;
 
 }
@@ -123,4 +123,23 @@ table.page-files tr.highlight td:not(:last-child) {
 		/* width: calc(16.25em - 22px); */
 		width: initial;
 	}
+}
+
+
+.ct-theme-switch {
+    position: absolute;
+}
+.ct-theme-switch * {
+    margin: 0;
+    padding: 0;
+}
+#top-bar .ct-theme-switch a {
+    color: transparent;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.dark-mode p {
+    background: #171719;
+    border: 2px solid #666;
 }
