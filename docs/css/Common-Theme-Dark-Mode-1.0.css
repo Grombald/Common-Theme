@@ -148,7 +148,7 @@ table.page-files .highlight {
     background-color: #202023;
 }
 /* Checkboxes and Radio Buttons stolen from IT's Black Theme */
-.checkbox input,
+/*.checkbox input,
 #rev-type-title,
 #rev-type-all,
 #rev-type-source,
@@ -162,6 +162,7 @@ table.page-files .highlight {
 #rev-category,
 #rev-perpage,
 #action-area > .form input,
-.page-history td input {
+.page-history td input*/
+input.checkbox, .checkbox input, .page-history td input {
     filter: invert(97%) hue-rotate(180deg);
 }
