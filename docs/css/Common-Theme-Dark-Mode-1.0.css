@@ -37,11 +37,19 @@
     --ct_bg_topbar-item: #212124;
     --ct_bg_topbar-item-highlight: #313134;
     --ct_brd_topbar-menu-hover: solid 1px #444;
+    --ct_col_m_sidebar-bg: #684646;
+    --ct_brd_m_sidebar: 1px solid #8e8e8e;
+    --ct_brd_m_sidebar-right: 1px solid #432b2b;
+    --ct_col_m_sidebar-button-bg: #333;
+    --ct_shd_m_sidebar-button: 0px 0px 20px 3px rgba(102,102,102,1);
 }
 
 /* Sidebar */
 #side-bar .side-block {
     background-color: var(--ct_bg_sidebar-default) !important;
+}
+#side-bar:target .close-menu {
+    background: rgba(0,0,0,0.4) 1px 1px repeat;
 }
 
 /* Tabview */
