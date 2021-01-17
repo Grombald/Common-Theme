@@ -126,20 +126,42 @@ table.page-files tr.highlight td:not(:last-child) {
 }
 
 
-.ct-theme-switch {
-    position: absolute;
+#top-bar .dark-mode {
+	--ct_dm_col_theme-switch-txt: #eee;
+	--ct_dm_col_theme-switch-bg: #232326;
+	--ct_dm_col_theme-switch-bg-hover: #000;
+	--ct_dm_brd_theme-switch: 2px solid #888;
 }
-.ct-theme-switch * {
+#top-bar .ct-theme-switch .light-mode {
+    display: none;
+}
+#top-bar .ct-theme-switch {
+    position: absolute;
+	top: -103px;
+    right: 0px;
+}
+#top-bar .ct-theme-switch * {
     margin: 0;
-    padding: 0;
+}
+#top-bar .ct-theme-switch p {
+    background: var(--ct_dm_col_theme-switch-bg);
+    border: var(--ct_dm_brd_theme-switch);
+    border-radius: 17px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
+}
+#top-bar .dark-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
 }
 #top-bar .ct-theme-switch a {
-    color: transparent;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: var(--ct_dm_col_theme-switch-l-text);
 }
-.dark-mode p {
-    background: #171719;
-    border: 2px solid #666;
+#top-bar .ct-theme-switch a:hover {
+    background-color: transparent;
+    text-decoration: none;
 }
