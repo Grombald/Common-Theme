@@ -144,7 +144,10 @@ select {
 .owindow .title {
     background-color: #333;
 }
-/* Checkboxes and Radio Buttons */
+table.page-files .highlight {
+    background-color: #202023;
+}
+/* Checkboxes and Radio Buttons stolen from IT's Black Theme */
 .checkbox input,
 #rev-type-title,
 #rev-type-all,
