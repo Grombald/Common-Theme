@@ -190,8 +190,9 @@ table.page-files tr.highlight td:not(:last-child) {
     background-color: transparent;
     text-decoration: none;
 }
-#top-bar .ct-theme-switch .dark-mode p:hover a {
-    --ct_dm_col_theme-switch-txt:  #fff;
+#top-bar .ct-theme-switch .dark-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    --ct_dm_col_theme-switch-txt: #fff;
 }
 #top-bar .ct-theme-switch .light-mode p:hover {
     background: var(--ct_dm_col_theme-switch-bg-hover);
