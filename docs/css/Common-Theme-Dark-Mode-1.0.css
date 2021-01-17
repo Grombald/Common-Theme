@@ -42,6 +42,7 @@
     --ct_brd_m_sidebar-right: 1px solid #432b2b;
     --ct_col_m_sidebar-button-bg: #333;
     --ct_shd_m_sidebar-button: 0px 0px 20px 3px rgba(102,102,102,1);
+    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_dark.svg');
 }
 
 /* Sidebar */
@@ -50,6 +51,9 @@
 }
 #side-bar:target .close-menu {
     background: rgba(0,0,0,0.4) 1px 1px repeat;
+}
+#top-bar .open-menu a {
+    background-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2030%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23eee%22%20stroke-linejoin%3D%22bevel%22%20stroke-width%3D%222%22%3E%3Crect%20x%3D%225%22%20y%3D%229%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2214%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2219%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E%0A");
 }
 
 /* Tabview */
