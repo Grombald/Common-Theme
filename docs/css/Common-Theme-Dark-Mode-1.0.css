@@ -33,6 +33,10 @@
     --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
     --ct_col_tab-menu-text: var(--ct_col_body-txt);
     --ct_col_tab-menu-border: #333;
+    --ct_col_topbar-link: #d11;
+    --ct_bg_topbar-item: #212124;
+    --ct_bg_topbar-item-highlight: #313134;
+    --ct_brd_topbar-menu-hover: solid 1px #444;
 }
 
 /* Sidebar */
@@ -96,4 +100,17 @@ div.sexy-box div.image-container img {
     background-color: var(--ct_col_image-block-contrast);
     border: 1px solid #b11;
     opacity: 1;
+}
+.hovertip {
+    background-color: #333;
+}
+div.buttons input, input.button, button, file, a.button {
+    background-color: #515154;
+    color: #eee;
+    border-color: #101010;
+}
+input.text {
+    background: #070709;
+    color: var(--ct_col_body-txt);
+    border-color: #666;
 }
