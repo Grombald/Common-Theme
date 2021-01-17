@@ -180,3 +180,10 @@ input.checkbox,
 #action-area table.form input {
     filter: invert(97%) hue-rotate(180deg);
 }
+
+#top-bar .ct-theme-switch .light-mode {
+    display: block;
+}
+#top-bar .ct-theme-switch .dark-mode {
+    display: none;
+}
