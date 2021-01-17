@@ -185,3 +185,23 @@ table.page-files tr.highlight td:not(:last-child) {
     box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
     border-radius: 15px;
 }
+
+#top-bar .ct-theme-switch.inline-switch {
+    top: 0;
+    display: inline-block;
+}
+}
+#top-bar .ct-theme-switch.inline-switch p {
+    border: none;
+    border-right: var(--ct_brd_topbar-item);
+    border-radius: 0;
+    background: initial;
+    box-shadow: none;
+}
+#top-bar .ct-theme-switch.inline-switch a {
+    padding: 10px 1em;
+    width: auto;
+    height: auto;
+    font-size: inherit;
+    line-height: 1px;
+}
