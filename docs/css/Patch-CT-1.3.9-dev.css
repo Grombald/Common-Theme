@@ -187,8 +187,10 @@ table.page-files tr.highlight td:not(:last-child) {
 }
 
 #top-bar .ct-theme-switch.inline-switch {
-    top: 0;
     display: inline-block;
+    position: relative;
+    top: 0px;
+    float: right;
 }
 #top-bar .ct-theme-switch.inline-switch p {
     border: none;
