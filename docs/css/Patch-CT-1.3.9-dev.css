@@ -133,9 +133,9 @@ table.page-files tr.highlight td:not(:last-child) {
 	--ct_dm_brd_theme-switch: 2px solid #888;
 }
 #top-bar .light-mode {
-	--ct_dm_col_theme-switch-txt: #333;
-	--ct_dm_col_theme-switch-bg: #ddd;
-	--ct_dm_col_theme-switch-bg-hover: #eee;
+	--ct_dm_col_theme-switch-txt: #eee;
+	--ct_dm_col_theme-switch-bg: #232326;
+	--ct_dm_col_theme-switch-bg-hover: #000;
 	--ct_dm_brd_theme-switch: 2px solid #888;
 }
 #top-bar .ct-theme-switch .light-mode {
