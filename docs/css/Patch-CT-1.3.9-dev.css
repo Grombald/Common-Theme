@@ -159,7 +159,7 @@ table.page-files tr.highlight td:not(:last-child) {
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    color: var(--ct_dm_col_theme-switch-l-text);
+    color: var(--ct_dm_col_theme-switch-text);
 }
 #top-bar .ct-theme-switch a:hover {
     background-color: transparent;
