@@ -155,7 +155,7 @@ table.page-files tr.highlight td:not(:last-child) {
     border-radius: 17px;
     box-shadow: 0 0 3px 3px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
 }
-#top-bar .dark-mode p:hover {
+#top-bar .ct-theme-switch p:hover {
     background: var(--ct_dm_col_theme-switch-bg-hover);
 }
 #top-bar .ct-theme-switch a {
@@ -165,7 +165,7 @@ table.page-files tr.highlight td:not(:last-child) {
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    color: var(--ct_dm_col_theme-switch-text);
+    color: var(--ct_dm_col_theme-switch-txt);
 }
 #top-bar .ct-theme-switch a:hover {
     background-color: transparent;
