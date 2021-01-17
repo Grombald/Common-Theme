@@ -182,7 +182,7 @@ input.checkbox,
 }
 
 #top-bar .ct-theme-switch .light-mode {
-    display: block;
+    display: block !important;
 }
 #top-bar .ct-theme-switch .dark-mode {
     display: none;
