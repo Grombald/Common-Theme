@@ -25,6 +25,7 @@ div#container-wrap {
     --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
     --ct_col_tab-menu-border: #a3a3a3;
     --ct_col_tab-menu-text: #000;
+
 }
 
 hr {
@@ -106,4 +107,7 @@ hr {
 }
 .content-panel .panel-body.alt-container {
 	padding: 0;
+}
+table.page-files tr.highlight td:not(:last-child) {
+    display: none;
 }
