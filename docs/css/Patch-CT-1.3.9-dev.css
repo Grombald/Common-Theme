@@ -190,7 +190,6 @@ table.page-files tr.highlight td:not(:last-child) {
     top: 0;
     display: inline-block;
 }
-}
 #top-bar .ct-theme-switch.inline-switch p {
     border: none;
     border-right: var(--ct_brd_topbar-item);
