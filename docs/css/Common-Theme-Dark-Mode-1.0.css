@@ -37,6 +37,9 @@
     --ct_bg_topbar-item: #212124;
     --ct_bg_topbar-item-highlight: #313134;
     --ct_brd_topbar-menu-hover: solid 1px #444;
+    --ct_col_tab-menu-bg: #404040 linear-gradient(to bottom, #444, #444 90%, #2a2a2a 100%);
+    --ct_col_tab-menu-bg-hover: #777 linear-gradient(to bottom, #777, #555 90%, #333 100%);
+    --ct_col_tab-menu-bg-selected: #b11 linear-gradient(to bottom, #e11, #b11, #a11);
 }
 
 /* Sidebar */
@@ -44,9 +47,9 @@
     background-color: var(--ct_bg_sidebar-default) !important;
 }
 
-/* Tabview */
+/* Tabview 
 .yui-navset .yui-nav a, .yui-navset .yui-navset-top .yui-nav a {
-    background: #404040;
+    background: ;
     background-image: linear-gradient(to bottom, #444, #444 90%, #2a2a2a 100%);
 }
 .yui-navset .yui-nav a em, .yui-navset .yui-navset-top .yui-nav a em {
@@ -55,7 +58,7 @@
 .yui-navset .yui-nav a:hover, .yui-navset .yui-nav a:focus {
     background: #777;
     background-image: linear-gradient(to bottom, #777, #555 90%, #333 100%);
-}
+}*/
 
 /* Custom classes */
 .keycap {
