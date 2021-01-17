@@ -209,3 +209,7 @@ table.page-files tr.highlight td:not(:last-child) {
     background: rgba(0,0,0,.5);
     text-shadow: 0 0 5px #000;
 }
+#top-bar .ct-theme-switch.inline-switch .light-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    border-color: transparent;
+}
