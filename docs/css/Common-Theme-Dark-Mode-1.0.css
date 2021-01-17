@@ -119,12 +119,14 @@ textarea {
     background-color: #232326;
     border-color: #666;
 }
-.change-textarea-size a {
+.change-textarea-size a,
+.owindow .button-bar a {
     background-color: #515154;
     color: #eee;
     border-color: #101010;
 }
-.change-textarea-size a:hover {
+.change-textarea-size a:hover,
+.owindow .button-bar a:hover {
     background-color: #ddd;
     color: #000;
     text-decoration: none;
@@ -133,4 +135,30 @@ select {
     background: #101013;
     color: var(--ct_col_body-txt);
     border-color: #666;
+}
+.owindow {
+    background-color: #212124;
+    color: #eee;
+    border-color: #666;
+}
+.owindow .title {
+    background-color: #333;
+}
+/* Checkboxes and Radio Buttons */
+.checkbox input,
+#rev-type-title,
+#rev-type-all,
+#rev-type-source,
+#rev-type-move,
+#rev-type-tags,
+#rev-type-meta,
+#rev-type-files,
+.radio,
+#\31 46126552,
+#rev-type-new,
+#rev-category,
+#rev-perpage,
+#action-area > .form input,
+.page-history td input {
+    filter: invert(97%) hue-rotate(180deg);
 }
