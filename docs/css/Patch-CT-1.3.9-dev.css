@@ -155,9 +155,6 @@ table.page-files tr.highlight td:not(:last-child) {
     border-radius: 17px;
     box-shadow: 0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
 }
-#top-bar .ct-theme-switch p:hover {
-    background: var(--ct_dm_col_theme-switch-bg-hover);
-}
 #top-bar .ct-theme-switch a {
     display: block;
     width: 30px;
@@ -166,24 +163,6 @@ table.page-files tr.highlight td:not(:last-child) {
     line-height: 30px;
     font-size: 20px;
     color: var(--ct_dm_col_theme-switch-txt);
-}
-#top-bar .ct-theme-switch p:hover a {
-    background-color: transparent;
-    text-decoration: none;
-}
-#top-bar .ct-theme-switch .dark-mode p:hover a {
-    --ct_dm_col_theme-switch-txt:  #fff;
-}
-#top-bar .ct-theme-switch .light-mode p:hover {
-    background: var(--ct_dm_col_theme-switch-bg-hover);
-    --ct_dm_brd_theme-switch: 2px solid var(--ct_dm_col_theme-switch-bg-hover);
-    box-shadow: none;
-}
-#top-bar .ct-theme-switch .light-mode p:hover a {
-    text-shadow: 0 0 15px #fff;
-    --ct_dm_col_theme-switch-txt: #333;
-    box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
-    border-radius: 15px;
 }
 
 #top-bar .ct-theme-switch.inline-switch {
@@ -205,4 +184,26 @@ table.page-files tr.highlight td:not(:last-child) {
     height: auto;
     font-size: inherit;
     line-height: 1px;
+}
+
+#top-bar .ct-theme-switch p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+}
+#top-bar .ct-theme-switch p:hover a {
+    background-color: transparent;
+    text-decoration: none;
+}
+#top-bar .ct-theme-switch .dark-mode p:hover a {
+    --ct_dm_col_theme-switch-txt:  #fff;
+}
+#top-bar .ct-theme-switch .light-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    --ct_dm_brd_theme-switch: 2px solid var(--ct_dm_col_theme-switch-bg-hover);
+    box-shadow: none;
+}
+#top-bar .ct-theme-switch .light-mode p:hover a {
+    text-shadow: 0 0 15px #fff;
+    --ct_dm_col_theme-switch-txt: #333;
+    box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
+    border-radius: 15px;
 }
