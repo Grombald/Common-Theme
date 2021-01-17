@@ -186,12 +186,14 @@ table.page-files tr.highlight td:not(:last-child) {
     line-height: 1px;
 }
 
-#top-bar .ct-theme-switch p:hover {
-    background: var(--ct_dm_col_theme-switch-bg-hover);
-}
 #top-bar .ct-theme-switch p:hover a {
     background-color: transparent;
     text-decoration: none;
+}
+#top-bar .ct-theme-switch .dark-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    box-shadow: none;
+    border-color: var(--ct_dm_col_theme-switch-bg-hover);
 }
 #top-bar .ct-theme-switch .dark-mode p:hover a {
     --ct_dm_col_theme-switch-txt:  #fff;
