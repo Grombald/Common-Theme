@@ -167,11 +167,11 @@ table.page-files tr.highlight td:not(:last-child) {
     font-size: 20px;
     color: var(--ct_dm_col_theme-switch-txt);
 }
-#top-bar .ct-theme-switch a:hover {
+#top-bar .ct-theme-switch p:hover a {
     background-color: transparent;
     text-decoration: none;
 }
-#top-bar .ct-theme-switch .dark-mode a:hover {
+#top-bar .ct-theme-switch .dark-mode p:hover a {
     --ct_dm_col_theme-switch-txt:  #fff;
 }
 #top-bar .ct-theme-switch .light-mode p:hover {
@@ -179,7 +179,7 @@ table.page-files tr.highlight td:not(:last-child) {
     --ct_dm_brd_theme-switch: 2px solid var(--ct_dm_col_theme-switch-bg-hover);
     box-shadow: none;
 }
-#top-bar .ct-theme-switch .light-mode a:hover {
+#top-bar .ct-theme-switch .light-mode p:hover a {
     text-shadow: 0 0 15px #fff;
     --ct_dm_col_theme-switch-txt: #333;
     box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
