@@ -147,22 +147,13 @@ select {
 table.page-files .highlight {
     background-color: #202023;
 }
-/* Checkboxes and Radio Buttons stolen from IT's Black Theme */
-/*.checkbox input,
-#rev-type-title,
-#rev-type-all,
-#rev-type-source,
-#rev-type-move,
-#rev-type-tags,
-#rev-type-meta,
-#rev-type-files,
-.radio,
-#\31 46126552,
-#rev-type-new,
-#rev-category,
-#rev-perpage,
-#action-area > .form input,
-.page-history td input*/
-input.checkbox, .checkbox input, .page-history td input {
+#file-action-area h2::after {
+    background: #333330;
+    border-color: #332;
+}
+input.checkbox,
+.checkbox input,
+.page-history td input,
+#action-area table.form input {
     filter: invert(97%) hue-rotate(180deg);
 }
