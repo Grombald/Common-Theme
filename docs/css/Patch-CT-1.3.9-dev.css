@@ -190,21 +190,21 @@ table.page-files tr.highlight td:not(:last-child) {
     background-color: transparent;
     text-decoration: none;
 }
-#top-bar .ct-theme-switch .dark-mode p:hover {
-    background: var(--ct_dm_col_theme-switch-bg-hover);
-    box-shadow: none;
-    border-color: var(--ct_dm_col_theme-switch-bg-hover);
-}
 #top-bar .ct-theme-switch .dark-mode p:hover a {
     --ct_dm_col_theme-switch-txt:  #fff;
 }
-#top-bar .ct-theme-switch.inline-switch p:hover {
-    background: rgba(0,0,0,.5);
-    text-shadow: 0 0 5px #000;
+#top-bar .ct-theme-switch .light-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    box-shadow: none;
+    border-color: var(--ct_dm_col_theme-switch-bg-hover);
 }
 #top-bar .ct-theme-switch .light-mode p:hover a {
     text-shadow: 0 0 15px #fff;
     --ct_dm_col_theme-switch-txt: #333;
     box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
     border-radius: 15px;
+}
+#top-bar .ct-theme-switch.inline-switch p:hover {
+    background: rgba(0,0,0,.5);
+    text-shadow: 0 0 5px #000;
 }
