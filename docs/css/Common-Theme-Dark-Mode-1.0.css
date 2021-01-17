@@ -109,8 +109,28 @@ div.buttons input, input.button, button, file, a.button {
     color: #eee;
     border-color: #101010;
 }
-input.text {
+input.text,
+textarea {
     background: #070709;
+    color: var(--ct_col_body-txt);
+    border-color: #666;
+}
+#lock-info {
+    background-color: #232326;
+    border-color: #666;
+}
+.change-textarea-size a {
+    background-color: #515154;
+    color: #eee;
+    border-color: #101010;
+}
+.change-textarea-size a:hover {
+    background-color: #ddd;
+    color: #000;
+    text-decoration: none;
+}
+select {
+    background: #101013;
     color: var(--ct_col_body-txt);
     border-color: #666;
 }
