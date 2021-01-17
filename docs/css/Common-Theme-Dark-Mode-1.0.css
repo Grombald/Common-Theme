@@ -43,6 +43,13 @@
     --ct_col_m_sidebar-button-bg: #333;
     --ct_shd_m_sidebar-button: 0px 0px 20px 3px rgba(102,102,102,1);
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_dark.svg');
+    --ct_col_searchbox-txt: #bbb;
+    --ct_brd_searchbox-border: solid 1px #888;
+    --ct_col_searchbox-highlight: #eee;
+    --ct_col_searchbox-gradient-1: #211;
+    --ct_col_searchbox-gradient-2: #533;
+    --ct_col_searchbox-gradient-3: #855;
+    --ct_col_searchbox-gradient-4: #b88;
 }
 
 /* Sidebar */
