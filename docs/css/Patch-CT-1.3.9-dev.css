@@ -134,8 +134,8 @@ table.page-files tr.highlight td:not(:last-child) {
 }
 #top-bar .light-mode {
 	--ct_dm_col_theme-switch-txt: #eee;
-	--ct_dm_col_theme-switch-bg: #232326;
-	--ct_dm_col_theme-switch-bg-hover: #000;
+	--ct_dm_col_theme-switch-bg: #333336;
+	--ct_dm_col_theme-switch-bg-hover: #eee;
 	--ct_dm_brd_theme-switch: 2px solid #888;
 }
 #top-bar .ct-theme-switch .light-mode {
@@ -153,7 +153,7 @@ table.page-files tr.highlight td:not(:last-child) {
     background: var(--ct_dm_col_theme-switch-bg);
     border: var(--ct_dm_brd_theme-switch);
     border-radius: 17px;
-    box-shadow: 0 0 3px 3px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
 }
 #top-bar .ct-theme-switch p:hover {
     background: var(--ct_dm_col_theme-switch-bg-hover);
@@ -170,4 +170,16 @@ table.page-files tr.highlight td:not(:last-child) {
 #top-bar .ct-theme-switch a:hover {
     background-color: transparent;
     text-decoration: none;
+}
+
+#top-bar .ct-theme-switch light-mode p:hover {
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    --ct_dm_brd_theme-switch: 2px solid var(--ct_dm_col_theme-switch-bg-hover);
+    box-shadow: none;
+}
+#top-bar .ct-theme-switch .light-mode a:hover {
+    text-shadow: 0 0 15px #fff;
+    --ct_dm_col_theme-switch-txt: #333;
+    box-shadow: 0 0 6px 6px rgba(255,255,255,.5);
+    border-radius: 15px;
 }
