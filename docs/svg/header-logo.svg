@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="b" x1="-520.21" x2="-503.35" y1="-542.58" y2="-519.24" gradientTransform="matrix(1 0 0 1 545 553.81)" gradientUnits="userSpaceOnUse">
 <stop stop-opacity=".36471" offset="0"/>
@@ -19,29 +19,6 @@
 <stop stop-color="#fff" offset="1"/>
 </linearGradient>
 </defs>
-<metadata>
-<rdf:RDF>
-<cc:Work rdf:about="">
-<dc:format>image/svg+xml</dc:format>
-<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-<dc:title/>
-<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
-<dc:creator>
-<cc:Agent>
-<dc:title>Grom</dc:title>
-</cc:Agent>
-</dc:creator>
-</cc:Work>
-<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
-<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-</cc:License>
-</rdf:RDF>
-</metadata>
 <path d="m37.378 5.4436-2.3265 8.6822c-18.032 7.392-26.308 24.4-23.787 41.201l-6.3562 6.3562 12.622 21.862 8.6822-2.3265c6.824 5.2372 15.186 8.076 23.788 8.076 8.6021 5e-5 16.964-2.8388 23.788-8.076l8.6822 2.3265 12.622-21.862-6.3562-6.3557c3.2185-19.362-10.876-36.53-23.787-41.202l-2.3265-8.6822z" fill="#1a1a1a" fill-opacity=".6"/>
 <path d="m65.424 1.793h-30.846l-2.6328 9.8242c-14.954 6.9972-24.666 21.983-24.666 38.607 0 1.2318 0.1339 2.457 0.2402 3.6836l3.7447 1.4189c-3.2841-19.971 11.057-37.733 23.787-41.201l2.3265-8.6822h25.245z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#b)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 <path d="m62.623 5.4436 2.3265 8.6822 3.1058-2.5086-2.6309-9.8242z" fill-opacity=".07451"/>
