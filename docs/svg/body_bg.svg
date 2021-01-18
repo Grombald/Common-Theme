@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 100 400" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg version="1.1" viewBox="0 0 100 400" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="f" x1="50" x2="50" y1="138" y2="400" gradientUnits="userSpaceOnUse">
 <stop stop-opacity="0" offset="0"/>
@@ -28,29 +28,6 @@
 <stop stop-color="#653e3e" stop-opacity=".25" offset="1"/>
 </linearGradient>
 </defs>
-<metadata>
-<rdf:RDF>
-<cc:Work rdf:about="">
-<dc:format>image/svg+xml</dc:format>
-<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-<dc:title/>
-<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
-<dc:creator>
-<cc:Agent>
-<dc:title>Grom</dc:title>
-</cc:Agent>
-</dc:creator>
-</cc:Work>
-<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
-<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
-<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
-<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
-</cc:License>
-</rdf:RDF>
-</metadata>
 <rect width="100" height="141" fill="url(#h)" stroke-linejoin="round" stroke-width=".72189" style="paint-order:stroke markers fill"/>
 <path d="m-1-1 102 102zm5 0 97 97zm5 0 92 92zm5 0 87 87zm5 0 82 82zm5 0 77 77zm5 0 72 72zm5 0 67 67zm5 0 62 62zm5 0 57 57zm5 0 52 52zm5 0 47 47zm5 0 42 42zm5 0 37 37zm5 0 32 32zm5 0 27 27zm5 0 22 22zm5 0 17 17zm5 0 12 12zm5 0 7 7zm-95 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 102 102zm0 5 97.001 97.104zm0 5 92 92zm0 5 87 87zm0 5 82 82zm0 5 77 77zm0 5 72 72zm0 5 67 67zm0 5 62 62zm0 5 57 57zm0 5 52 52zm0 5 47 47zm0 5 42 42zm0 5 37 37zm0 5 32 32zm0 5 27 27zm0 5 22 22zm0 5 17 17zm0 5 12 12zm0 5 7 7z" fill="none" stroke="url(#e)" stroke-linecap="square" stroke-width=".67"/>
 <path d="m0 137v262h100v-262z" fill="url(#f)" stroke-linejoin="round" stroke-width="2.3137" style="paint-order:stroke markers fill"/>
