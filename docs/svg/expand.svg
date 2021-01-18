@@ -1,0 +1,15 @@
+<svg version="1.1" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" x="-.3" y="-.3" width="1.6" height="1.6" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.75"/>
+</filter>
+</defs>
+<path d="m6.2598 3.75c-0.27809 0-0.50196 0.22387-0.50196 0.50196v1.5059h-1.5059c-0.27809 0-0.50196 0.22387-0.50196 0.50196v0.98039c0 0.27809 0.22387 0.50196 0.50196 0.50196h1.5059v1.5059c0 0.27809 0.22387 0.50196 0.50196 0.50196h0.98039c0.27809 0 0.50196-0.22387 0.50196-0.50196v-1.5059h1.5059c0.27809 1e-7 0.50196-0.22387 0.50196-0.50196v-0.98039c0-0.27809-0.22387-0.50196-0.50196-0.50196h-1.5059v-1.5059c1e-7 -0.27809-0.22387-0.50196-0.50196-0.50196z" fill="none" filter="url(#a)" stroke="#1a1a1a" stroke-linecap="square" stroke-opacity=".27536" stroke-width="1.5" style="mix-blend-mode:normal;paint-order:stroke markers fill"/>
+<g transform="matrix(3.7795 0 0 3.7795 6.7592e-8 -1114)">
+<path transform="matrix(.26458 0 0 .26458 0 294.75)" d="m5 3v2h-2v3h2v2h3v-2h2v-3h-2v-2zm1 1h1v2h2v1h-2v2h-1v-2h-2v-1h2z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#b01" fill-opacity=".8" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000"/>
+</g>
+<rect x="6" y="4" width="1" height="1" rx="0" ry="0" fill="#a5000f" fill-opacity=".36078" style="paint-order:stroke markers fill"/>
+<rect x="4" y="6" width="1" height="1" rx="0" ry="0" fill="#a5000f" fill-opacity=".36078" style="paint-order:stroke markers fill"/>
+<rect x="8" y="6" width="1" height="1" rx="0" ry="0" fill="#a5000f" fill-opacity=".36078" style="paint-order:stroke markers fill"/>
+<rect x="6" y="8" width="1" height="1" rx="0" ry="0" fill="#a5000f" fill-opacity=".36078" style="paint-order:stroke markers fill"/>
+</svg>
