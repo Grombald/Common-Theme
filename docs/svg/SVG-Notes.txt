@@ -1,3 +1,5 @@
 - minify all SVGs:  https://www.svgminify.com/
 - manually remove unnecessary metadata and ballast
 - use url-SVGs for icons:  http://smlt.wikidot.com/7happy7:svg-replace
+
+- SVGs that contain the url-form in a comment are meant to be used as url and not to be loaded from GitHub
