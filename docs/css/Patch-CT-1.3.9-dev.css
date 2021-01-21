@@ -286,3 +286,7 @@ table.page-files tr.highlight td:not(:last-child) {
     background: var(--ct_dm_col_theme-switch-bg-hover);
     border-color: transparent;
 }
+
+.footnoteref {
+    text-indent: 0;
+}
