@@ -147,7 +147,7 @@ table.page-files tr.highlight td:not(:last-child) {
 #side-bar .collapsible-block-unfolded {
 	background: none;
 }
-#side-bar .collapsible-block-folded-link .collapsible-block-link::before {
+#side-bar .collapsible-block-folded .collapsible-block-link::before {
     content: "+";
 	background:url('https://grombald.github.io/Common-Theme/img/expand.png') 0 1px no-repeat;
     background-image: var(--ct_bg_sidebar-expand);
