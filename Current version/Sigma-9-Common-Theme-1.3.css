@@ -128,7 +128,7 @@ Legend:
     --ct_bg_sidebar-default: #fff;
     --ct_bg_sidebar-blue: #e5e5ff;
     --ct_bg_sidebar-red: #fff0f0;
-    --ct_bg_sidebar-green: ##e5ffe5;
+    --ct_bg_sidebar-green: #e5ffe5;
     --ct_bg_sidebar-yellow: #ffffe5;
     --ct_col_sidebar-subtext: #666;
     --ct_dim_sidebar-border-radius: 10px;
@@ -818,7 +818,7 @@ div#container-wrap {
     background: var(--ct_bg_sidebar-red);
 }
 #side-bar .side-block.green {
-    background: ##e5ffe5;
+    background: #e5ffe5;
     background: var(--ct_bg_sidebar-green);
 }
 #side-bar .side-block.yellow {
