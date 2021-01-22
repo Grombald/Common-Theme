@@ -63,7 +63,7 @@
 
 /* Sidebar */
 #side-bar .side-block {
-    background-color: var(--ct_bg_sidebar-default) !important;
+    background-color: var(--ct_bg_sidebar-default);
 }
 #side-bar:target .close-menu {
     background: rgba(0,0,0,0.4) 1px 1px repeat;
