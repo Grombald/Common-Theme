@@ -4,45 +4,15 @@
 
 :root {
     --ct_bg_body: #171719;
-    --ct_col_body-txt: #eee;
-    --ct_col_h1-txt: #b11;
+    --ct_col_body-txt: #d8d8d8;
+	--ct_col_h1-txt: #b11;
     --ct_col_link: #e11;
-    --ct_col_image-block-contrast: #333;
-    --ct_col_tab-bg: #212124;
-    --ct_col_tab-menu-border: #444;
-    --ct_col_blockquote-bg: #202023;
-    --ct_brd_blockquote: 1px dashed #666;
-    --ct_col_code-bg: #232326;
-    --ct_col_code-border: #aaa;
-    --ct_brd_tab_content: 1px solid #454545;
-    --ct_col_tab_content-border-top: #444;
     --ct_col_hr: #555;
-    --ct_col_toc-bg: #232326;
-    --ct_bg_sidebar-default: #19191b;
-    --ct_col_sidebar-elements: #a11;
-    --ct_brd_sidebar-elements: 1px solid #766;
-    --ct_shd_sidebar-block: 0 2px 6px rgba(7,0,0,.5);
-    --ct_col_sidebar-subtext: #888;
-    --ct_col_rate-primary: #533;
-    --ct_col_rate-secondary: #ece4e0;
-    --ct_col_page-title-border: #777;
+    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_dark.svg');
     --ct_col_account-submenu-bg: #222;
     --ct_col_account-submenu-link: #e11;
     --ct_col_account-submenu-link-hover: #e11;
     --ct_brd_account-submenu: 1px solid #555;
-    --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
-    --ct_col_tab-menu-text: var(--ct_col_body-txt);
-    --ct_col_tab-menu-border: #333;
-    --ct_col_topbar-link: #d11;
-    --ct_bg_topbar-item: #212124;
-    --ct_bg_topbar-item-highlight: #313134;
-    --ct_brd_topbar-menu-hover: solid 1px #444;
-    --ct_col_m_sidebar-bg: #684646;
-    --ct_brd_m_sidebar: 1px solid #8e8e8e;
-    --ct_brd_m_sidebar-right: 1px solid #432b2b;
-    --ct_col_m_sidebar-button-bg: #333;
-    --ct_shd_m_sidebar-button: 0px 0px 20px 3px rgba(102,102,102,1);
-    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_dark.svg');
     --ct_col_searchbox-txt: #bbb;
     --ct_brd_searchbox-border: solid 1px #888;
     --ct_col_searchbox-highlight: #eee;
@@ -50,13 +20,45 @@
     --ct_col_searchbox-gradient-2: #533;
     --ct_col_searchbox-gradient-3: #855;
     --ct_col_searchbox-gradient-4: #b88;
-    --ct_col_body-txt: #d8d8d8;
+    --ct_col_topbar-link: #d11;
+    --ct_bg_topbar-item: #212124;
+    --ct_bg_topbar-item-highlight: #313134;
+    --ct_brd_topbar-menu-hover: solid 1px #444;
+    --ct_shd_sidebar-block: 0 2px 6px rgba(7,0,0,.5);
     --ct_col_sidebar-elements: #900;
-    --ct_col_sidebar-links: #c11;
+    --ct_brd_sidebar-elements: 1px solid #766;
+    --ct_bg_sidebar-default: #19191b;
     --ct_bg_sidebar-blue: #17171f;
     --ct_bg_sidebar-red: #1f1010;
     --ct_bg_sidebar-green: #171f17;
     --ct_bg_sidebar-yellow: #1f1f17;
+    --ct_col_sidebar-subtext: #888;
+    --ct_col_sidebar-links: #c11;
+    --ct_col_page-title-border: #777;
+    --ct_col_image-block-contrast: #333;
+    --ct_col_tab-bg: #212124;
+    --ct_col_tab-menu-border: #333;
+    --ct_col_tab-menu-bg: #d8d8d8 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x;
+    --ct_col_tab-menu-text: var(--ct_col_body-txt);
+    --ct_brd_tab_content: 1px solid #454545;
+    --ct_col_tab_content-border-top: #444;
+    --ct_col_toc-bg: #232326;
+    --ct_col_blockquote-bg: #202023;
+    --ct_brd_blockquote: 1px dashed #666;
+	--ct_col_code-bg: #232326;
+    --ct_col_code-border: #aaa;
+    --ct_col_rate-primary: #533;
+    --ct_col_rate-secondary: #ece4e0;
+    --ct_col_m_sidebar-bg: #684646;
+    --ct_brd_m_sidebar: 1px solid #8e8e8e;
+    --ct_brd_m_sidebar-right: 1px solid #432b2b;
+    --ct_col_m_sidebar-button-bg: #333;
+    --ct_shd_m_sidebar-button: 0px 0px 20px 3px rgba(102,102,102,1);
+}
+
+/* Topbar */
+#top-bar .open-menu a {
+    background-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2030%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23eee%22%20stroke-linejoin%3D%22bevel%22%20stroke-width%3D%222%22%3E%3Crect%20x%3D%225%22%20y%3D%229%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2214%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2219%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E%0A");
 }
 
 /* Sidebar */
@@ -65,9 +67,6 @@
 }
 #side-bar:target .close-menu {
     background: rgba(0,0,0,0.4) 1px 1px repeat;
-}
-#top-bar .open-menu a {
-    background-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2030%2030%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23eee%22%20stroke-linejoin%3D%22bevel%22%20stroke-width%3D%222%22%3E%3Crect%20x%3D%225%22%20y%3D%229%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2214%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2219%22%20width%3D%2220%22%20height%3D%222%22%20style%3D%22paint-order%3Astroke%20markers%20fill%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E%0A");
 }
 #side-bar div.menu-item a {
     color: var(--ct_col_sidebar-links);
@@ -88,19 +87,6 @@
 .yui-navset .yui-nav .selected a, .yui-navset .yui-nav .selected a:focus, .yui-navset .yui-nav .selected a:hover {
     background: #700;
     background-image: linear-gradient(to bottom, #961A1A, #931616 50%, #700 90%, #333 100%);
-}
-
-/* Custom classes */
-.keycap {
-    background-color: var(--ct_col_code-bg);
-    border-color: #777 #555 #555 #777;
-}
-div.sexy-box {
-    background: var(--ct_col_code-bg);
-    border-color: var(--ct_col_code-border);
-}
-div.sexy-box div.image-container img {
-    border-color: var(--ct_col_code-border);
 }
 
 /* Content panel */
@@ -128,6 +114,19 @@ div.sexy-box div.image-container img {
     border-color: #666660;
 }
 
+/* Custom classes */
+.keycap {
+    background-color: var(--ct_col_code-bg);
+    border-color: #777 #555 #555 #777;
+}
+div.sexy-box {
+    background: var(--ct_col_code-bg);
+    border-color: var(--ct_col_code-border);
+}
+div.sexy-box div.image-container img {
+    border-color: var(--ct_col_code-border);
+}
+
 /* Page menus */
 .preview-message {
     background-color: var(--ct_col_image-block-contrast);
@@ -139,14 +138,14 @@ div.sexy-box div.image-container img {
 }
 div.buttons input, input.button, button, file, a.button {
     background-color: #515154;
-    color: #eee;
     border-color: #101010;
+    color: #eee;
 }
 input.text,
 textarea {
     background: #070709;
-    color: var(--ct_col_body-txt);
     border-color: #666;
+    color: var(--ct_col_body-txt);
 }
 #lock-info {
     background-color: #232326;
@@ -155,24 +154,24 @@ textarea {
 .change-textarea-size a,
 .owindow .button-bar a {
     background-color: #515154;
-    color: #eee;
     border-color: #101010;
+    color: #eee;
 }
 .change-textarea-size a:hover,
 .owindow .button-bar a:hover {
     background-color: #ddd;
-    color: #000;
     text-decoration: none;
+    color: #000;
 }
 select {
     background: #101013;
-    color: var(--ct_col_body-txt);
     border-color: #666;
+    color: var(--ct_col_body-txt);
 }
 .owindow {
     background-color: #212124;
-    color: #eee;
     border-color: #666;
+    color: #eee;
 }
 .owindow .title {
     background-color: #333;
