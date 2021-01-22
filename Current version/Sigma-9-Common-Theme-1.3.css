@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 @import url('https://grombald.github.io/Common-Theme/font/font-bauhaus.css');
 @import url('https://grombald.github.io/Common-Theme/font/font-awesome.min.css');
@@ -191,6 +191,13 @@ Legend:
     --ct_col_code-bg: #f7f7f7;
     --ct_col_code-border: #ddd;
     --ct_fnt_white-paper-titles: 'Andale Mono', 'Courier New', Courier, monospace;
+    --ct_bg_white-paper-sheet: #FFF;
+    --ct_brd_white-paper-sheet: solid 1px #888880;
+    --ct_brd_white-paper-titles: 1px solid #888;
+    --ct_col_white-paper-titles-txt: #000;
+    --ct_col_white-paper-footer-txt: #fffff0;
+    --ct_col_white-paper-footer-link-visited: #888;
+    --ct_brd_white-paper-toc: solid 1px #ccc;
     --ct_dim_text-indent: 2em;
     
     /* 7 Responsive Web Design */
@@ -1866,23 +1873,29 @@ li.folded > .colmod-content {
 }
 
 /* ---------------- #4.8 White-paper (Custom class set) ---------------- */
- 
-.white-paper .wp_sheet {
-    background-color: #FFF;
-    border: solid 1px #888880;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.35), inset 0 10px rgba(255,255,255,.2), inset 0 10px 20px rgba(255,255,255,.25);
-    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.35), inset 0 10px rgba(255,255,255,.2), inset 0 10px 20px rgba(255,255,255,.25);
-    box-shadow: 0 2px 6px rgba(0,0,0,.35), inset 0 10px rgba(255,255,255,.2), inset 0 10px 20px rgba(255,255,255,.25);
-    margin: 10px 0 20px;
-    padding: 0 20px;
-}
-.white-paper h1, .white-paper .h1, .white-paper h2, .white-paper .h2, .white-paper h3, .white-paper .h3, .white-paper h4, .white-paper .h4, .white-paper h5, .white-paper .h5, .white-paper h6, .white-paper .h6, .white-paper .wp_title, .white-paper .wp_sub-title, .white-paper .wp_section-title{
+
+.white-paper h1, .white-paper .h1, .white-paper h2, .white-paper .h2, .white-paper h3, .white-paper .h3, .white-paper h4, .white-paper .h4, .white-paper h5, .white-paper .h5, .white-paper h6, .white-paper .h6,
+.white-paper .wp_title, .white-paper .wp_sub-title, .white-paper .wp_section-title, .wp_sheet .toc-title,
+.white-paper .col-title .collapsible-block-link, .white-paper .col-title .foldable-list-container {
     font-family: 'Andale Mono', 'Courier New', Courier, monospace;
     font-family: var(--ct_fnt_white-paper-titles);
 }
+
+.white-paper .wp_sheet {
+    background-color: #FFF;
+    background-color: var(--ct_bg_white-paper-sheet);
+    border: solid 1px #888880;
+    border: var(--ct_brd_white-paper-sheet);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.35);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.35);
+    box-shadow: 0 2px 6px rgba(0,0,0,.35);
+    margin: 10px 0 20px;
+    padding: 0 20px;
+}
+
 .white-paper h1, 
 .white-paper .h1 {
     color: #000;
@@ -1899,7 +1912,9 @@ li.folded > .colmod-content {
 }
 .white-paper .wp_title {
     border-bottom: 1px solid #888;
+    border-bottom: var(--ct_brd_white-paper-titles);
     color: #000;
+    color: var(--ct_col_white-paper-titles-txt);
     display: block;
     font-size: 350%;
     font-weight: 700;
@@ -1910,6 +1925,7 @@ li.folded > .colmod-content {
 }
 .white-paper .wp_sub-title {
     color: #000;
+    color: var(--ct_col_white-paper-titles-txt);
     display: block;
     font-size: 250%;
     font-weight: 700;
@@ -1928,13 +1944,13 @@ li.folded > .colmod-content {
 }
 .white-paper .col-title .collapsible-block-link,
 .white-paper .col-title .foldable-list-container {
-    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
     font-size: 130%;
     font-weight: 700;
     line-height: 200%;
 }
 .wp_sheet .panel-footer {
     color: #fffff0;
+    color: var(--ct_col_white-paper-footer-txt);
     font-size: 80%;
     font-weight: bold;
     padding: 1px 10px;
@@ -1944,13 +1960,16 @@ li.folded > .colmod-content {
 .wp_sheet .panel-footer a,
 .wp_sheet .panel-footer a:visited {
     color:#888;
+    color: var(--ct_col_white-paper-footer-link-visited);
     text-shadow: 0 0 1px rgba(0,0,0,.1);
 }
  
 .wp_sheet #toc,
 .wp_sheet .toc {
     background-color: #fff;
+    background-color: var(--ct_bg_white-paper-sheet);
     border: solid 1px #ccc;
+    border: var(--ct_brd_white-paper-toc);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -1961,7 +1980,6 @@ li.folded > .colmod-content {
     white-space: nowrap;
 }
 .wp_sheet .toc-title {
-    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
     font-size: 115%;
     font-weight: bold;
     text-align: center
