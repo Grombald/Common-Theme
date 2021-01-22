@@ -1517,6 +1517,10 @@ table.page-files tr.highlight td:not(:last-child) {
     background-color: var(--ct_col_toc-bg);
 }
 
+.form-control {
+    width: 95%;
+}
+
 /* Blockquotes and fake Blockquotes */
 blockquote,
 div.blockquote,
@@ -1529,8 +1533,10 @@ div.blockquote,
     margin: 1em 3em;
 }
 
-.form-control {
-    width: 95%;
+/* Code blocks */
+.code {
+    background-color: var(--ct_col_code-bg);
+    border-color: var(--ct_col_code-border);
 }
 
 /* Wikiwalk Navigation */
