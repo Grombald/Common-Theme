@@ -53,6 +53,10 @@
     --ct_col_body-txt: #d8d8d8;
     --ct_col_sidebar-elements: #900;
     --ct_col_sidebar-links: #c11;
+    --ct_bg_sidebar-blue: #17171f;
+    --ct_bg_sidebar-red: #1f1010;
+    --ct_bg_sidebar-green: #171f17;
+    --ct_bg_sidebar-yellow: #1f1f17;
 }
 
 /* Sidebar */
