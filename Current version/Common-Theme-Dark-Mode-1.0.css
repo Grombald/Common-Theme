@@ -200,3 +200,7 @@ input.checkbox,
 #top-bar .ct-theme-switch .dark-mode {
     display: none;
 }
+
+.scpnet-interwiki-frame {
+    filter: invert(80%) hue-rotate(187deg) brightness(.35) saturate(5.3);
+}
