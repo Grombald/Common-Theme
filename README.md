@@ -8,7 +8,7 @@
     <em>A full technical overhaul of the SCP-Foundation's Sigma-9 theme and its derivatives.</em>
 </p>
 
-Please see [this page](https://github.com/Grombald/Common-Theme/wiki/Basic-installation) for installation instructions.
+Please see [this page](https://github.com/Grombald/Common-Theme/wiki/Basic-installation) for installation instructions. <br>
 For more information about the Common Theme and Documentation, please visit the [GitHub Wiki](https://github.com/Grombald/Common-Theme/wiki) of the Common Theme Repository.
 
 **Current version: 1.3**
