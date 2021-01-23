@@ -967,25 +967,6 @@ div#container-wrap {
 
 /* SVG icons in the sidebar */
 
-
-#side-bar .collapsible-block-link::before, 
-#side-bar .menu-item p::before,
-#side-bar .colmod-link-top a::before {
-    background-size: 13px 13px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: transparent;
-    display: inline-block;
-        -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
-    filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
-    left: 11px;
-        -webkit-background-size: 13px 13px;
-        -moz-background-size: 13px 13px;
-    position: absolute;
-    text-align: center;
-    width: 13px;
-}
-
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
 #side-bar .colmod-link-top a:first-child::before {
     content: "+";
@@ -1027,6 +1008,25 @@ div#container-wrap {
     content: "•";
     background-image: url('https://grombald.github.io/Common-Theme/img/series.png');
     background-image: var(--ct_bg_sidebar-item-series);
+}
+
+#side-bar .collapsible-block-link::before, 
+#side-bar .menu-item p::before,
+#side-bar .colmod-link-top a::before {
+        -webkit-background-size: 13px 13px;
+        -moz-background-size: 13px 13px;
+    background-size: 13px 13px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: transparent;
+    display: inline-block;
+        -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
+    margin-left: -16px;
+    /*left: 11px;
+    position: absolute;*/
+    text-align: center;
+    width: 15px;
 }
 
 /* ++++++++++++++++ #3.0 Footer ++++++++++++++++ */
