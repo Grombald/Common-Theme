@@ -28,32 +28,32 @@
     background:url('https://grombald.github.io/Common-Theme/img/collapse.png') 0 1px no-repeat;
     background-image: var(--ct_bg_sidebar-collapse);
 }
-#side-bar .menu-item.default div::before {
+#side-bar .menu-item.default::before {
     content: "·";
     background-image: url('https://grombald.github.io/Common-Theme/img/default.png');
     background-image: var(--ct_bg_sidebar-item-default);
 }    
-#side-bar .menu-item.forum div::before {
+#side-bar .menu-item.forum::before {
     content: "•";
     background-image: url('https://grombald.github.io/Common-Theme/img/forum.png');
     background-image: var(--ct_bg_sidebar-item-forum);
 }    
-#side-bar .menu-item.help div::before {
+#side-bar .menu-item.help::before {
     content: "?";
     background-image: url('https://grombald.github.io/Common-Theme/img/help.png');
     background-image: var(--ct_bg_sidebar-item-help);
 }    
-#side-bar .menu-item.home div::before {
+#side-bar .menu-item.home::before {
     content: "•";
     background-image: url('https://grombald.github.io/Common-Theme/img/home.png');
     background-image: var(--ct_bg_sidebar-item-home);
 }    
-#side-bar .menu-item.main div::before {
+#side-bar .menu-item.main::before {
     content: "•";
     background-image: url('https://grombald.github.io/Common-Theme/img/main.png');
     background-image: var(--ct_bg_sidebar-item-main);
 }    
-#side-bar .menu-item.series div::before {
+#side-bar .menu-item.series::before {
     content: "•";
     background-image: url('https://grombald.github.io/Common-Theme/img/series.png');
     background-image: var(--ct_bg_sidebar-item-series);
