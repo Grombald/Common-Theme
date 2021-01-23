@@ -1,5 +1,5 @@
 #side-bar .collapsible-block-link::before, 
-#side-bar .menu-item div::before,
+#side-bar .menu-item::before,
 #side-bar .colmod-link-top a::before {
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
