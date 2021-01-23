@@ -970,13 +970,13 @@ div#container-wrap {
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
 #side-bar .colmod-link-top a:first-child::before {
     content: "+";
-    background:url('https://grombald.github.io/Common-Theme/img/expand.png') 0 1px no-repeat;
+    background-image:url('https://grombald.github.io/Common-Theme/img/expand.png');
     background-image: var(--ct_bg_sidebar-expand);
 }
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link::before,
 #side-bar .colmod-link-top a:last-child::before {
     content: "-";
-    background:url('https://grombald.github.io/Common-Theme/img/collapse.png') 0 1px no-repeat;
+    background-image:url('https://grombald.github.io/Common-Theme/img/collapse.png');
     background-image: var(--ct_bg_sidebar-collapse);
 }
 #side-bar .menu-item.default p::before {
@@ -2374,7 +2374,7 @@ img, embed, video, object, iframe, table {
 
 @media (max-width: 385px) {
     #header {
-     background-position: 5% 5.5em;
+     background-position: 2% 5.5em;
     }
 
     #header h1, #header h2 {
