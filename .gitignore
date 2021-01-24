@@ -1,0 +1,6 @@
+# Ignore NPM dependencies
+node_modules/
+package-lock.json
+
+# Ignore build process output
+dist/
