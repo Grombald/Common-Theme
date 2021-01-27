@@ -1,0 +1,12 @@
+{
+  "name": "common-theme",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.4"
+  }
+}
