@@ -3,11 +3,13 @@
 /* Common Theme INT-Edition - CC BY-SA 3.0 - by Dr_Grom. See http://o5command-int.wikidot.com/tech-team:common-theme for more info. */
 :root {
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/img/int/body_bg_int.png');
-    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/img/int/scp-logo-int-small.png'); 
-    --ct_col_searchbox-gradient-1: #003;
-    --ct_col_searchbox-gradient-2: #336;
-    --ct_col_searchbox-gradient-3: #669;
-    --ct_col_searchbox-gradient-4: #99c;
+    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_int.svg');
+    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/img/int/scp-logo-int-small.png');
+    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/svg/header-logo_int.svg'); 
+    --ct_col_searchbox-gradient-1: #0f1a25;
+    --ct_col_searchbox-gradient-2: #1e354c;
+    --ct_col_searchbox-gradient-3: #2b4a6c;
+    --ct_col_searchbox-gradient-4: #38628f;
     --ct_dim_sidebar-link-images: 40px;
 }
  
@@ -21,31 +23,31 @@ div#container-wrap {
 }
  
 #search-top-box-input {
-    background-color: #003;
+    background-color: #0f1a25;
     background-color: var(--ct_col_searchbox-gradient-1);
 }
 #search-top-box-input:hover,
 #search-top-box-input:focus {
-    background-color: #336;
+    background-color: #1e354c;
     background-color: var(--ct_col_searchbox-gradient-2);
 }
 #search-top-box-form input[type=submit] {
-    background-color: #336;
+    background-color: #1e354c;
     background-color: var(--ct_col_searchbox-gradient-2);
-    background: -webkit-gradient(linear, left top, left bottom, from(#669),color-stop(#336),to(#003));
-    background: -webkit-linear-gradient(top, #669,#336,#003);
-    background: -moz-linear-gradient(top, #669,#336,#003);
-    background: -o-linear-gradient(top, #669,#336,#003);
-    background: linear-gradient(to bottom, #669,#336,#003);
+    background: -webkit-gradient(linear, left top, left bottom, from(#2b4a6c),color-stop(#1e354c),to(#0f1a25));
+    background: -webkit-linear-gradient(top, #2b4a6c,#1e354c,#0f1a25);
+    background: -moz-linear-gradient(top, #2b4a6c,#1e354c,#0f1a25);
+    background: -o-linear-gradient(top, #2b4a6c,#1e354c,#0f1a25);
+    background: linear-gradient(to bottom, #2b4a6c,#1e354c,#0f1a25);
     background: linear-gradient(to bottom, var(--ct_col_searchbox-gradient-3),var(--ct_col_searchbox-gradient-2),var(--ct_col_searchbox-gradient-1));
 }
 #search-top-box-form input[type=submit]:hover,
 #search-top-box-form input[type=submit]:focus {
-    background: -webkit-gradient(linear, left top, left bottom, from(#99c),color-stop(#669),to(#336));
-    background: -webkit-linear-gradient(top, #99c,#669,#336);
-    background: -moz-linear-gradient(top, #99c,#669,#336);
-    background: -o-linear-gradient(top, #99c,#669,#336);
-    background: linear-gradient(to bottom, #99c,#669,#336);
+    background: -webkit-gradient(linear, left top, left bottom, from(#38628f),color-stop(#2b4a6c),to(#1e354c));
+    background: -webkit-linear-gradient(top, #38628f,#2b4a6c,#1e354c);
+    background: -moz-linear-gradient(top, #38628f,#2b4a6c,#1e354c);
+    background: -o-linear-gradient(top, #38628f,#2b4a6c,#1e354c);
+    background: linear-gradient(to bottom, #38628f,#2b4a6c,#1e354c);
     background: linear-gradient(to bottom, var(--ct_col_searchbox-gradient-4),var(--ct_col_searchbox-gradient-3),var(--ct_col_searchbox-gradient-2));
 }
  
