@@ -17,13 +17,13 @@
 <linearGradient id="a" x1="50" x2="50" y2="132" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
 <stop offset=".5"/>
-<stop stop-color="#002c25" offset=".68182"/>
-<stop stop-color="#076253" offset=".83333"/>
-<stop stop-color="#1b8875" offset="1"/>
+<stop stop-color="#00241e" offset=".68182"/>
+<stop stop-color="#075045" offset=".83333"/>
+<stop stop-color="#19806d" offset="1"/>
 </linearGradient>
 <linearGradient id="d" x1="50" x2="50" y1="135" y2="66" gradientUnits="userSpaceOnUse">
-<stop stop-color="#219783" offset="0"/>
-<stop stop-color="#0c6454" stop-opacity=".52941" offset=".5"/>
+<stop stop-color="#1f8e7c" offset="0"/>
+<stop stop-color="#095849" stop-opacity=".52941" offset=".5"/>
 <stop stop-color="#011813" stop-opacity=".83529" offset="1"/>
 </linearGradient>
 </defs>
