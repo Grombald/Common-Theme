@@ -8,11 +8,11 @@
 <stop stop-color="#f9f9f9" stop-opacity="0" offset="1"/>
 </linearGradient>
 <linearGradient id="b" x1="50" x2="50" y1="141" y2="161" gradientUnits="userSpaceOnUse">
-<stop stop-color="#535353" offset="0"/>
-<stop stop-color="#4f4f4f" offset=".15"/>
-<stop stop-color="#444" offset=".5"/>
-<stop stop-color="#3e3e3e" offset=".81818"/>
-<stop stop-color="#3b3b3b" offset="1"/>
+<stop stop-color="#434343" offset="0"/>
+<stop stop-color="#3f3f3f" offset=".15"/>
+<stop stop-color="#333" offset=".5"/>
+<stop stop-color="#2e2e2e" offset=".81818"/>
+<stop stop-color="#2b2b2b" offset="1"/>
 </linearGradient>
 <linearGradient id="a" x1="50" x2="50" y2="132" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
