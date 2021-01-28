@@ -1,5 +1,4 @@
-#side-bar .collapsible-block-link::before, #side-bar .menu-item p::before, #side-bar .colmod-link-top a::before {
-    width: 15px;
-margin-left: -16px;
-    position: initial;
+#odialog-container {
+    max-width: 98%;
+    left: 1%;
 }
