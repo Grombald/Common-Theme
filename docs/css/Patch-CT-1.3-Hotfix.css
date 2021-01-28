@@ -2,3 +2,10 @@
     max-width: 98%;
     left: 1%;
 }
+.owindow .button-bar a {
+    display: block;
+}
+.owindow div .btn-primary {
+    float: none;
+    width: auto;
+}
