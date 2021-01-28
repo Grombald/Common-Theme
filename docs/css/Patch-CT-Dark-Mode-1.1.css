@@ -1,0 +1,16 @@
+:root {
+    --ct_col_forum-group-title-bg: #474749;
+    --ct_col_forum-group-head-bg: #272729;
+    --ct_brd_forum-group-table: 1px solid #444;
+}
+
+.forum-group div.head {
+    background-color: var(--ct_col_forum-group-title-bg);
+    color: var(--ct_col_body-txt);
+}
+.forum-group table tr.head td {
+    background-color: var(--ct_col_forum-group-head-bg);
+}
+.forum-group table td {
+    border: var(--ct_brd_forum-group-table);
+}
