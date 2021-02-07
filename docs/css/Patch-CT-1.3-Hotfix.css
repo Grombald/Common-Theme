@@ -10,6 +10,10 @@
     width: auto;
 }
 
+:root {
+    --ct_brd_table: 1px solid #888;
+    --ct_col_table-head: #eee;
+}
 #page-content th {
 	border: var(--ct_brd_table);
 	background-color: var(--ct_col_table-head);
