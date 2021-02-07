@@ -9,3 +9,8 @@
     float: none;
     width: auto;
 }
+
+table.wiki-content-table th {
+	border: var(--ct_brd_table);
+	background-color: var(--ct_col_table-head);
+}
