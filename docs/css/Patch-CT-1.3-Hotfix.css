@@ -1,3 +1,9 @@
+:root {
+    --ct_brd_table: 1px solid #888;
+    --ct_col_table-head: #eee;
+    --ct_fnt_headlines: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+}
+
 #odialog-container {
     max-width: 98%;
     left: 1%;
@@ -10,14 +16,14 @@
     width: auto;
 }
 
-:root {
-    --ct_brd_table: 1px solid #888;
-    --ct_col_table-head: #eee;
-}
 #page-content th {
 	border: var(--ct_brd_table);
 	background-color: var(--ct_col_table-head);
 }
 #page-content td {
 	border: var(--ct_brd_table);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--ct_fnt_headlines);
 }
