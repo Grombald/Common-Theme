@@ -10,7 +10,7 @@
     width: auto;
 }
 
-table.wiki-content-table th {
+#page-content th {
 	border: var(--ct_brd_table);
 	background-color: var(--ct_col_table-head);
 }
