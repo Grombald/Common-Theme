@@ -2,3 +2,6 @@
     --ct_brd_table: 1px solid #666;
     --ct_col_table-head: #333;
 }
+.hovertip {
+ background-color:#333 !important;
+}
