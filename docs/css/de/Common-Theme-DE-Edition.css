@@ -172,15 +172,15 @@ script + div.page-tags:before {
 
 /* SVG Social media icons */
 :root {
-    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantArt.svg')
-    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg')
-    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg')
-    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_instagram.svg')
-    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg')
-    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg')
-    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg')
-    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg')
-    --ct_bg_sm-icon_de: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_de.svg')
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantArt.svg');
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg');
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg');
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_instagram.svg');
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg');
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg');
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg');
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg');
+    --ct_bg_sm-icon_de: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_de.svg');
 }
 #side-bar .side-links.svg-icons a {
     width: var(--ct_dim_sidebar-link-images);
