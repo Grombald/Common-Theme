@@ -188,6 +188,7 @@ script + div.page-tags:before {
     display: inline-block;
     margin: 0 1px;
     color: transparent;
+    font-size: 0;
 }
 #side-bar .side-links.svg-icons a[href*="sandbox"] {
     background-image: var(--ct_bg_sm-icon_sandbox);
