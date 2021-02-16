@@ -180,6 +180,7 @@ script + div.page-tags:before {
     --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg');
     --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg');
     --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg');
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg');
     --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg');
     --ct_bg_sm-icon_de: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_de.svg');
 }
@@ -212,4 +213,7 @@ script + div.page-tags:before {
 }
 #side-bar .side-links.svg-icons a[href*="deviantart"] {
     background-image: var(--ct_bg_sm-icon_deviantart);
+}
+#side-bar .side-links.svg-icons a[href*="reddit"] {
+    background-image: var(--ct_bg_sm-reddit);
 }
