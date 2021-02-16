@@ -27,3 +27,68 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--ct_fnt_headlines);
 }
+
+/* SVG Social media icons */
+:root {
+    --ct_bg_sm-icon_blogger: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_blogger.svg')
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantArt.svg')
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg')
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg')
+    --ct_bg_sm-icon_github: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_github.svg')
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_instagram.svg')
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg')
+    --ct_bg_sm-icon_steam: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_steam.svg')
+    --ct_bg_sm-icon_telegram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_telegram.svg')
+    --ct_bg_sm-icon_tumblr: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_tumblr.svg')
+    --ct_bg_sm-icon_twitch: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitch.svg')
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg')
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg')
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg')
+    --ct_bg_sm-icon_int: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_int.svg')
+    --ct_bg_sm-icon_uli: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_uli.svg')
+}
+#side-bar .side-links.svg-icons a {
+    width: var(--ct_dim_sidebar-link-images);
+    height: var(--ct_dim_sidebar-link-images);
+    display: inline-block;
+}
+#side-bar .side-links.svg-icons a[href*="sandbox"] {
+    background-image: var(--ct_bg_sm-icon_sandbox);
+}
+#side-bar .side-links.svg-icons a[href*="chat"],
+#side-bar .side-links.svg-icons a[href*="discord"]{
+    background-image: var(--ct_bg_sm-icon_discord);
+}
+#side-bar .side-links.svg-icons a[href*="youtube"] {
+    background-image: var(--ct_bg_sm-icon_youtube);
+}
+#side-bar .side-links.svg-icons a[href*="facebook"] {
+    background-image: var(--ct_bg_sm-icon_facebook);
+}
+#side-bar .side-links.svg-icons a[href*="twitter"] {
+    background-image: var(--ct_bg_sm-icon_twitter);
+}
+#side-bar .side-links.svg-icons a[href*="instagram"] {
+    background-image: var(--ct_bg_sm-icon_instagram);
+}
+#side-bar .side-links.svg-icons a[href*="github"] {
+    background-image: var(--ct_bg_sm-icon_github);
+}
+#side-bar .side-links.svg-icons a[href*="t.me"] {
+    background-image: var(--ct_bg_sm-icon_telegram);
+}
+#side-bar .side-links.svg-icons a[href*="deviantart"] {
+    background-image: var(--ct_bg_sm-icon_deviantart);
+}
+#side-bar .side-links.svg-icons a[href*="steamcommunity"] {
+    background-image: var(--ct_bg_sm-icon_steam);
+}
+#side-bar .side-links.svg-icons a[href*="blogspot"] {
+    background-image: var(--ct_bg_sm-icon_blogger);
+}
+#side-bar .side-links.svg-icons a[href*="tumblr"] {
+    background-image: var(--ct_bg_sm-icon_tumblr);
+}
+#side-bar .side-links.svg-icons a[href*="twitch"] {
+    background-image: var(--ct_bg_sm-icon_twitch);
+}
