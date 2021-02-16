@@ -172,6 +172,7 @@ script + div.page-tags:before {
 
 /* SVG Social media icons */
 :root {
+    --ct_dim_sidebar-link-images: 25px;
     --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantArt.svg');
     --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg');
     --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg');
