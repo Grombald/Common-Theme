@@ -209,3 +209,6 @@ script + div.page-tags:before {
 #side-bar .side-links.svg-icons a[href*="instagram"] {
     background-image: var(--ct_bg_sm-icon_instagram);
 }
+#side-bar .side-links.svg-icons a[href*="deviantart"] {
+    background-image: var(--ct_bg_sm-icon_deviantart);
+}
