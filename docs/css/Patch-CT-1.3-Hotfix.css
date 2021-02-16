@@ -30,6 +30,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* SVG Social media icons */
 :root {
+    --ct_bg_sm-icon_blogger: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_blogger.png');
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_deviantart.png');
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_discord.png');
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_facebook.png');
+    --ct_bg_sm-icon_github: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_github.png');
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_instagram.png');
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_reddit.png');
+    --ct_bg_sm-icon_steam: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_steam.png');
+    --ct_bg_sm-icon_telegram: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_telegram.png');
+    --ct_bg_sm-icon_tumblr: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_tumblr.png');
+    --ct_bg_sm-icon_twitch: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_twitch.png');
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_twitter.png');
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_youtube.png');
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_sandbox.png');
+    --ct_bg_sm-icon_int: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_int.png');
+    --ct_bg_sm-icon_uli: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_uli.png');
     --ct_bg_sm-icon_blogger: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_blogger.svg');
     --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantart.svg');
     --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg');
