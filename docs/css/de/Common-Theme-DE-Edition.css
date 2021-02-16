@@ -169,3 +169,41 @@ script + div.page-tags:before {
         right: 0;
     }
 }
+
+/* SVG Social media icons */
+:root {
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantArt.svg')
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg')
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg')
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_instagram.svg')
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg')
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg')
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg')
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg')
+    --ct_bg_sm-icon_de: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_de.svg')
+}
+#side-bar .side-links.svg-icons a {
+    width: var(--ct_dim_sidebar-link-images);
+    height: var(--ct_dim_sidebar-link-images);
+    display: inline-block;
+    margin: 0 1px;
+}
+#side-bar .side-links.svg-icons a[href*="sandbox"] {
+    background-image: var(--ct_bg_sm-icon_sandbox);
+}
+#side-bar .side-links.svg-icons a[href*="chat"],
+#side-bar .side-links.svg-icons a[href*="discord"]{
+    background-image: var(--ct_bg_sm-icon_discord);
+}
+#side-bar .side-links.svg-icons a[href*="youtube"] {
+    background-image: var(--ct_bg_sm-icon_youtube);
+}
+#side-bar .side-links.svg-icons a[href*="facebook"] {
+    background-image: var(--ct_bg_sm-icon_facebook);
+}
+#side-bar .side-links.svg-icons a[href*="twitter"] {
+    background-image: var(--ct_bg_sm-icon_twitter);
+}
+#side-bar .side-links.svg-icons a[href*="instagram"] {
+    background-image: var(--ct_bg_sm-icon_instagram);
+}
