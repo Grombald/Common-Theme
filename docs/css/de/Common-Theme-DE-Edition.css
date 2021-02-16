@@ -215,5 +215,5 @@ script + div.page-tags:before {
     background-image: var(--ct_bg_sm-icon_deviantart);
 }
 #side-bar .side-links.svg-icons a[href*="reddit"] {
-    background-image: var(--ct_bg_sm-reddit);
+    background-image: var(--ct_bg_sm-icon_reddit);
 }
