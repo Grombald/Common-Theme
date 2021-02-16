@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 #side-bar .side-links.svg-icons a[href*="blogspot"] {
     background-image: var(--ct_bg_sm-icon_blogger);
 }
+#side-bar .side-links.svg-icons a[href*="reddit"] {
+    background-image: var(--ct_bg_sm-reddit);
+}
 #side-bar .side-links.svg-icons a[href*="tumblr"] {
     background-image: var(--ct_bg_sm-icon_tumblr);
 }
