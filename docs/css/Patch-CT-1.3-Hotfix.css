@@ -4,16 +4,18 @@
     --ct_fnt_headlines: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
 }
 
-#odialog-container {
-    max-width: 98%;
-    left: 1%;
-}
-.owindow .button-bar a {
-    display: block;
-}
-.owindow div .btn-primary {
-    float: none;
-    width: auto;
+@media (max-width: 767px) {
+    #odialog-container {
+        max-width: 98%;
+        left: 1%;
+    }
+    .owindow .button-bar a {
+        display: block;
+    }
+    .owindow div .btn-primary {
+        float: none;
+        width: auto;
+    }
 }
 
 #page-content th {
