@@ -383,8 +383,17 @@ script + div.page-tags:before {
 }
 
 .no-staff-highlight .printuser a::before,
-.no-staff-highlight .printuser > a:first-child:not(:only-child)::after {
+.no-staff-highlight .printuser > a:first-child:not(:only-child)::after,
+#page-content .printuser a::before,
+#page-content .printuser > a:first-child:not(:only-child)::after,
+#login-status .printuser a::before,
+#login-status .printuser > a:first-child:not(:only-child)::after {
     display: none;
+}
+
+#page-content .highlight-staff .printuser a::before,
+#page-content .highlight-staff .printuser > a:first-child:not(:only-child)::after {
+	display: inline-block;
 }
 
 
