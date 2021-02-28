@@ -224,12 +224,15 @@ script + div.page-tags:before {
 /* Define the colors for each role */
 :root {
     --de_o4: #ea2525;
+    --de_md: #d3545f;
     --de_fb: #3d97d6;
     --de_kb: #21888f;
     --de_nt: #6a93b0;
     --de_tt: #f6b600;
     --de_ub: #00b46f;
     --de_mt: #884d84;
+    --de_sl: #2ecc71;
+    --de_vb: #0068a3;
 	--de_txt: #fff;
 }
 
