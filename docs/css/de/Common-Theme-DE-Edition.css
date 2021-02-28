@@ -234,43 +234,43 @@ script + div.page-tags:before {
 }
 
 /* Use for all users who get a staff color who do not have the premium-account-star */
-.printuser a[href*=dr-grom] img,
-.printuser a[href*=tanija] img,
-.printuser a[href*=robini] img,
-.printuser a[href*=dr-alice] img,
-.printuser a[href*=flaming2204] img,
-.printuser a[href*=dr-himy] img,
-.printuser a[href*=jannik18] img,
-.printuser a[href*=einer-von-rabe] img,
-.printuser a[href*=oldhelldog] img,
-.printuser a[href*=arogas] img,
-.printuser a[href*=sebzumbruck] img,
-.printuser a[href*=survari] img,
-.printuser a[href*=alphaorion] img,
-.printuser a[href*=archetyp] img,
-.printuser a[href*=drpeterwenzel] img,
-.printuser a[href*=doktor-cyberion] img {
+.printuser a[href*=dr-grom] img, #page-content .highlight-staff .printuser a[href*=dr-grom] img,
+.printuser a[href*=tanija] img, #page-content .highlight-staff .printuser a[href*=tanija] img,
+.printuser a[href*=robini] img, #page-content .highlight-staff .printuser a[href*=robini] img,
+.printuser a[href*=dr-alice] img, #page-content .highlight-staff .printuser a[href*=dr-alice] img,
+.printuser a[href*=flaming2204] img, #page-content .highlight-staff .printuser a[href*=flaming2204] img,
+.printuser a[href*=dr-himy] img, #page-content .highlight-staff .printuser a[href*=dr-himy] img,
+.printuser a[href*=jannik18] img, #page-content .highlight-staff .printuser a[href*=jannik18] img,
+.printuser a[href*=einer-von-rabe] img, #page-content .highlight-staff .printuser a[href*=einer-von-rabe] img,
+.printuser a[href*=oldhelldog] img, #page-content .highlight-staff .printuser a[href*=oldhelldog] img,
+.printuser a[href*=arogas] img, #page-content .highlight-staff .printuser a[href*=arogas] img,
+.printuser a[href*=sebzumbruck] img, #page-content .highlight-staff .printuser a[href*=sebzumbruck] img,
+.printuser a[href*=survari] img, #page-content .highlight-staff .printuser a[href*=survari] img,
+.printuser a[href*=alphaorion] img, #page-content .highlight-staff .printuser a[href*=alphaorion] img,
+.printuser a[href*=archetyp] img, #page-content .highlight-staff .printuser a[href*=archetyp] img,
+.printuser a[href*=drpeterwenzel] img, #page-content .highlight-staff .printuser a[href*=drpeterwenzel] img,
+.printuser a[href*=doktor-cyberion] img, #page-content .highlight-staff .printuser a[href*=doktor-cyberion] img {
     padding-right: 5px;
 }
 
 /* Use for all who will get a staff color around their username.
 Use their exact wikidot-username here, the one in the URL of their profile. */
-.printuser a:last-child[href*=dr-grom],
-.printuser a:last-child[href*=tanija],
-.printuser a:last-child[href*=robini],
-.printuser a:last-child[href*=dr-alice],
-.printuser a:last-child[href*=flaming2204],
-.printuser a:last-child[href*=dr-himy],
-.printuser a:last-child[href*=jannik18],
-.printuser a:last-child[href*=einer-von-rabe],
-.printuser a:last-child[href*=oldhelldog],
-.printuser a:last-child[href*=arogas],
-.printuser a:last-child[href*=sebzumbruck],
-.printuser a:last-child[href*=survari],
-.printuser a:last-child[href*=alphaorion],
-.printuser a:last-child[href*=archetyp],
-.printuser a:last-child[href*=drpeterwenzel],
-.printuser a:last-child[href*=doktor-cyberion] {
+.printuser a:last-child[href*=dr-grom], #page-content .highlight-staff .printuser a:last-child[href*=dr-grom],
+.printuser a:last-child[href*=tanija], #page-content .highlight-staff .printuser a:last-child[href*=tanija],
+.printuser a:last-child[href*=robini], #page-content .highlight-staff .printuser a:last-child[href*=robini],
+.printuser a:last-child[href*=dr-alice], #page-content .highlight-staff .printuser a:last-child[href*=dr-alice],
+.printuser a:last-child[href*=flaming2204], #page-content .highlight-staff .printuser a:last-child[href*=flaming2204],
+.printuser a:last-child[href*=dr-himy], #page-content .highlight-staff .printuser a:last-child[href*=dr-himy],
+.printuser a:last-child[href*=jannik18], #page-content .highlight-staff .printuser a:last-child[href*=jannik18],
+.printuser a:last-child[href*=einer-von-rabe], #page-content .highlight-staff .printuser a:last-child[href*=einer-von-rabe],
+.printuser a:last-child[href*=oldhelldog], #page-content .highlight-staff .printuser a:last-child[href*=oldhelldog],
+.printuser a:last-child[href*=arogas], #page-content .highlight-staff .printuser a:last-child[href*=arogas],
+.printuser a:last-child[href*=sebzumbruck], #page-content .highlight-staff .printuser a:last-child[href*=sebzumbruck],
+.printuser a:last-child[href*=survari], #page-content .highlight-staff .printuser a:last-child[href*=survari],
+.printuser a:last-child[href*=alphaorion], #page-content .highlight-staff .printuser a:last-child[href*=alphaorion],
+.printuser a:last-child[href*=archetyp], #page-content .highlight-staff .printuser a:last-child[href*=archetyp],
+.printuser a:last-child[href*=drpeterwenzel], #page-content .highlight-staff .printuser a:last-child[href*=drpeterwenzel],
+.printuser a:last-child[href*=doktor-cyberion], #page-content .highlight-staff .printuser a:last-child[href*=doktor-cyberion] {
     border-radius: 13px;
 	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
     color: var(--de_txt);
@@ -280,52 +280,53 @@ Use their exact wikidot-username here, the one in the URL of their profile. */
 }
 
 /* Here you apply the colors to each individual user, or multiple users at once. */
-.printuser a:last-child[href*=dr-grom] {
+.printuser a:last-child[href*=dr-grom], #page-content .highlight-staff .printuser a:last-child[href*=dr-grom] {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_tt) 51%);
 }
-.printuser a:last-child[href*=tanija] {
+.printuser a:last-child[href*=tanija], #page-content .highlight-staff .printuser a:last-child[href*=tanija] {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_nt) 51%);
 }
-.printuser a:last-child[href*=robini] {
+.printuser a:last-child[href*=robini], #page-content .highlight-staff .printuser a:last-child[href*=robini] {
     background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_fb) 34%, var(--de_fb) 64%, var(--de_mt) 66%);
 }
-.printuser a:last-child[href*=alice] {
+.printuser a:last-child[href*=alice], #page-content .highlight-staff .printuser a:last-child[href*=alice] {
     background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_kb) 34%, var(--de_kb) 64%, var(--de_ub) 66%);
 }
-.printuser a:last-child[href*=flaming2204] {
+.printuser a:last-child[href*=flaming2204], #page-content .highlight-staff .printuser a:last-child[href*=flaming2204] {
     background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_kb) 34%, var(--de_kb) 64%, var(--de_mt) 66%);
 }
-.printuser a:last-child[href*=dr-himy],
-.printuser a:last-child[href*=jannik18] {
+.printuser a:last-child[href*=dr-himy], #page-content .highlight-staff .printuser a:last-child[href*=dr-himy],
+.printuser a:last-child[href*=jannik18], #page-content .highlight-staff .printuser a:last-child[href*=jannik18] {
     background: linear-gradient(110deg, var(--de_fb) 49%, var(--de_mt) 51%);
 }
-.printuser a:last-child[href*=einer-von-rabe] {
+.printuser a:last-child[href*=einer-von-rabe], #page-content .highlight-staff .printuser a:last-child[href*=einer-von-rabe] {
     background: linear-gradient(110deg, var(--de_fb) 49%, var(--de_mt) 51%);
 }
-.printuser a:last-child[href*=oldhelldog] {
+.printuser a:last-child[href*=oldhelldog], #page-content .highlight-staff .printuser a:last-child[href*=oldhelldog] {
     background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
 	padding: 0 5px 0 4px;
 }
-.printuser a:last-child[href*=arogas] {
+.printuser a:last-child[href*=arogas], #page-content .highlight-staff .printuser a:last-child[href*=arogas] {
     background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_mt) 51%);
 }
-.printuser a:last-child[href*=sebzumbruck] {
+.printuser a:last-child[href*=sebzumbruck], #page-content .highlight-staff .printuser a:last-child[href*=sebzumbruck] {
     background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_ub) 51%);
 }
-.printuser a:last-child[href*=survari] {
+.printuser a:last-child[href*=survari], #page-content .highlight-staff .printuser a:last-child[href*=survari] {
     background: var(--de_tt);
 }
-.printuser a:last-child[href*=alphaorion],
-.printuser a:last-child[href*=archetyp],
-.printuser a:last-child[href*=drpeterwenzel] {
+.printuser a:last-child[href*=alphaorion], #page-content .highlight-staff .printuser a:last-child[href*=alphaorion],
+.printuser a:last-child[href*=archetyp], #page-content .highlight-staff .printuser a:last-child[href*=archetyp],
+.printuser a:last-child[href*=drpeterwenzel], #page-content .highlight-staff .printuser a:last-child[href*=drpeterwenzel] {
     background: var(--de_ub);
 }
-.printuser a:last-child[href*=doktor-cyberion] {
+.printuser a:last-child[href*=doktor-cyberion], #page-content .highlight-staff .printuser a:last-child[href*=doktor-cyberion] {
     background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
 }
 
 /* This negates the staff color for user-modules inside a [[span class="no-staff-highlight"]] element */
-.no-staff-highlight .printuser a:last-child {
+.no-staff-highlight .printuser a:last-child,
+#page-content .printuser a:last-child {
     background: none;
     box-shadow: none;
     color: var(--ct_col_link);
