@@ -341,3 +341,57 @@ Use their exact wikidot-username here, the one in the URL of their profile. */
     text-shadow: none;
     white-space: inherit;
 }
+
+/* Shows tooltips with the user's roles. */
+.printuser a:last-child:hover::after {
+    content: "Rolle X, Y und Z";
+    background: var(--ct_col_image-block-contrast);
+    border: var(--ct_brd_image-block);
+    color: var(--ct_col_body-txt);
+    padding: 0 2px;
+    position: absolute;
+    margin: 19px 0 0 -70px;
+    z-index: 10;
+    font-size: 85%;
+}
+
+.printuser a:last-child[href*=alice]:hover::after {
+    content: "Administratorin, Korrekturbeauftragte, Leiterin Übersetzer";
+}
+.printuser a:last-child[href*=dr-grom]:hover::after {
+    content: "Administrator, Technik-Team";
+}
+.printuser a:last-child[href*=robini]:hover::after {
+    content: "Administrator, Freigabebeauftragter, Mentor";
+}
+.printuser a:last-child[href*=tanija]:hover::after {
+    content: "Administratorin, Leiterin News-Team";
+}
+.printuser a:last-child[href*=dr-himy]:hover::after,
+.printuser a:last-child[href*=jannik18]:hover::after,
+.printuser a:last-child[href*=einer-von-rabe]:hover::after {
+    content: "Freigabebeauftragter, Mentor";
+}
+.printuser a:last-child[href*=flaming2204]:hover::after {
+    content: "Freigabebeauftragter, Korrekturbeauftragter, Mentor";
+}
+.printuser a:last-child[href*=oldhelldog]:hover::after {
+    content: "Freigabebeauftragter";
+}
+.printuser a:last-child[href*=arogas]:hover::after {
+    content: "News-Team, Mentor";
+}
+.printuser a:last-child[href*=sebzumbruck]:hover::after {
+    content: "News-Team, Übersetzer";
+}
+.printuser a:last-child[href*=survari]:hover::after {
+    content: "Technik-Team";
+}
+.printuser a:last-child[href*=alphaorion]:hover::after,
+.printuser a:last-child[href*=archetyp]:hover::after,
+.printuser a:last-child[href*=drpeterwenzel]:hover::after {
+    content: "Übersetzer";
+}
+.printuser a:last-child[href*=doktor-cyberion]:hover::after {
+    content: "Übersetzer, Mentor";
+}
