@@ -438,4 +438,4 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=doktor-cyberion]:hover::after {
     content: "Übersetzer, Mentor";
-}
+} 
