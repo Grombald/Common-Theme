@@ -316,7 +316,7 @@ script + div.page-tags:before {
     display: inline-block;
     height: 16px;
     position: relative;
-    right: 5px;
+    right: 9px;
     top: 1px;
     vertical-align: top;
     width: 8px;
