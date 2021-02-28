@@ -344,15 +344,14 @@ Use their exact wikidot-username here, the one in the URL of their profile. */
 
 /* Shows tooltips with the user's roles. */
 .printuser a:last-child:hover::after {
-    content: "Rolle X, Y und Z";
-    background: var(--ct_col_image-block-contrast);
-    border: var(--ct_brd_image-block);
+    background: var(--ct_bg_body);
+    border: 1px solid var(--ct_col_body-txt);
     color: var(--ct_col_body-txt);
+    font-size: 85%;
+    margin: 29px 0 0 -70px;
     padding: 0 2px;
     position: absolute;
-    margin: 19px 0 0 -70px;
     z-index: 10;
-    font-size: 85%;
 }
 
 .printuser a:last-child[href*=alice]:hover::after {
