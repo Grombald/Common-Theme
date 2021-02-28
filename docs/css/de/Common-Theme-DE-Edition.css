@@ -325,6 +325,10 @@ Use their exact wikidot-username here, the one in the URL of their profile. */
 }
 
 /* This negates the staff color for user-modules inside a [[span class="no-staff-highlight"]] element */
+.no-staff-highlight .printuser a img,
+#page-content .printuser a img {
+    padding-right: 5px;
+}
 .no-staff-highlight .printuser a:last-child,
 #page-content .printuser a:last-child {
     background: none;
