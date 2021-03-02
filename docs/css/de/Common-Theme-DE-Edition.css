@@ -312,7 +312,6 @@ script + div.page-tags:before {
 
 
 .printuser > a:first-child:not(:only-child)::after {
-.printuser > a:first-child:not(:only-child)::after {
     border: 1px solid #2c2c2c;
     display: inline-block;
     height: 14px;
