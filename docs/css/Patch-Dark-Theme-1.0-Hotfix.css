@@ -23,20 +23,3 @@
     color: #6a6;
 }
 
-#top-bar .ct-theme-switch.inline-switch p:hover {
-    background: initial;
-    text-shadow: initial;
-}
-#top-bar .ct-theme-switch.inline-switch div:hover {
-    background: rgba(0,0,0,.5);
-    text-shadow: 0 0 5px #000;
-}
-
-#top-bar .ct-theme-switch .dark-mode p:hover {
-    --ct_dm_col_theme-switch-txt:initial;
-    background: initial
-}
-#top-bar .ct-theme-switch .dark-mode:hover {
-    --ct_dm_col_theme-switch-txt:#fff;
-    background: var(--ct_dm_col_theme-switch-bg-hover)
-}
