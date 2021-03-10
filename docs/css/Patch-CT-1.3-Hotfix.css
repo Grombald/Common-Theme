@@ -122,3 +122,22 @@ h1, h2, h3, h4, h5, h6 {
 #side-bar .side-links.svg-icons a[href*="twitch"] {
     background-image: var(--ct_bg_sm-icon_twitch);
 }
+
+
+#top-bar .ct-theme-switch.inline-switch p:hover {
+    background: initial;
+    text-shadow: initial;
+}
+#top-bar .ct-theme-switch.inline-switch div:hover {
+    background: rgba(0,0,0,.5);
+    text-shadow: 0 0 5px #000;
+}
+
+#top-bar .ct-theme-switch .dark-mode p:hover {
+    --ct_dm_col_theme-switch-txt:initial;
+    background: initial
+}
+#top-bar .ct-theme-switch .dark-mode:hover {
+    --ct_dm_col_theme-switch-txt:#fff;
+    background: var(--ct_dm_col_theme-switch-bg-hover)
+}
