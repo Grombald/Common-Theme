@@ -164,3 +164,8 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 17px;
     border-radius: 17px;
 }
+#top-bar ul .ct-theme-switch:hover .light-mode a:hover {
+    --ct_col_topbar-link: var(--ct_dm_col_theme-switch-txt);
+    border: none;
+    border-radius: 0;
+}
