@@ -176,3 +176,29 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     border-radius: 0;
 }
+
+/* Masked Icons */
+#top-bar ul li a.homebutton {
+    min-width: 13px;
+    min-height: 21px;
+    padding: 0 0.5em;
+}
+.homebutton-mask {
+    mask-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cg%20transform%3D%22matrix(3.7795%200%200%203.7795%20-1.4376e-8%20-1114)%22%3E%0A%3Cpath%20d%3D%22m0.39178%20296.54%201.328-1.2608%201.328%201.2608h-0.40197v1.1204h-0.52917v-0.79375h-0.79375v0.79375h-0.52917v-1.1204z%22%20fill%3D%22%23b01%22%20%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+    mask-repeat: no-repeat;
+    mask-size: 13px;
+    mask-position: center 5px;
+    background-color: var(--ct_col_topbar-txt);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    min-width: 13px;
+    min-height: 21px;
+}
+#top-bar ul li a.homebutton,
+#top-bar ul li a.homebutton:hover {
+    background-image: none;
+}
+.homebutton-mask:hover {
+    background-color: var(--ct_col_topbar-link);
+}
