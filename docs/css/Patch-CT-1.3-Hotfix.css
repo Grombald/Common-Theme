@@ -139,9 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline;
     float: none;
 }
-#top-bar ul.ct-inline-theme-switch {
-    margin-left: -4px;
-}
 #top-bar div.ct-theme-switch {
     position:absolute;
     right:0;
