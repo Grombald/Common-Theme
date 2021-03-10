@@ -4,6 +4,11 @@
     --ct_fnt_headlines: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
 }
 
+#top-bar a:hover {
+    text-decoration: none;
+}
+/* Note: Remove this rule from all individual #top-bar elements */
+
 @media (max-width: 767px) {
     #odialog-container {
         max-width: 98%;
@@ -132,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
     right:0;
     top:-135px
 }
-
 #top-bar div.ct-theme-switch .dark-mode a {
     background:var(--ct_dm_col_theme-switch-bg);
     border:var(--ct_dm_brd_theme-switch);
@@ -143,13 +147,9 @@ h1, h2, h3, h4, h5, h6 {
     -moz-box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
     box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3)
 }
-
-#top-bar ul .ct-theme-switch:hover a:hover {
-    background: rgba(0,0,0,.5);
-    text-shadow: 0 0 5px #000;
-    --ct_col_topbar-link: var(--ct_dm_col_theme-switch-txt);
-}
-#top-bar .ct-theme-switch .dark-mode:hover {
+#top-bar .ct-theme-switch:hover .dark-mode a:hover {
     --ct_dm_col_theme-switch-txt:#fff;
-    background: var(--ct_dm_col_theme-switch-bg-hover)
+    --ct_col_topbar-link: var(--ct_dm_col_theme-switch-txt);
+    background: var(--ct_dm_col_theme-switch-bg-hover);
+    text-shadow: 0 0 5px #000;
 }
