@@ -124,23 +124,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#top-bar .ct-theme-switch.inline-switch p:hover {
-    background: initial;
-    text-shadow: initial;
-}
+/* Note: Change all selectors so they do not use p anymore, use div_ */
+/* Note: Change all selectors with .inline-switch to use ul, remove the class */
+/* Note: Change all selectors for the floating button to use div as selector */
 #top-bar ul .ct-theme-switch a:hover {
     background: rgba(0,0,0,.5);
     text-shadow: 0 0 5px #000;
     --ct_col_topbar-link: var(--ct_dm_col_theme-switch-txt);
 }
-/* Note: Change all selectors with .inline-switch to use ul, remove the class */
 
-#top-bar .ct-theme-switch .dark-mode p:hover {
-    --ct_dm_col_theme-switch-txt:initial;
-    background: initial
-}
+
 #top-bar .ct-theme-switch .dark-mode:hover {
     --ct_dm_col_theme-switch-txt:#fff;
     background: var(--ct_dm_col_theme-switch-bg-hover)
 }
-/* Note: Change all selectors so they do not use p anymore, use div_ */
+
+
+#top-bar div.ct-theme-switch .dark-mode a {
+    background:var(--ct_dm_col_theme-switch-bg);
+    border:var(--ct_dm_brd_theme-switch);
+    -webkit-border-radius:17px;
+    -moz-border-radius:17px;
+    border-radius:17px;
+    -webkit-box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
+    box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3)
+}
+#top-bar div.ct-theme-switch {
+    position:absolute;
+    right:0;
+    top:-135px
+}
+
+
