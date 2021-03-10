@@ -76,6 +76,12 @@ h1, h2, h3, h4, h5, h6 {
 #side-bar .side-links.svg-icons a[href*="sandbox"] {
     background-image: var(--ct_bg_sm-icon_sandbox);
 }
+#side-bar .side-links.svg-icons a[href*="scp-int"] {
+    background-image: var(--ct_bg_sm-icon_int);
+}
+#side-bar .side-links.svg-icons a[href*="scp-un"] {
+    background-image: var(--ct_bg_sm-icon_uli);
+}
 #side-bar .side-links.svg-icons a[href*="chat"],
 #side-bar .side-links.svg-icons a[href*="discord"]{
     background-image: var(--ct_bg_sm-icon_discord);
