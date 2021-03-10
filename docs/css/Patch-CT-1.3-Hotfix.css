@@ -137,7 +137,8 @@ h1, h2, h3, h4, h5, h6 {
     right:0;
     top:-135px
 }
-#top-bar div.ct-theme-switch .dark-mode a {
+#top-bar div.ct-theme-switch .dark-mode a,
+#top-bar div.ct-theme-switch .light-mode a {
     background:var(--ct_dm_col_theme-switch-bg);
     border:var(--ct_dm_brd_theme-switch);
     -webkit-border-radius:17px;
@@ -147,7 +148,8 @@ h1, h2, h3, h4, h5, h6 {
     -moz-box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3);
     box-shadow:0 0 5px 5px rgba(0,0,0,.1), inset 0 0 1px 1px rgba(0,0,0,.3)
 }
-#top-bar .ct-theme-switch:hover .dark-mode a:hover {
+#top-bar .ct-theme-switch:hover .dark-mode a:hover,
+#top-bar .ct-theme-switch:hover .light-mode a:hover {
     --ct_dm_col_theme-switch-txt:#fff;
     --ct_col_topbar-link: var(--ct_dm_col_theme-switch-txt);
     background: var(--ct_dm_col_theme-switch-bg-hover);
