@@ -241,3 +241,57 @@ a.homebutton:hover .homebutton-mask {
    box-shadow:0 0 20px 3px rgba(153,153,153,1);
    box-shadow:var(--ct_shd_m_sidebar-button);
 }
+
+/* Masks as Sidebar icons */
+#side-bar .menu-item p::before,
+#side-bar .collapsible-block-link::before,
+#side-bar .colmod-link-top a::before {
+    background: var(--ct_col_link);
+    mask-size: 13px;
+    mask-repeat: no-repeat;
+    mask-position: center center;
+    height: 16px;
+    vertical-align: bottom;
+}
+#side-bar .collapsible-block-folded .collapsible-block-link::before,
+#side-bar .colmod-link-top a:first-child::before {
+    content: "+";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-expand_mask);
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link::before,
+#side-bar .colmod-link-top a:last-child::before {
+    content: "-";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-collapse_mask);
+}
+#side-bar .menu-item.default p::before {
+    content: "·";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-default_mask);
+}    
+#side-bar .menu-item.forum p::before {
+    content: "•";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-forum_mask);
+}    
+#side-bar .menu-item.help p::before {
+    content: "?";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-help_mask);
+}    
+#side-bar .menu-item.home p::before {
+    content: "•";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-home_mask);
+}    
+#side-bar .menu-item.main p::before {
+    content: "•";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-main_mask);
+}    
+#side-bar .menu-item.series p::before {
+    content: "•";
+    background-image: none;
+    mask-image: var(--ct_bg_sidebar-item-series_mask);
+}
