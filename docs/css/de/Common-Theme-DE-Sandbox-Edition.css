@@ -13,18 +13,18 @@
     background: #e5ffe5;
     border: 1px solid #660000;
     border: var(--ct_brd_sidebar-elements);
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
     border-radius: var(--ct_dim_sidebar-border-radius);
-        -webkit-box-shadow: 0 2px 6px rgba(102,0,0,.5);
-        -moz-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    -webkit-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    -moz-box-shadow: 0 2px 6px rgba(102,0,0,.5);
     box-shadow: 0 2px 6px rgba(102,0,0,.5);
     left: -256.2px;  
     margin-bottom: 15px;  
     padding: 0 10px;
     position: absolute;
-    top: 389px;
+    top: 369px;
     width: 195.6px;
 }
 .ref-box ul {
