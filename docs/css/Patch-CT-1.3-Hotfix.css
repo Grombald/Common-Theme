@@ -249,8 +249,8 @@ a.homebutton:hover .homebutton-mask {
     background: var(--ct_col_link);
     mask-size: 13px;
     mask-repeat: no-repeat;
-    mask-position: center center;
-    height: 16px;
+    mask-position: center 3px;
+    height: 100%;
     vertical-align: bottom;
 }
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
