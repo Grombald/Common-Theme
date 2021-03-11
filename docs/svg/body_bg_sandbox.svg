@@ -1,27 +1,27 @@
 <svg version="1.1" viewBox="0 0 100 400" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="f" x1="50" x2="50" y1="138" y2="400" gradientUnits="userSpaceOnUse">
+<linearGradient id="f" x1="50" x2="50" y1="138" y2="400">
 <stop stop-opacity="0" offset="0"/>
 <stop stop-opacity=".16" offset=".0076336"/>
 <stop stop-opacity=".4" offset=".091603"/>
 <stop stop-opacity=".05098" offset=".10687"/>
 <stop stop-color="#f9f9f9" stop-opacity="0" offset="1"/>
 </linearGradient>
-<linearGradient id="g" x1="50" x2="50" y1="141" y2="161" gradientUnits="userSpaceOnUse">
+<linearGradient id="g" x1="50" x2="50" y1="141" y2="161">
 <stop stop-color="#535353" offset="0"/>
 <stop stop-color="#4f4f4f" offset=".15"/>
 <stop stop-color="#444" offset=".5"/>
 <stop stop-color="#3e3e3e" offset=".81818"/>
 <stop stop-color="#3b3b3b" offset="1"/>
 </linearGradient>
-<linearGradient id="h" x1="50" x2="50" y2="132" gradientUnits="userSpaceOnUse">
+<linearGradient id="h" x1="50" x2="50" y2="132">
 <stop offset="0"/>
 <stop offset=".5"/>
 <stop stop-color="#073c33" offset=".68182"/>
 <stop stop-color="#177263" offset=".83333"/>
 <stop stop-color="#2b9885" offset="1"/>
 </linearGradient>
-<linearGradient id="e" x1="50" x2="50" y1="135" y2="66" gradientUnits="userSpaceOnUse">
+<linearGradient id="e" x1="50" x2="50" y1="135" y2="66">
 <stop stop-color="#32a18e" offset="0"/>
 <stop stop-color="#1d806f" stop-opacity=".52941" offset=".5"/>
 <stop stop-color="#021a15" stop-opacity=".83636" offset="1"/>
