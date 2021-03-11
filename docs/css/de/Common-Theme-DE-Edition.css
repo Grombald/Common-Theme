@@ -195,6 +195,9 @@ script + div.page-tags:before {
 #side-bar .side-links.svg-icons a[href*="sandbox"] {
     background-image: var(--ct_bg_sm-icon_sandbox);
 }
+#side-bar .side-links.svg-icons a[href*="scp-wiki-de"] {
+    background-image: var(--ct_bg_sm-icon_de);
+}
 #side-bar .side-links.svg-icons a[href*="chat"],
 #side-bar .side-links.svg-icons a[href*="discord"]{
     background-image: var(--ct_bg_sm-icon_discord);
