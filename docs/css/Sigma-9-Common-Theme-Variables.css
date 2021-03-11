@@ -1,0 +1,43 @@
+/* SCP Sigma 9 - Common Theme Variables - CC BY-SA 3.0 - See https://github.com/Grombald/Common-Theme for more info.
+This file is used to store variables that would bloat the Common Theme and that usually would not need any changes. Mostly SVG-URIs and image links */
+
+:root {
+    /* Social media icons */
+    --ct_bg_sm-icon_blogger: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_blogger.png');
+    --ct_bg_sm-icon_blogger: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_blogger.svg');
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_deviantart.png');
+    --ct_bg_sm-icon_deviantArt: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_deviantart.svg');
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_discord.png');
+    --ct_bg_sm-icon_discord: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_discord.svg');
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_facebook.png');
+    --ct_bg_sm-icon_facebook: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_facebook.svg');
+    --ct_bg_sm-icon_github: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_github.png');
+    --ct_bg_sm-icon_github: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_github.svg');
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_instagram.png');
+    --ct_bg_sm-icon_instagram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_instagram.svg');
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_reddit.png');
+    --ct_bg_sm-icon_reddit: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_reddit.svg');
+    --ct_bg_sm-icon_steam: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_steam.png');
+    --ct_bg_sm-icon_steam: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_steam.svg');
+    --ct_bg_sm-icon_telegram: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_telegram.png');
+    --ct_bg_sm-icon_telegram: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_telegram.svg');
+    --ct_bg_sm-icon_tumblr: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_tumblr.png');
+    --ct_bg_sm-icon_tumblr: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_tumblr.svg');
+    --ct_bg_sm-icon_twitch: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_twitch.png');
+    --ct_bg_sm-icon_twitch: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitch.svg');
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_twitter.png');
+    --ct_bg_sm-icon_twitter: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_twitter.svg');
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_youtube.png');
+    --ct_bg_sm-icon_youtube: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_youtube.svg');
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_sandbox.png');
+    --ct_bg_sm-icon_sandbox: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_sandbox.svg');
+    --ct_bg_sm-icon_int: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_int.png');
+    --ct_bg_sm-icon_int: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_int.svg');
+    --ct_bg_sm-icon_uli: url('https://grombald.github.io/Common-Theme/img/sm/sm-icon_uli.png');
+    --ct_bg_sm-icon_uli: url('https://grombald.github.io/Common-Theme/svg/sm/sm-icon_uli.svg');
+  
+    /* Menu icons */
+    --ct_bg_topbar-home_mask: url('https://grombald.github.io/Common-Theme/svg/home_mask.svg');
+    --ct_bg_topbar-home_mask: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cg%20transform%3D%22matrix(3.7795%200%200%203.7795%20-1.4376e-8%20-1114)%22%3E%0A%3Cpath%20d%3D%22m0.39178%20296.54%201.328-1.2608%201.328%201.2608h-0.40197v1.1204h-0.52917v-0.79375h-0.79375v0.79375h-0.52917v-1.1204z%22%20fill%3D%22%23b01%22%20%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+
+}
