@@ -322,13 +322,10 @@ a.homebutton:hover .homebutton-mask {
     min-width: unset;
     width: unset !important;
 }
-#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
-    width: 150px !important;
-}
 #top-bar li ul li {
     display: block !important;
 }
-#top-bar ul li.sfhover:nth-child(4) ul li a,
-#top-bar ul li:hover:nth-child(4) ul li a {
-    width: 200px !important;
+#top-bar div > ul > li.sfhover:nth-child(4) ul li a,
+#top-bar div > ul > li:hover:nth-child(4) ul li a {
+    width: 175px !important;
 }
