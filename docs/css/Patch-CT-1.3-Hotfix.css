@@ -299,7 +299,7 @@ a.homebutton:hover .homebutton-mask {
 
 /* Images in top-bar */
 /* #top-bar li ul li img -> #top-bar li ul li > img */
-#top-bar li ul li img {
+#top-bar li ul li a img {
     padding: 0;
     position: initial;
     height: auto;
