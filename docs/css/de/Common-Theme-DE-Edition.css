@@ -278,7 +278,7 @@ script + div.page-tags:before {
     content: " ";
 }
 .printuser a:only-child[href*=flaming2204]::before {
-    background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_kb) 34%, var(--de_kb) 64%, var(--de_mt) 66%);
+    background: linear-gradient(110deg, var(--de_kb) 49%, var(--de_mt) 51%);
     content: " ";
 	width: 24px;
 }
@@ -349,7 +349,7 @@ script + div.page-tags:before {
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=flaming2204]::after {
-    background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_kb) 5px, var(--de_kb) 9px, #2c2c2c, var(--de_mt) 10px);
+    background: linear-gradient(var(--de_kb) 6px, var(--de_kb) 7px, #2c2c2c, var(--de_mt) 7px);
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after {
@@ -423,7 +423,7 @@ script + div.page-tags:before {
     content: "Freigabebeauftragter, Mentor";
 }
 .printuser a:last-child[href*=flaming2204]:hover::after {
-    content: "Freigabebeauftragter, Korrekturbeauftragter, Mentor";
+    content: "Korrekturbeauftragter, Mentor";
 }
 .printuser a:last-child[href*=oldhelldog]:hover::after {
     content: "Freigabebeauftragter";
