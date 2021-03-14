@@ -1,10 +1,9 @@
 <svg version="1.1" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
-<path d="m4.9999 3.9999v7h4.9999v-4.9999l-2-2z" fill="#b01" fill-opacity=".8"/>
-<path d="m2.997 1.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z" fill="#b01" fill-opacity=".8"/>
-<path d="m 7,4.49989 2.4998,2.5001 H 7 Z" fill="#fff"/>
+<path d="m4.9999 3.9999v7h4.9999v-4.9999l-2-2zm2.0001 0.49999 2.4998 2.5001h-2.4998z" fill="#b01" fill-opacity=".8"/>
+<path d="m2.997 1.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z" fill="#b01" fill-opacity=".8" image-rendering="auto"/>
 </svg>
 
 <!-- Use as URL-SVG. Convert with http://smlt.wikidot.com/7happy7:svg-replace
 URL form:
-url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22m4.9999%203.9999v7h4.9999v-4.9999l-2-2z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22m2.997%201.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22m%207%2C4.49989%202.4998%2C2.5001%20H%207%20Z%22%20fill%3D%22%23fff%22%2F%3E%0A%3C%2Fsvg%3E%0A")
+url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22m4.9999%203.9999v7h4.9999v-4.9999l-2-2zm2.0001%200.49999%202.4998%202.5001h-2.4998z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22m2.997%201.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%20image-rendering%3D%22auto%22%2F%3E%0A%3C%2Fsvg%3E")
 -->
