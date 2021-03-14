@@ -242,7 +242,7 @@ a.homebutton:hover .homebutton-mask {
    box-shadow:var(--ct_shd_m_sidebar-button);
 }
 
-/* Masks as Sidebar icons */
+/* Masks as Sidebar icons 
 #side-bar .menu-item p::before,
 #side-bar .collapsible-block-link::before,
 #side-bar .colmod-link-top a::before {
@@ -295,3 +295,4 @@ a.homebutton:hover .homebutton-mask {
     background-image: none;
     mask-image: var(--ct_bg_sidebar-item-series_mask);
 }
+*/
