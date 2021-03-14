@@ -309,9 +309,6 @@ a.homebutton:hover .homebutton-mask {
 #top-bar ul li ul li > img +a {
     padding-left: calc(1em + 16px + 4px);
 }
-#top-bar ul li:nth-child(4) ul li {
-    *min-width: 200px;
-}
 
 #top-bar ul li ul li, #top-bar ul li ul li.sfhover, #top-bar ul li ul li:hover, #top-bar ul li ul li a {
     -webkit-box-align: unset;
@@ -324,6 +321,10 @@ a.homebutton:hover .homebutton-mask {
 }
 #top-bar li ul li {
     display: block !important;
+}
+#top-bar ul li.sfhover ul li a,
+#top-bar ul li:hover ul li a {
+    width: 150px !important;
 }
 #top-bar div > ul > li.sfhover:nth-child(4) ul li a,
 #top-bar div > ul > li:hover:nth-child(4) ul li a {
