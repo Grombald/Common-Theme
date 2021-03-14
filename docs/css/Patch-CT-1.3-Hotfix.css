@@ -296,3 +296,16 @@ a.homebutton:hover .homebutton-mask {
     mask-image: var(--ct_bg_sidebar-item-series_mask);
 }
 */
+
+/* Images in top-bar */
+/* #top-bar li ul li img -> #top-bar li ul li > img */
+#top-bar li ul li img {
+    padding: 0;
+    position: initial;
+    height: auto;
+    max-width: unset;
+    max-height: unset;
+}
+#top-bar ul li:nth-child(4) ul li {
+    min-width: 200px;
+}
