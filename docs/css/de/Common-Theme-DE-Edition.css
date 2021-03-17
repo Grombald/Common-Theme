@@ -296,6 +296,11 @@ script + div.page-tags:before {
     content: " ";
 	width: 8px;
 }
+.printuser a:only-child[href*=evil-santa]::before {
+    background: var(--de_kb);
+    content: " ";
+	width: 8px;
+}
 .printuser a:only-child[href*=alphaorion]::before,
 .printuser a:only-child[href*=archetyp]::before,
 .printuser a:only-child[href*=drpeterwenzel]::before {
@@ -362,6 +367,10 @@ script + div.page-tags:before {
 }
 .printuser > a:first-child:not(:only-child)[href*=survari]::after {
     background: var(--de_tt);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=evil-santa]::after {
+    background: var(--de_kb);
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=alphaorion]::after,
@@ -432,6 +441,9 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=survari]:hover::after {
     content: "Technik-Team";
+}
+.printuser a:last-child[href*=evil-santa]:hover::after {
+    content: "Korrekturbeauftragter";
 }
 .printuser a:last-child[href*=alphaorion]:hover::after,
 .printuser a:last-child[href*=archetyp]:hover::after,
