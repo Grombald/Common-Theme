@@ -263,6 +263,10 @@ script + div.page-tags:before {
     content: " ";
 	width: 24px;
 }
+.printuser a:only-child[href*=tanija]::before {
+    background: var(--de_fb);
+    content: " ";
+}
 /*.printuser a:only-child[href*=tanija]::before {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_nt) 51%);
     content: " ";
@@ -337,6 +341,10 @@ script + div.page-tags:before {
 }
 .printuser > a:first-child:not(:only-child)[href*=robini]::after {
     background: linear-gradient(var(--de_o4) 4px, #2c2c2c, var(--de_fb) 5px, var(--de_fb) 9px, #2c2c2c, var(--de_mt) 10px);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=tanija]::after {
+    background: var(--de_fb);
     content: " ";
 }
 /*.printuser > a:first-child:not(:only-child)[href*=tanija]::after {
@@ -418,6 +426,9 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=robini]:hover::after {
     content: "Administrator, Freigabebeauftragter, Mentor";
+}
+.printuser a:last-child[href*=tanija]:hover::after {
+    content: "Freigabebeauftragte";
 }
 /*.printuser a:last-child[href*=tanija]:hover::after {
     content: "Administratorin, Leiterin News-Team";
