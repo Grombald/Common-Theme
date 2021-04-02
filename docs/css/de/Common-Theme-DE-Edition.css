@@ -115,45 +115,53 @@ script + div.page-tags:before {
 
 
 /* Selector buttons */
-.selektor {
-    display: table;
-    width: 100%;
-}
-.selektor .s_button {
-    display: table-cell;
-}
-.selektor .s_button p {
+
+/* Branch selector */
+.selector {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+    border: 1px solid #888;
+    display: inline-block;
+    margin: 0.3em;
     min-width: 12em;
     min-width: -webkit-max-content;
     min-width: -moz-max-content;
     min-width: max-content;
-    border-radius: 5px;
-    border: 1px solid #888;
-    margin: 0.3em;
     padding: 0;
     text-align: center;
+    width: 45%;
+    width: -webkit-calc(100% / 2 - 1.2em);
+    width: -moz-calc(100% / 2 - 1.2em);
+    width: calc(100% / 2 - 1.2em);
 }
-.selektor .s_button:hover {
+.selector:hover {
     background: #ddd;
 }
-.selektor .s_button em {
+.selector p {
+    margin: 0;
+    padding: 0;
+}
+.selector em {
+    display: inline-block;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: bold;
     margin: 0;
     padding: 0.25em .75em;
-    font-size: 130%;
-    font-weight: bold;
-    font-style: normal;
-    display: inline-block;
+    width: -webkit-calc(100% - 1.5em);
+    width: -moz-calc(100% - 1.5em);
     width: calc(100% - 1.5em);
 }
-.selektor .s_button a {
+.selector a {
     color: #000;
-    width: 100%;
     display: block;
+    width: 100%;
 }
-.selektor .s_button a:hover {
+.selector a:hover {
     text-decoration: none;
 }
-.selektor .s_selektiert p {
+.selected p {
     background: #700 url('https://grombald.github.io/Common-Theme/img/yuitabs.png') repeat-x left -1400px;
     background: var(--ct_col_tab-menu-bg-selected);
     color: #fff;
