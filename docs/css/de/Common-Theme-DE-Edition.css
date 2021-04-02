@@ -133,7 +133,7 @@ script + div.page-tags:before {
     padding: 0;
     text-align: center;
 }
-.selektor .s_button p:hover {
+.selektor .s_button:hover {
     background: #ddd;
 }
 .selektor .s_button em {
