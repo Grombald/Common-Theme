@@ -2,3 +2,8 @@
 <path d="m5 4v7h5v-5l-2-2h-3zm1.7578 1h1.4844v1.1387l-0.2793 2.2891h-0.91797l-0.28711-2.2891v-1.1387zm0.048828 3.7754h1.3848v1.2246h-1.3848v-1.2246z" fill="#b01" fill-opacity=".8"/>
 <path d="m2.997 1.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z" fill="#b01" fill-opacity=".8"/>
 </svg>
+
+<!-- Use as URL-SVG. Convert with http://smlt.wikidot.com/7happy7:svg-replace
+URL form:
+url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22m5%204v7h5v-5l-2-2h-3zm1.7578%201h1.4844v1.1387l-0.2793%202.2891h-0.91797l-0.28711-2.2891v-1.1387zm0.048828%203.7754h1.3848v1.2246h-1.3848v-1.2246z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22m2.997%201.9931v7.0053h1.004v-6.0015h2.0005v-1.0039h-3.0044z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3C%2Fsvg%3E");
+-->
