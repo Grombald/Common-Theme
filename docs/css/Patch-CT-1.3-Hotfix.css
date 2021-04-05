@@ -337,3 +337,13 @@ a.homebutton:hover .homebutton-mask {
     background-image: url('https://grombald.github.io/Common-Theme/img/scp.png');
     background-image: var(--ct_bg_sidebar-item-scp);
 }
+#side-bar .menu-item.news p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/news.png');
+    background-image: var(--ct_bg_sidebar-item-news);
+}
+#side-bar .menu-item.random p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/random.png');
+    background-image: var(--ct_bg_sidebar-item-random);
+}
