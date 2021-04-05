@@ -221,16 +221,22 @@ a.homebutton:hover .homebutton-mask {
 }
 
 #top-bar .open-menu a {
+    -webkit-mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
     mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
     background: #888;
     background: var(--ct_col_m_sidebar-button-icon);
+    -webkit-mask-size: 30px;
     mask-size: 30px;
+    -webkit-mask-position: center;
     mask-position: center;
+    -webkit-mask-clip: inherit;
     mask-clip: inherit;
+    -webkit-mask-origin: ;
     mask-origin: ;
     width: 100%;
     height: 100%;
     display: block;
+    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
 }
 #top-bar .open-menu:hover {
