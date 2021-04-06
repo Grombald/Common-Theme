@@ -272,13 +272,9 @@ script + div.page-tags:before {
 	width: 24px;
 }
 .printuser a:only-child[href*=tanija]::before {
-    background: var(--de_fb);
-    content: " ";
-}
-/*.printuser a:only-child[href*=tanija]::before {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_nt) 51%);
     content: " ";
-}*/
+}
 .printuser a:only-child[href*=dr-himy]::before,
 .printuser a:only-child[href*=jannik18]::before,
 .printuser a:only-child[href*=einer-von-rabe]::before {
@@ -352,13 +348,9 @@ script + div.page-tags:before {
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=tanija]::after {
-    background: var(--de_fb);
-    content: " ";
-}
-/*.printuser > a:first-child:not(:only-child)[href*=tanija]::after {
     background: linear-gradient(var(--de_o4) 6px, #2c2c2c 7px, var(--de_nt) 7px);
     content: " ";
-}*/
+}
 .printuser > a:first-child:not(:only-child)[href*=dr-himy]::after,
 .printuser > a:first-child:not(:only-child)[href*=jannik18]::after,
 .printuser > a:first-child:not(:only-child)[href*=einer-von-rabe]::after {
@@ -436,11 +428,8 @@ script + div.page-tags:before {
     content: "Administrator, Freigabebeauftragter, Mentor";
 }
 .printuser a:last-child[href*=tanija]:hover::after {
-    content: "Freigabebeauftragte";
-}
-/*.printuser a:last-child[href*=tanija]:hover::after {
     content: "Administratorin, Leiterin News-Team";
-}*/
+}
 .printuser a:last-child[href*=dr-himy]:hover::after,
 .printuser a:last-child[href*=jannik18]:hover::after,
 .printuser a:last-child[href*=einer-von-rabe]:hover::after {
