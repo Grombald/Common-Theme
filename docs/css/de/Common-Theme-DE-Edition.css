@@ -461,3 +461,21 @@ script + div.page-tags:before {
 .printuser a:last-child[href*=doktor-cyberion]:hover::after {
     content: "Übersetzer, Mentor";
 } 
+
+.preview-message (max-width: 1619px) {
+    right: 0;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+@media (min-width: 1620px) {
+    .preview-message {
+        right: -23em;
+        top: 0;
+    }
+}
+@media (min-width: 1679px) {
+    .preview-message {
+        right: -25em;
+    }
+}
