@@ -353,3 +353,21 @@ a.homebutton:hover .homebutton-mask {
     background-image: url('https://grombald.github.io/Common-Theme/img/random.png');
     background-image: var(--ct_bg_sidebar-item-random);
 }
+
+.preview-message (max-width: 1619px) {
+    right: 0;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+@media (min-width: 1620px) {
+    .preview-message {
+        right: -23em;
+        top: 0;
+    }
+}
+@media (min-width: 1679px) {
+    .preview-message {
+        right: -25em;
+    }
+}
