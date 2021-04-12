@@ -47,3 +47,67 @@
 #edit-save-draft-button {
     display: initial;
 }
+
+/*Side-note box*/
+.side-note {
+    position: absolute;
+    left: 100%;
+    max-width: 19em;
+    background: #fff;
+    background: var(--ct_bg_sidebar-default);
+    border: 1px solid #600;
+    border: var(--ct_brd_sidebar-elements);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 0 var(--ct_dim_sidebar-border-radius) var(--ct_dim_sidebar-border-radius);
+    -webkit-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    -moz-box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    box-shadow: 0 2px 6px rgba(102,0,0,.5);
+    -webkit-box-shadow: var(--ct_shd_sidebar-block);
+    -moz-box-shadow: var(--ct_shd_sidebar-block);
+    box-shadow: var(--ct_shd_sidebar-block);
+    padding: 10px;
+    hyphens: auto;
+    width: calc((100vw - 1040px) / 2 - 2em);
+}
+.side-note.blue {
+    background: #e5e5ff;
+    background: var(--ct_bg_sidebar-blue);
+}
+.side-note.red {
+    background: #fff0f0;
+    background: var(--ct_bg_sidebar-red);
+}
+.side-note.green {
+    background: #e5ffe5;
+    background: var(--ct_bg_sidebar-green);
+}
+.side-note.yellow {
+    background: #ffffe5;
+    background: var(--ct_bg_sidebar-yellow);
+}
+
+@media (min-width: 1311px) and (max-width: 1340px) {
+    font-size: .9em;
+}
+@media (min-width: 1276px) and (max-width: 1310px) {
+    font-size: .8em;
+    line-height: 141%;
+}
+@media (max-width: 1275px) {
+    .side-note {
+        font-size: .9em;
+        left: auto;
+        width: auto;
+        max-width: 100%;
+        position: relative;
+        display: block;
+        box-shadow: none;
+        border: 1px dashed #999;
+        padding: .5em;
+        border: var(--ct_brd_blockquote);
+        background: #f8f8f8;
+        margin-top: .5em;
+    }
+}
