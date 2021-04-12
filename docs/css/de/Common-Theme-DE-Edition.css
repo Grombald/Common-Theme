@@ -320,7 +320,11 @@ script + div.page-tags:before {
     background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
     content: " ";
 }
-
+.printuser a:only-child[href*=ibimsbluexiio]::before {
+    background: var(--de_fb);
+    content: " ";
+	width: 8px;
+}
 
 
 .printuser > a:first-child:not(:only-child)::after {
@@ -391,6 +395,10 @@ script + div.page-tags:before {
     background: linear-gradient(var(--de_ub) 6px, #2c2c2c 7px, var(--de_mt) 7px);
     content: " ";
 }
+.printuser > a:first-child:not(:only-child)[href*=ibimsbluexiio]::after {
+    background: var(--de_fb);
+    content: " ";
+}
 
 .no-staff-highlight .printuser a::before,
 .no-staff-highlight .printuser > a:first-child:not(:only-child)::after,
@@ -439,7 +447,7 @@ script + div.page-tags:before {
     content: "Korrekturbeauftragter, Mentor";
 }
 .printuser a:last-child[href*=oldhelldog]:hover::after {
-    content: "Freigabebeauftragter";
+    content: "Freigabebeauftragter, News-Team, Übersetzer";
 }
 .printuser a:last-child[href*=arogas]:hover::after {
     content: "News-Team, Mentor";
@@ -461,6 +469,10 @@ script + div.page-tags:before {
 .printuser a:last-child[href*=doktor-cyberion]:hover::after {
     content: "Übersetzer, Mentor";
 } 
+.printuser a:last-child[href*=ibimsbluexiio]:hover::after {
+    content: "Freigabebeauftragter";
+}
+
 
  @media (max-width: 1619px) {
     .preview-message {
