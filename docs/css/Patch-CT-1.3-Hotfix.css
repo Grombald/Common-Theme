@@ -25,6 +25,11 @@
     }
 }
 
+#action-area .highlight,
+#action-area a.action-area-close:hover {
+    background: var(--ct_bg_body);
+}
+
 #page-content th {
 	border: var(--ct_brd_table);
 	background-color: var(--ct_col_table-head);
