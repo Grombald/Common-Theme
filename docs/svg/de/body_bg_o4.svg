@@ -5,7 +5,7 @@
       <stop offset=".008" stop-opacity=".16"/>
       <stop offset=".092" stop-opacity=".4"/>
       <stop offset=".107" stop-opacity=".051"/>
-      <stop offset="1" stop-color="#f9f9f9" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="d" x1="50" x2="50" y1="141" y2="161" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#535353"/>
@@ -15,14 +15,14 @@
       <stop offset="1" stop-color="#3b3b3b"/>
     </linearGradient>
     <linearGradient id="a" x1="50" x2="50" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0"/>
-      <stop offset=".468"/>
+      <stop offset="0" stop-color="#131313"/>
+      <stop offset=".468" stop-color="#222"/>
       <stop offset="1" stop-color="#d9d9d9"/>
     </linearGradient>
     <linearGradient id="b" x1="50" x2="50" y1="135" y2="66" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e0e0e0"/>
       <stop offset=".5" stop-color="#8c8c8c" stop-opacity=".53"/>
-      <stop offset="1" stop-color="#525252" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#616161" stop-opacity=".25"/>
     </linearGradient>
   </defs>
   <path fill="url(#a)" d="M0 0h100v141H0z"/>
