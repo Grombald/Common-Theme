@@ -25,6 +25,10 @@
     }
 }
 
+#search-top-box-input:hover, #search-top-box-input:focus {
+    border: var(--ct_brd_searchbox-border);
+}
+
 #action-area .highlight,
 #action-area a.action-area-close:hover {
     background: var(--ct_bg_body);
