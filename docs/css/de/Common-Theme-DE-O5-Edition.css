@@ -1,28 +1,27 @@
-@charset "utf-8";
-@import url('https://grombald.github.io/Common-Theme/css/de/Common-Theme-DE-Edition.css');
- 
-/* SCP Sigma 9 - Common Theme - DE-O5-Edition - CC BY-SA 3.0 - by Dr_Grom */
+/* SCP Sigma 9 - Common Theme - DE-O4-Edition - CC BY-SA 3.0 - by Dr_Grom */
  
 :root {
-    --ct_bg_header-image: url('http://05zentrale.wdfiles.com/local--files/component:theme/body_bg_BW.png');
-    --ct_bg_header-logo: url('http://05zentrale.wdfiles.com/local--files/component:theme/scp-logo-de-100.png'); 
+    --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/de/body_bg_o4.svg');
+    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/svg/de/header-logo-o4.svg'); 
     --ct_col_searchbox-gradient-1: #333;
     --ct_col_searchbox-gradient-2: #666;
     --ct_col_searchbox-gradient-3: #999;
     --ct_col_searchbox-gradient-4: #ccc;
 }
  
-/* This changes the header images */
 div#container-wrap {
-    background-image: url('http://05zentrale.wdfiles.com/local--files/component:theme/body_bg_BW.png');
+    background-image: url('https://grombald.github.io/Common-Theme/img/de/body_bg_o4.png');
     background-image: var(--ct_bg_header-image); 
 }
 #header {
-    background-image: url('http://05zentrale.wdfiles.com/local--files/component:theme/scp-logo-de-100.png');
+    background-image: url('https://grombald.github.io/Common-Theme/img/de/header-logo-o4.png');
     background-image: var(--ct_bg_header-logo);
 }
  
-/* This adjusts the search box's color */
+#header h2 span::after {
+    content: " — O4-Sektion";
+}
+ 
 #search-top-box-input {
     background-color: #333;
     background-color: var(--ct_col_searchbox-gradient-1);
