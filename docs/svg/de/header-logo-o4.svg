@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="a" x1="29" x2="76" y1="8" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity=".365"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".165"/>
+    </linearGradient>
+    <linearGradient id="b" x1="50" x2="50" y1="95.3" y2="4.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dedcc3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46.8" fill="#1a1a1a" fill-opacity=".6" stroke="url(#a)" stroke-width="4.4"/>
+  <path fill="#d8d8d8" fill-opacity=".3" stroke="#1a1a1a" stroke-opacity=".06" d="M5.278 50.202c-1.483 7.417 2.737 15.449 5.754 22.49l19.47-11.245-2.878-11.245z" paint-order="stroke markers fill"/>
+  <path fill="#838383" fill-opacity=".3" stroke="#1a1a1a" stroke-opacity=".06" d="M69.61 61.411l19.638 11.21c4.6-11.242 4.764-11.895 5.3-22.42H72.259z" paint-order="stroke markers fill"/>
+  <path fill="#fff" fill-opacity=".3" d="M49.97 26.08V33.9L82.6 50.202h11.948c-.327-8.645-1.773-16.97-7.324-24.121z"/>
+  <path fill="#838383" fill-opacity=".3" stroke="#1a1a1a" stroke-opacity=".06" d="M49.97 5.102v20.979H86.52C77.659 10.416 66.987 6.986 49.97 5.102z" paint-order="stroke markers fill"/>
+  <path fill="#333" fill-opacity=".3" d="M13.223 26.08h36.748V5.103c-17.746-.034-33.5 12.953-36.748 20.979z"/>
+  <path fill="#fff" fill-opacity=".3" stroke="#1a1a1a" stroke-opacity=".06" d="M46.133 63.763v5.819h-8.957v7.676h8.957v8.955h7.676v-8.955h8.957v-7.676h-8.957v-5.82z" paint-order="stroke markers fill"/>
+  <path fill="url(#b)" stroke="#1a1a1a" stroke-opacity=".06" stroke-width="1.5" d="M49.97 30.84c-13.643.155-28.639 6.06-43.78 19.3 32.301 28.25 61.158 23.097 87.632 0-14.064-12.27-28.388-19.476-43.851-19.3zm-.027 7.156a12.144 12.144 0 01.03 0 12.144 12.144 0 0112.142 12.145 12.144 12.144 0 01-12.142 12.142 12.144 12.144 0 01-12.145-12.142 12.144 12.144 0 0112.115-12.145z" paint-order="stroke markers fill"/>
+  <path fill="url(#b)" stroke="#1a1a1a" stroke-opacity=".06" stroke-width="1.5" d="M43.89 55.727v-2.29l5.632-12.136h2.689l-5.69 12.136h4.386v-4.882h2.412v4.882h1.35v2.29h-1.35v2.511h-2.412v-2.51z" paint-order="stroke markers fill"/>
+  <circle cx="50" cy="50" r="45.3" fill="none" stroke="url(#b)" stroke-width="3"/>
+</svg>
