@@ -296,7 +296,7 @@ script + div.page-tags:before {
     content: " ";
 }
 .printuser a:only-child[href*=sebzumbruck]::before {
-    background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_ub) 51%);
+    background: var(--de_ub);
     content: " ";
 }
 .printuser a:only-child[href*=survari]::before {
@@ -374,7 +374,7 @@ script + div.page-tags:before {
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after {
-    background: linear-gradient(var(--de_nt) 6px, #2c2c2c 7px, var(--de_ub) 7px);
+    background: var(--de_ub);
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=survari]::after {
@@ -453,7 +453,7 @@ script + div.page-tags:before {
     content: "News-Team, Mentor";
 }
 .printuser a:last-child[href*=sebzumbruck]:hover::after {
-    content: "News-Team, Übersetzer";
+    content: "Übersetzer";
 }
 .printuser a:last-child[href*=survari]:hover::after {
     content: "Technik-Team";
