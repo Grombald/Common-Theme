@@ -10,7 +10,7 @@ Dazu bei height="..." das Ergebnis aus 310 - Punktezahl eingeben. Also bei 150 P
 Bei Erreichen der Maximalpunktezahl auf 0 setzen.
 --> 
 <rect id="Originalartikel" x="34.629" y="67.247" width="45.578" height="217.500" fill="#fff"/>
-<rect id="Uebersetzungen" x="160.39" y="67.247" width="45.578" height="209.630" fill="#fff"/>
-<rect id="Feedback" x="286.15" y="67.247" width="45.578" height="198.421" fill="#fff"/>
+<rect id="Uebersetzungen" x="160.39" y="67.247" width="45.578" height="195.556" fill="#fff"/>
+<rect id="Feedback" x="286.15" y="67.247" width="45.578" height="194.211" fill="#fff"/>
 <rect id="Artworks" x="411.9" y="67.247" width="45.578" height="236.400" fill="#fff"/>
 </svg>
