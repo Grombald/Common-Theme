@@ -362,6 +362,11 @@ a.homebutton:hover .homebutton-mask {
     background-image: url('https://grombald.github.io/Common-Theme/img/random.png');
     background-image: var(--ct_bg_sidebar-item-random);
 }
+#side-bar .menu-item.user p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/user.png');
+    background-image: var(--ct_bg_sidebar-item-user);
+}
 
 .preview-message (max-width: 1619px) {
     right: 0;
