@@ -46,6 +46,9 @@ This file is used to store variables that would bloat the Common Theme and that 
     --ct_bg_sidebar-item-random: url('https://grombald.github.io/Common-Theme/img/random.png');
     --ct_bg_sidebar-item-random: url('https://grombald.github.io/Common-Theme/svg/random.svg');
     --ct_bg_sidebar-item-random: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22m6.5%202.0078-3.4453%201.9902%203.4453%201.9902%203.4453-1.9902-3.4453-1.9902zm3.8965%202.7695-3.4473%201.9922v3.9785l3.4473-1.9902v-3.9805zm-7.793%200.0019531v3.9785l3.4473%201.9902v-3.9785l-3.4473-1.9902z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3C%2Fsvg%3E");
+    --ct_bg_sidebar-item-user: url('https://grombald.github.io/Common-Theme/img/user.png');
+    --ct_bg_sidebar-item-user: url('https://grombald.github.io/Common-Theme/svg/user.svg');
+    --ct_bg_sidebar-item-user: url('url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2013%2013%22%3E%0A%3Ccircle%20cx%3D%226.5%22%20cy%3D%224.5%22%20r%3D%222.5%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%20d%3D%22M5.055%207.686C3.229%208.167%202%209.5%202%2011h9c0-1.5-1.229-2.833-3.055-3.314a3.454%203.454%200%2001-2.89%200z%22%2F%3E%0A%3C%2Fsvg%3E")');
     
     /* Masks */  
     --ct_bg_m_sidebar-button-icon_mask: url('https://grombald.github.io/Common-Theme/svg/open-menu-button_mask.svg');
