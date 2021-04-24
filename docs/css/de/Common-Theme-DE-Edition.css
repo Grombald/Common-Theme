@@ -299,6 +299,10 @@ script + div.page-tags:before {
     background: var(--de_ub);
     content: " ";
 }
+.printuser a:only-child[href*=pesti]::before {
+    background: var(--de_vb);
+    content: " ";
+}
 .printuser a:only-child[href*=survari]::before {
     background: var(--de_tt);
     content: " ";
@@ -375,6 +379,10 @@ script + div.page-tags:before {
 }
 .printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after {
     background: var(--de_ub);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=pesti]::after {
+    background: var(--de_vb);
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=survari]::after {
@@ -460,6 +468,9 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=evil-santa]:hover::after {
     content: "Korrekturbeauftragter";
+}
+.printuser a:last-child[href*=pesti]:hover::after {
+    content: "Vertonungsbeauftragter";
 }
 .printuser a:last-child[href*=alphaorion]:hover::after,
 .printuser a:last-child[href*=archetyp]:hover::after,
