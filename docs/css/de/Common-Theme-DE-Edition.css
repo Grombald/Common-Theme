@@ -524,8 +524,8 @@ script + div.page-tags:before {
 #page-content .b-tables table th {
     border: none;
 }
-#page-content .b-tables table th:first-child,
-#page-content .b-tables table td {
+#page-content .b-tables table th,
+#page-content .b-tables table td:first-child {
     font-weight: bold;
     text-align: left;
 }
