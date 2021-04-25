@@ -504,3 +504,42 @@ script + div.page-tags:before {
         right: -25em;
     }
 }
+
+/* Better Tables */
+.b-tables {
+    background: linear-gradient(to bottom, var(--ct_col_table-head) 0%, var(--ct_col_table-head) 50%, var(--ct_bg_body) 50%, var(--ct_bg_body) 100%);
+    border: var(--ct_brd_table);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#page-content .b-tables table {
+    margin: 0 auto;
+    width: 100%;
+}
+#page-content .b-tables table td,
+#page-content .b-tables table th {
+    border: none;
+}
+#page-content .b-tables table th:first-child,
+#page-content .b-tables table td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+#page-content .b-tables.two-rows table tr:nth-child(odd) td:first-child {
+    font-weight: normal;
+}
+#page-content .b-tables table tr {
+    background: var(--ct_bg_body);
+    border-bottom: var(--ct_brd_table);
+    border-bottom-style: dashed;
+}
+#page-content .b-tables table tr:first-child{
+    border-bottom-style: solid;
+}
+#page-content .b-tables.two-rows table tr:nth-child(even) {
+    border-bottom: none;
+}
+#page-content .b-tables table tr:last-child {
+    border-bottom: none;
+}
