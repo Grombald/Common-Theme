@@ -466,7 +466,7 @@ a.homebutton:hover .homebutton-mask {
 #page-content .b-tables table th {
     border: none;
 }
-#page-content .b-tables table th:first-child,
+#page-content .b-tables table th,
 #page-content .b-tables table td:first-child {
     font-weight: bold;
     text-align: left;
@@ -487,4 +487,9 @@ a.homebutton:hover .homebutton-mask {
 }
 #page-content .b-tables table tr:last-child {
     border-bottom: none;
+}
+.b-tables .pager {
+    border-top: var(--ct_brd_table);
+    padding: .5em 0;
+    margin: 2px 0 0 0;
 }
