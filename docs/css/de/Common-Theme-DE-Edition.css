@@ -506,6 +506,9 @@ script + div.page-tags:before {
 }
 
 /* Better Tables */
+:root {
+    --ct_brd_table: 1px solid #888;
+}
 .b-tables {
     background: linear-gradient(to bottom, var(--ct_col_table-head) 0%, var(--ct_col_table-head) 50%, var(--ct_bg_body) 50%, var(--ct_bg_body) 100%);
     border: var(--ct_brd_table);
