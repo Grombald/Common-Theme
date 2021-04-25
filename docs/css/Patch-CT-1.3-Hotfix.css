@@ -471,7 +471,7 @@ a.homebutton:hover .homebutton-mask {
     font-weight: bold;
     text-align: left;
 }
-#page-content .b-tables.two-rows table tr:nth-child(odd) {
+#page-content .b-tables.two-rows table tr:nth-child(odd) td:first-child {
     font-weight: normal;
 }
 #page-content .b-tables table tr {
