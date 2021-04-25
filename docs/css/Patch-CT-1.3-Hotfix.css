@@ -471,7 +471,7 @@ a.homebutton:hover .homebutton-mask {
     font-weight: bold;
     text-align: left;
 }
-#page-content .b-tables.2-rows table tr:nth-child(odd) {
+#page-content .b-tables.two-rows table tr:nth-child(odd) {
     font-weight: normal;
 }
 #page-content .b-tables table tr {
@@ -482,7 +482,7 @@ a.homebutton:hover .homebutton-mask {
 #page-content .b-tables table tr:first-child{
     border-bottom-style: solid;
 }
-#page-content .b-tables.2-rows table tr:nth-child(even) {
+#page-content .b-tables.two-rows table tr:nth-child(even) {
     border-bottom: none;
 }
 #page-content .b-tables table tr:last-child {
