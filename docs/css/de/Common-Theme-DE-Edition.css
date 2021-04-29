@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-1.3.min.css');
 @import url('https://grombald.github.io/Common-Theme/css/min/Common-Theme-Extension_Forum-enhancements-1.0.min.css');
+@import url('https://grombald.github.io/Common-Theme/css/Sigma-9-Common-Theme-Variables.css');
 @import url('http://scp-wiki-de.wdfiles.com/local--code/credit:style/1');
 @import url('http://scp-wiki-de.wdfiles.com/local--code/component:button-style/1');
  
@@ -228,6 +229,60 @@ script + div.page-tags:before {
 #side-bar .side-links.svg-icons a[href*="reddit"] {
     background-image: var(--ct_bg_sm-icon_reddit);
 }
+
+/* New sidebar icons */
+#side-bar .menu-item.scp p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/scp.png');
+    background-image: var(--ct_bg_sidebar-item-scp);
+}
+#side-bar .menu-item.news p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/news.png');
+    background-image: var(--ct_bg_sidebar-item-news);
+}
+#side-bar .menu-item.random p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/random.png');
+    background-image: var(--ct_bg_sidebar-item-random);
+}
+#side-bar .menu-item.user p::before {
+    content: "•";
+    background-image: url('https://grombald.github.io/Common-Theme/img/user.png');
+    background-image: var(--ct_bg_sidebar-item-user);
+}
+
+#side-bar .side-block {
+    color: #600;
+    color: var(--ct_col_sidebar-elements);
+}
+#side-bar .menu-item.expandable + .collapsible-block {
+    margin-top: 0;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-folded,
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-unfolded-link {
+    height: 0;
+    text-align: right;
+    border: 0;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-link {
+    top: -19px;
+    position: relative;
+    font-size: 0;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-link::before {
+    font-size: 9pt;
+}
+#side-bar .menu-item.expandable + .collapsible-block .menu-item {
+    border: none;
+    border-left: 1px dashed var(--ct_col_sidebar-elements);
+    margin: 0 0 0 4px;
+    padding: 0 0 2px 17px;
+}
+#side-bar .menu-item.expandable + .collapsible-block + .menu-item {
+    margin-top: 0;
+}
+
 
 
 /* ----  Staff colors  ---- */
