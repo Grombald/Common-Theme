@@ -519,15 +519,15 @@ script + div.page-tags:before {
 }
 
 .printuser a:only-child[href*=sebzumbruck]::before {
-    background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_ub) 51%);
+    background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
     content: " ";
 }
 .printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after {
-    background: linear-gradient(var(--de_nt) 6px, #2c2c2c 7px, var(--de_ub) 7px);
+    background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
     content: " ";
 }
 .printuser a:last-child[href*=sebzumbruck]:hover::after {
-    content: "News-Team, Übersetzer";
+    content: "Freigabebeauftragter, News-Team, Übersetzer";
 }
 
 .printuser a:only-child[href*=pesti]::before {
