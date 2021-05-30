@@ -411,7 +411,8 @@ script + div.page-tags:before {
 	display: inline-block;
 }
 
-/* Users */
+/* ----- Users -----*/
+/* Alice */
 .printuser a:only-child[href*=dr-alice]::before {
     background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_kb) 34%, var(--de_kb) 64%, var(--de_ub) 66%);
     content: " ";
@@ -425,6 +426,7 @@ script + div.page-tags:before {
     content: "Administratorin, Korrekturbeauftragte, Leiterin Übersetzer";
 }
 
+/* Grom */
 .printuser a:only-child[href*=dr-grom]::before {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_tt) 51%);
     content: " ";
@@ -437,6 +439,7 @@ script + div.page-tags:before {
     content: "Administrator, Technik-Team";
 }
 
+/* Robin */
 .printuser a:only-child[href*=robini]::before {
     background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_fb) 34%, var(--de_fb) 64%, var(--de_mt) 66%);
     content: " ";
@@ -450,6 +453,7 @@ script + div.page-tags:before {
     content: "Administrator, Freigabebeauftragter, Mentor";
 }
 
+/* Tanija */
 .printuser a:only-child[href*=tanija]::before {
     background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_nt) 51%);
     content: " ";
@@ -462,6 +466,36 @@ script + div.page-tags:before {
     content: "Administratorin, Leiterin News-Team";
 }
 
+
+/* Freigabe + News + Mentor */
+.printuser a:only-child[href*=oldhelldog]::before {
+    background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
+    content: " ";
+	width: 24px;
+}
+.printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after {
+    background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
+    content: " ";
+}
+.printuser a:last-child[href*=oldhelldog]:hover::after {
+    content: "Freigabebeauftragter, News-Team, Mentor";
+}
+
+/* Freigabe + News + Übersetzer */
+.printuser a:only-child[href*=sebzumbruck]::before {
+    background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
+    content: " ";
+	width: 24px;
+}
+.printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after {
+    background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
+    content: " ";
+}
+.printuser a:last-child[href*=sebzumbruck]:hover::after {
+    content: "Freigabebeauftragter, News-Team, Übersetzer";
+}
+
+/* Freigabe + Mentor */
 .printuser a:only-child[href*=dr-himy]::before,
 .printuser a:only-child[href*=jannik18]::before,
 .printuser a:only-child[href*=einer-von-rabe]::before {
@@ -480,6 +514,7 @@ script + div.page-tags:before {
     content: "Freigabebeauftragter, Mentor";
 }
 
+/* Korrektur + Mentor */
 .printuser a:only-child[href*=flaming2204]::before {
     background: linear-gradient(110deg, var(--de_kb) 49%, var(--de_mt) 51%);
     content: " ";
@@ -493,19 +528,7 @@ script + div.page-tags:before {
     content: "Korrekturbeauftragter, Mentor";
 }
 
-.printuser a:only-child[href*=oldhelldog]::before {
-    background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_ub) 51%);
-    content: " ";
-	width: 24px;
-}
-.printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after {
-    background: linear-gradient(var(--de_nt) 6px, #2c2c2c 7px, var(--de_ub) 7px);
-    content: " ";
-}
-.printuser a:last-child[href*=oldhelldog]:hover::after {
-    content: "News-Team, Übersetzer";
-}
-
+/* News + Mentor */
 .printuser a:only-child[href*=arogas]::before {
     background: linear-gradient(110deg, var(--de_nt) 49%, var(--de_mt) 51%);
     content: " ";
@@ -518,18 +541,20 @@ script + div.page-tags:before {
     content: "News-Team, Mentor";
 }
 
-.printuser a:only-child[href*=sebzumbruck]::before {
-    background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
+/* Übersetzer + Mentor */
+.printuser a:only-child[href*=doktor-cyberion]::before {
+    background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
     content: " ";
 }
-.printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after {
-    background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
+.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after {
+    background: linear-gradient(var(--de_ub) 6px, #2c2c2c 7px, var(--de_mt) 7px);
     content: " ";
 }
-.printuser a:last-child[href*=sebzumbruck]:hover::after {
-    content: "Freigabebeauftragter, News-Team, Übersetzer";
-}
+.printuser a:last-child[href*=doktor-cyberion]:hover::after {
+    content: "Übersetzer, Mentor";
+} 
 
+/* Vertonung */
 .printuser a:only-child[href*=pesti]::before {
     background: var(--de_vb);
     content: " ";
@@ -542,6 +567,7 @@ script + div.page-tags:before {
     content: "Vertonungsbeauftragter";
 }
 
+/* Technikteam */
 .printuser a:only-child[href*=survari]::before {
     background: var(--de_tt);
     content: " ";
@@ -555,6 +581,7 @@ script + div.page-tags:before {
     content: "Technik-Team";
 }
 
+/* Korrektur */
 .printuser a:only-child[href*=evil-santa]::before {
     background: var(--de_kb);
     content: " ";
@@ -568,6 +595,7 @@ script + div.page-tags:before {
     content: "Korrekturbeauftragter";
 }
 
+/* Übersetzer */
 .printuser a:only-child[href*=alphaorion]::before,
 .printuser a:only-child[href*=archetyp]::before,
 .printuser a:only-child[href*=drpeterwenzel]::before {
@@ -587,18 +615,7 @@ script + div.page-tags:before {
     content: "Übersetzer";
 }
 
-.printuser a:only-child[href*=doktor-cyberion]::before {
-    background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
-    content: " ";
-}
-.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after {
-    background: linear-gradient(var(--de_ub) 6px, #2c2c2c 7px, var(--de_mt) 7px);
-    content: " ";
-}
-.printuser a:last-child[href*=doktor-cyberion]:hover::after {
-    content: "Übersetzer, Mentor";
-} 
-
+/* Freigabe */
 .printuser a:only-child[href*=ibimsbluexiio]::before {
     background: var(--de_fb);
     content: " ";
