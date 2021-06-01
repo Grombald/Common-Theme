@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 492 398" xmlns="http://www.w3.org/2000/svg">
-<rect x="286.15" y="67.247" width="45.576" height="311" fill="#f10e0e"/>
-<rect x="160.39" y="67.247" width="45.576" height="311" fill="#06f"/>
-<rect x="411.9" y="67.247" width="45.576" height="311" fill="#fc0"/>
-<rect x="34.629" y="67.247" width="45.576" height="311" fill="#00d400"/>
+<rect x="20.629" y="67.247" width="45.576" height="311" fill="#00d400"/>
+<rect x="146.39" y="67.247" width="45.576" height="311" fill="#06f"/>
+<rect x="262.15" y="67.247" width="45.576" height="311" fill="#f10e0e"/>
+<rect x="397.9" y="67.247" width="45.576" height="311" fill="#fc0"/>
 <!--
 Um die Höhe des farbigen Balkens einzustellen, wird hier die Höhe einer Maske eingestellt.
 Dazu bei height="..." das Ergebnis aus 310 - Punktezahl eingeben. Also bei 150 Punken wird height="160" gesetzt.
