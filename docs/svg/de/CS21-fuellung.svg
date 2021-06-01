@@ -2,7 +2,7 @@
 <svg version="1.1" viewBox="0 0 492 398" xmlns="http://www.w3.org/2000/svg">
 <rect x="20.629" y="67.247" width="45.576" height="311" fill="#00d400"/>
 <rect x="146.39" y="67.247" width="45.576" height="311" fill="#06f"/>
-<rect x="262.15" y="67.247" width="45.576" height="311" fill="#f10e0e"/>
+<rect x="272.15" y="67.247" width="45.576" height="311" fill="#f10e0e"/>
 <rect x="397.9" y="67.247" width="45.576" height="311" fill="#fc0"/>
 <!--
 Um die Höhe des farbigen Balkens einzustellen, wird hier die Höhe einer Maske eingestellt.
@@ -11,6 +11,6 @@ Bei Erreichen der Maximalpunktezahl auf 0 setzen.
 --> 
 <rect id="Originalartikel" x="20.629" y="67.247" width="45.578" height="80.875" fill="#fff"/>
 <rect id="Uebersetzungen" x="146.39" y="67.247" width="45.578" height="68.056" fill="#fff"/>
-<rect id="Feedback" x="262.15" y="67.247" width="45.578" height="18.289" fill="#fff"/>
+<rect id="Feedback" x="272.15" y="67.247" width="45.578" height="18.289" fill="#fff"/>
 <rect id="Artworks" x="397.9" y="67.247" width="45.578" height="79.000" fill="#fff"/>
 </svg>
