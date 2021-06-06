@@ -11,6 +11,6 @@ Bei Erreichen der Maximalpunktezahl auf 0 setzen.
 --> 
 <rect id="Originalartikel" x="20.629" y="67.247" width="45.578" height="19.375" fill="#fff"/>
 <rect id="Uebersetzungen" x="146.39" y="67.247" width="45.578" height="48.889" fill="#fff"/>
-<rect id="Feedback" x="272.15" y="67.247" width="45.578" height="9.605" fill="#fff"/>
-<rect id="Artworks" x="397.9" y="67.247" width="45.578" height="49.600" fill="#fff"/>
+<rect id="Feedback" x="272.15" y="67.247" width="45.578" height="0.000" fill="#fff"/>
+<rect id="Artworks" x="397.9" y="67.247" width="45.578" height="45.400" fill="#fff"/>
 </svg>
