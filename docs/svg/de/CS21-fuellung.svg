@@ -9,8 +9,8 @@ Um die Höhe des farbigen Balkens einzustellen, wird hier die Höhe einer Maske 
 Dazu bei height="..." das Ergebnis aus 310 - Punktezahl eingeben. Also bei 150 Punken wird height="160" gesetzt.
 Bei Erreichen der Maximalpunktezahl auf 0 setzen.
 --> 
-<rect id="Originalartikel" x="20.629" y="67.247" width="45.578" height="71.875" fill="#fff"/>
+<rect id="Originalartikel" x="20.629" y="67.247" width="45.578" height="24.250" fill="#fff"/>
 <rect id="Uebersetzungen" x="146.39" y="67.247" width="45.578" height="51.111" fill="#fff"/>
 <rect id="Feedback" x="272.15" y="67.247" width="45.578" height="9.605" fill="#fff"/>
-<rect id="Artworks" x="397.9" y="67.247" width="45.578" height="66.400" fill="#fff"/>
+<rect id="Artworks" x="397.9" y="67.247" width="45.578" height="49.600" fill="#fff"/>
 </svg>
