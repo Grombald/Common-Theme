@@ -468,18 +468,18 @@ script + div.page-tags:before {
 
 
 /* Freigabe + News + Mentor */
-.printuser a:only-child[href*=oldhelldog]::before {
+/*.printuser a:only-child[href*=]::before {
     background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
     content: " ";
 	width: 24px;
 }
-.printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after {
+.printuser > a:first-child:not(:only-child)[href*=]::after {
     background: linear-gradient(var(--de_fb) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
     content: " ";
 }
-.printuser a:last-child[href*=oldhelldog]:hover::after {
+.printuser a:last-child[href*=]:hover::after {
     content: "Freigabebeauftragter, News-Team, Mentor";
-}
+}*/
 
 /* Freigabe + News + Übersetzer */
 .printuser a:only-child[href*=sebzumbruck]::before {
@@ -542,20 +542,36 @@ script + div.page-tags:before {
 }
 
 /* Übersetzer + Mentor */
-.printuser a:only-child[href*=doktor-cyberion]::before {
+.printuser a:only-child[href*=doktor-cyberion]::before,
+.printuser a:only-child[href*=oldhelldog]::before {
     background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
     content: " ";
 }
-.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after {
+.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after,
+.printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after{
     background: linear-gradient(var(--de_ub) 6px, #2c2c2c 7px, var(--de_mt) 7px);
     content: " ";
 }
-.printuser a:last-child[href*=doktor-cyberion]:hover::after {
+.printuser a:last-child[href*=doktor-cyberion]:hover::after,
+.printuser a:last-child[href*=oldhelldog]:hover::after{
     content: "Übersetzer, Mentor";
 } 
 
-/* Vertonung */
+/* Vertonungsbeauftragter + News Team */
 .printuser a:only-child[href*=pesti]::before {
+    background: linear-gradient(110deg, var(--de_vb) 49%, var(--de_nt) 51%);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=pesti]::after{
+    background: linear-gradient(var(--de_vb) 6px, #2c2c2c 7px, var(--de_nt) 7px);
+    content: " ";
+}
+.printuser a:last-child[href*=pesti]:hover::after{
+    content: "Vertonungsbeauftragter, News-Team";
+} 
+
+/* Vertonung */
+/*.printuser a:only-child[href*=pesti]::before {
     background: var(--de_vb);
     content: " ";
 }
@@ -565,6 +581,19 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=pesti]:hover::after {
     content: "Vertonungsbeauftragter";
+}*/
+
+/* News-Team */
+.printuser a:only-child[href*=kibanashote]::before {
+    background: var(--de_nt);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=kibanashote]::after {
+    background: var(--de_nt);
+    content: " ";
+}
+.printuser a:last-child[href*=kibanashote]:hover::after {
+    content: "News-Team";
 }
 
 /* Technikteam */
