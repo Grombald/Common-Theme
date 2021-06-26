@@ -455,15 +455,16 @@ script + div.page-tags:before {
 
 /* Tanija */
 .printuser a:only-child[href*=tanija]::before {
-    background: linear-gradient(110deg, var(--de_o4) 49%, var(--de_nt) 51%);
+    background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
     content: " ";
+    width: 24px;
 }
 .printuser > a:first-child:not(:only-child)[href*=tanija]::after {
-    background: linear-gradient(var(--de_o4) 6px, #2c2c2c 7px, var(--de_nt) 7px);
+    background: linear-gradient(var(--de_o4) 4px, #2c2c2c, var(--de_nt) 5px, var(--de_nt) 9px, #2c2c2c, var(--de_ub) 10px);
     content: " ";
 }
 .printuser a:last-child[href*=tanija]:hover::after {
-    content: "Administratorin, Leiterin News-Team";
+    content: "Administratorin, Leiterin News-Team, Leiterin Übersetzer";
 }
 
 
