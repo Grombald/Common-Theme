@@ -514,6 +514,19 @@ script + div.page-tags:before {
     content: "Freigabebeauftragter, Mentor";
 }
 
+/* Freigabe + News Team */
+.printuser a:only-child[href*=ibimsbluexiio]::before {
+    background: linear-gradient(110deg, var(--de_fb) 49%, var(--de_nt) 51%);
+    content: " ";
+}
+.printuser > a:first-child:not(:only-child)[href*=ibimsbluexiio]::after{
+    background: linear-gradient(var(--de_fb) 6px, #2c2c2c 7px, var(--de_nt) 7px);
+    content: " ";
+}
+.printuser a:last-child[href*=ibimsbluexiio]:hover::after{
+    content: "Freigabebeauftragter, News-Team";
+} 
+
 /* Korrektur + Mentor */
 .printuser a:only-child[href*=flaming2204]::before {
     background: linear-gradient(110deg, var(--de_kb) 49%, var(--de_mt) 51%);
@@ -645,7 +658,7 @@ script + div.page-tags:before {
 }
 
 /* Freigabe */
-.printuser a:only-child[href*=ibimsbluexiio]::before {
+/*.printuser a:only-child[href*=ibimsbluexiio]::before {
     background: var(--de_fb);
     content: " ";
 	width: 8px;
@@ -656,4 +669,4 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=ibimsbluexiio]:hover::after {
     content: "Freigabebeauftragter";
-}
+}*/
