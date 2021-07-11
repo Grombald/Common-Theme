@@ -556,18 +556,15 @@ script + div.page-tags:before {
 }
 
 /* Übersetzer + Mentor */
-.printuser a:only-child[href*=doktor-cyberion]::before,
-.printuser a:only-child[href*=oldhelldog]::before {
+.printuser a:only-child[href*=doktor-cyberion]::before {
     background: linear-gradient(110deg, var(--de_ub) 49%, var(--de_mt) 51%);
     content: " ";
 }
-.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after,
-.printuser > a:first-child:not(:only-child)[href*=oldhelldog]::after{
+.printuser > a:first-child:not(:only-child)[href*=doktor-cyberion]::after {
     background: linear-gradient(var(--de_ub) 6px, #2c2c2c 7px, var(--de_mt) 7px);
     content: " ";
 }
-.printuser a:last-child[href*=doktor-cyberion]:hover::after,
-.printuser a:last-child[href*=oldhelldog]:hover::after{
+.printuser a:last-child[href*=doktor-cyberion]:hover::after {
     content: "Übersetzer, Mentor";
 } 
 
