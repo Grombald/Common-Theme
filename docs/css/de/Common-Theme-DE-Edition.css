@@ -453,7 +453,7 @@ script + div.page-tags:before {
     content: "Administrator, Freigabebeauftragter, Mentor";
 }
 
-/* Tanija */
+/* Tanija 
 .printuser a:only-child[href*=tanija]::before {
     background: linear-gradient(110deg, var(--de_o4) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
     content: " ";
@@ -465,7 +465,7 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=tanija]:hover::after {
     content: "Administratorin, Leiterin News-Team, Leiterin Übersetzer";
-}
+}*/
 
 
 /* Freigabe + News + Mentor */
