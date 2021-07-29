@@ -482,7 +482,7 @@ script + div.page-tags:before {
     content: "Freigabebeauftragter, News-Team, Mentor";
 }*/
 
-/* Freigabe + News + Übersetzer */
+/* Freigabe + News + Übersetzer 
 .printuser a:only-child[href*=sebzumbruck]::before {
     background: linear-gradient(110deg, var(--de_fb) 32%, var(--de_nt) 34%, var(--de_nt) 64%, var(--de_ub) 66%);
     content: " ";
@@ -494,7 +494,7 @@ script + div.page-tags:before {
 }
 .printuser a:last-child[href*=sebzumbruck]:hover::after {
     content: "Freigabebeauftragter, News-Team, Übersetzer";
-}
+}*/
 
 /* Freigabe + Mentor */
 .printuser a:only-child[href*=dr-himy]::before,
@@ -516,15 +516,15 @@ script + div.page-tags:before {
 }
 
 /* Freigabe + News Team */
-.printuser a:only-child[href*=ibimsbluexiio]::before {
+.printuser a:only-child[href*=sebzumbruck]::before {
     background: linear-gradient(110deg, var(--de_fb) 49%, var(--de_nt) 51%);
     content: " ";
 }
-.printuser > a:first-child:not(:only-child)[href*=ibimsbluexiio]::after{
+.printuser > a:first-child:not(:only-child)[href*=sebzumbruck]::after{
     background: linear-gradient(var(--de_fb) 6px, #2c2c2c 7px, var(--de_nt) 7px);
     content: " ";
 }
-.printuser a:last-child[href*=ibimsbluexiio]:hover::after{
+.printuser a:last-child[href*=sebzumbruck]:hover::after{
     content: "Freigabebeauftragter, News-Team";
 } 
 
@@ -595,14 +595,20 @@ script + div.page-tags:before {
 }*/
 
 /* News-Team */
+.printuser a:only-child[href*=ibimsbluexiio]::before,
+.printuser a:only-child[href*=kibanashote]::before,
 .printuser a:only-child[href*=kibanashote]::before {
     background: var(--de_nt);
     content: " ";
 }
+.printuser > a:first-child:not(:only-child)[href*=ibimsbluexiio]::after,
+.printuser > a:first-child:not(:only-child)[href*=kibanashote]::after,
 .printuser > a:first-child:not(:only-child)[href*=kibanashote]::after {
     background: var(--de_nt);
     content: " ";
 }
+.printuser a:last-child[href*=ibimsbluexiio]:hover::after,
+.printuser a:last-child[href*=kibanashote]:hover::after,
 .printuser a:last-child[href*=kibanashote]:hover::after {
     content: "News-Team";
 }
