@@ -727,11 +727,6 @@ a.homebutton:hover .homebutton-mask {
 #top-bar ul li:hover ul li a {
     width: 150px !important;
 }
-/***************************************** Remove before release! *****************************************/
-#top-bar div > ul > li.sfhover:nth-child(4) ul li a,
-#top-bar div > ul > li:hover:nth-child(4) ul li a {
-    width: 175px !important;
-}
 
 /* Dark mode switch (Dark Mode only works on browsers supporting CSS variables) */
 #top-bar .dark-mode, 
