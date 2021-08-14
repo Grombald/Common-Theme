@@ -3,7 +3,7 @@
 @import url('https://grombald.github.io/Common-Theme/font/font-bauhaus.css');
 @import url('https://grombald.github.io/Common-Theme/font/font-awesome.min.css');
 @import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Variables.min.css') supports(--foo: green);
-@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Compatible-1.0.min.css') supports( not(--foo: green));
+/*@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Compatible-1.0.min.css') supports( not(--foo: green));*/
 
 /* 
     SCP Sigma 9 - Common Theme 1.4
