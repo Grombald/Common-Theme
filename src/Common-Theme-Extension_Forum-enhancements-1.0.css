@@ -25,7 +25,6 @@
  
 .thread-container .post .options a,
 .thread-container .post .long .changes a {
-    color: #b01;
     color: var(--ct_col_link);
 }
  
@@ -65,7 +64,6 @@
     box-shadow: inset 1px 2px 6px rgba(0,0,0,.15);
 }
 .thread-container .post .short .options {
-    color: #b01;
     color: var(--ct_col_link);
 }
 .thread-container .post .short .title {
