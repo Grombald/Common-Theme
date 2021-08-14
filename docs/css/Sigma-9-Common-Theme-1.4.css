@@ -566,13 +566,8 @@ div#container-wrap {
 #top-bar ul li ul li.sfhover,
 #top-bar ul li ul li:hover,
 #top-bar ul li ul li a {
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -moz-box-align: center;
-        -ms-flex-align: center;
-    align-items: center;
     min-width: 150px;
-    width: 100% !important;
+    width: 100%;
 }
 #top-bar ul li:last-of-type ul {
     right: 0;
@@ -711,19 +706,6 @@ a.homebutton:hover .homebutton-mask {
     position: absolute;
     right: 3px;
     top: 1px;
-}
-
-/* Images in Topbar */
-#top-bar ul li ul li img + a {
-    padding-left: 3em;
-    width: 160px !important;
-}
-#top-bar ul li ul li > img +a {
-    padding-left: calc(1em + 16px + 4px);
-}
-#top-bar ul li.sfhover ul li a,
-#top-bar ul li:hover ul li a {
-    width: 150px !important;
 }
 
 /* Dark mode switch (Dark Mode only works on browsers supporting CSS variables) */
