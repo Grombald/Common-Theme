@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 @import url('https://grombald.github.io/Common-Theme/font/font-bauhaus.css');
 @import url('https://grombald.github.io/Common-Theme/font/font-awesome.min.css');
@@ -615,31 +615,29 @@ div#container-wrap {
     border: unset;
     color: unset;
     position: unset;
-        -webkit-mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
-    mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
     background: #888;
     background: var(--ct_col_m_sidebar-button-icon);
-        -webkit-mask-size: 30px;
-    mask-size: 30px;
-        -webkit-mask-position: center;
-    mask-position: center;
+    display: block;    
+    height: 100%;    
         -webkit-mask-clip: inherit;
     mask-clip: inherit;
-        -webkit-mask-origin: ;
-    mask-origin: ;
-    width: 100%;
-    height: 100%;
-    display: block;
+        -webkit-mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
+    mask-image: var(--ct_bg_m_sidebar-button-icon_mask);
+        -webkit-mask-position: center;
+    mask-position: center;
         -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+        -webkit-mask-size: 30px;
+    mask-size: 30px;
+    width: 100%;
 }
 #top-bar .open-menu.masked:hover {
-       -webkit-box-shadow:0 0 20px 3px rgba(153,153,153,1);
-       -moz-box-shadow:0 0 20px 3px rgba(153,153,153,1);
-       -ms-box-shadow:0 0 20px 3px rgba(153,153,153,1);
-       -o-box-shadow:0 0 20px 3px rgba(153,153,153,1);
-   box-shadow:0 0 20px 3px rgba(153,153,153,1);
-   box-shadow:var(--ct_shd_m_sidebar-button);
+       -webkit-box-shadow: 0 0 20px 3px rgba(153,153,153,1);
+       -moz-box-shadow: 0 0 20px 3px rgba(153,153,153,1);
+       -ms-box-shadow: 0 0 20px 3px rgba(153,153,153,1);
+       -o-box-shadow: 0 0 20px 3px rgba(153,153,153,1);
+   box-shadow: 0 0 20px 3px rgba(153,153,153,1);
+   box-shadow: var(--ct_shd_m_sidebar-button);
 }
 
 /* Homebutton in Topbar */
@@ -785,6 +783,7 @@ a.homebutton:hover .homebutton-mask {
         position: relative;
         top: 0;
     }
+    /******************************************************************************
     #top-bar ul .ct-theme-switch {
         background: initial;
         border: none;
@@ -795,7 +794,7 @@ a.homebutton:hover .homebutton-mask {
             -webkit-box-shadow: none;
             -moz-box-shadow: none;
         box-shadow: none;
-    }
+    }*/
     #top-bar ul .ct-theme-switch a {
         font-size: inherit;
         height: auto;
@@ -1040,12 +1039,11 @@ a.homebutton:hover .homebutton-mask {
     display: inline-block;
         -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,.25));
-    left: 11px;
+    margin-left: -16px;
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
-    position: absolute;
     text-align: center;
-    width: 13px;
+    width: 16px;
 }
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
 #side-bar .colmod-link-top a:first-child::before {
@@ -1204,8 +1202,7 @@ a.homebutton:hover .homebutton-mask {
 /* ---------------- #3.1 Content area ---------------- */
 
 #content-wrap {
-    height: auto !important;
-    height: 1500px;
+    height: auto;
     margin: 2em auto 0;
     max-width: 1040px;
     min-height:1300px;
