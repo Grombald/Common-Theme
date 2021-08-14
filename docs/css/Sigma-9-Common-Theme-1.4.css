@@ -948,12 +948,12 @@ a.homebutton:hover .homebutton-mask {
 #side-bar .collapsible-block-folded .collapsible-block-link::before,
 #side-bar .colmod-link-top a:first-child::before {
     content: "+";
-    background: var(--ct_bg_sidebar-expand) 0 1px no-repeat;
+    background: var(--ct_bg_sidebar-expand);
 }
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link::before,
 #side-bar .colmod-link-top a:last-child::before {
     content: "-";
-    background: var(--ct_bg_sidebar-collapse) 0 1px no-repeat;
+    background: var(--ct_bg_sidebar-collapse);
 }
 #side-bar .menu-item.default p::before {
     content: "·";
