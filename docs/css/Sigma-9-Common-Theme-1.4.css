@@ -4,7 +4,9 @@
 @import url('https://grombald.github.io/Common-Theme/font/font-awesome.min.css');
 @import url('https://grombald.github.io/Common-Theme/css/Sigma-9-Common-Theme-Variables.min.css');
 
- /*
+/******************************************* Iteration 1 *******************************************/
+
+/* 
     SCP Sigma 9 - Common Theme 1.4
     [2020 Wikidot Theme - CC BY-SA 3.0]
     Based on the SCP Sigma 9 theme by Aelanna, Crayne, Dr Devan, anqxyr, DrMagnus and psdnbluesoul
@@ -690,16 +692,16 @@ a.homebutton:hover .homebutton-mask {
     left: 50px;
     top: 19px;
 }
-#top-bar div > ul > li > ul > li > ul {
-    visibility: hidden !important;
+#top-bar div > ul > li:hover > ul > li > ul,
+#top-bar div > ul > li.sfhover > ul > li > ul {
+    visibility: hidden;
     z-index: 1;
 }
-#top-bar div > ul > li > ul > li:hover > ul {
-    visibility: visible !important;
+#top-bar div > ul > li > ul > li:hover > ul,
+#top-bar div > ul > li > ul > li.sfhover > ul {
+    visibility: visible;
 }
-#top-bar div > ul > li > ul > li:sfhover > ul {
-    visibility: visible !important;
-}
+
 .topbar_arrow {
     color: #a01;
     color: var(--ct_col_topbar-link);
@@ -1382,8 +1384,8 @@ div.blockquote,
     margin-right: 2em;
 }
 .page-rate-widget-box .rate-points {
-    background: #633 !important;
-    background: var(--ct_col_rate-primary) !important;
+    background: #633;
+    background: var(--ct_col_rate-primary);
     border: solid 1px #633;
     border: var(--ct_brd_rate-primary);
         -webkit-border-radius: 5px 0 0 5px;
@@ -1711,6 +1713,7 @@ iframe.scpnet-interwiki-frame {
 .footer-wikiwalk-nav {
     font-size: 75%;
     font-weight: bold;
+    text-align: center;
 }
 
 /* Licensebox */
@@ -2721,14 +2724,17 @@ div.curved {
     #top-bar li a {
      padding: 10px .5em;
     }
-    #toc {
+    #toc.floatleft,
+    #toc.floatright {
         display: block;
-        float: none !important;
-        margin: 1em 0 !important;
+        float: none;
+        margin: 1em 0;
     }
-    .scp-image-block {
-        float: none !important;
-        margin: 0 auto 1em auto !important;
+    .scp-image-block.block-left,
+    .scp-image-block.block-center,
+    .scp-image-block.block-right {
+        float: none;
+        margin: 0 auto 1em auto;
     }
 }
 
