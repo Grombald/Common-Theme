@@ -662,7 +662,7 @@ a.homebutton:hover .homebutton-mask {
 #top-bar .light-mode {
     display: none;
 }
-@supports (--foo: green); {
+@supports (--foo: green) {
     #top-bar .dark-mode {
         display: block;
     }
