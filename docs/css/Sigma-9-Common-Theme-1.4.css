@@ -2,9 +2,7 @@
 
 @import url('https://grombald.github.io/Common-Theme/font/font-bauhaus.css');
 @import url('https://grombald.github.io/Common-Theme/font/font-awesome.min.css');
-@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Variables.css') supports(--foo: green);
-/*@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Compatible-1.0.min.css') supports( not(--foo: green));*/
-
+@import url('https://grombald.github.io/Common-Theme/css/min/Sigma-9-Common-Theme-Variables.min.css');
 
 /* 
     SCP Sigma 9 - Common Theme 1.4
@@ -22,7 +20,6 @@
     - SVGs url-ified with 7happy7's http://smlt.wikidot.com/7happy7:svg-replace
 */
 
-@supports (--foo: green) {
 /* ++++++++++++++++ #0 Contents ++++++++++++++++
 #0 Variables
 #1 Common Settings
@@ -2421,6 +2418,4 @@ div.curved {
     td.title {
         width: 30%;
     }
-}
-
 }
