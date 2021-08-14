@@ -668,7 +668,7 @@ a.homebutton:hover .homebutton-mask {
 #top-bar .light-mode {
     display: none;
 }
-
+@supports (--foo: green); {
     #top-bar .dark-mode {
         display: block;
     }
@@ -758,6 +758,7 @@ a.homebutton:hover .homebutton-mask {
         border-color: transparent;
         border-radius: 0;
     }
+}
 
 /* ---------------- #2.5 Sidebar ---------------- */
 #side-bar {
