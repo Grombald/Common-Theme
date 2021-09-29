@@ -775,6 +775,8 @@ a.homebutton:hover .homebutton-mask {
     border-radius: var(--ct_dim_sidebar-border-radius);
     box-shadow: 0 2px 6px rgba(102,0,0,.5);
     box-shadow: var(--ct_shd_sidebar-block);
+    color: #600;
+    color: var(--ct_col_sidebar-elements);
     margin-bottom: 15px;
     padding: 10px;
 }
@@ -980,6 +982,7 @@ a.homebutton:hover .homebutton-mask {
     background-image: var(--ct_bg_sidebar-item-series);
 }
 
+
 /* New sidebar icons */
 #side-bar .menu-item.scp p::before {
     content: "•";
@@ -997,6 +1000,35 @@ a.homebutton:hover .homebutton-mask {
     content: "•";
     background-image: var(--ct_bg_sidebar-item-user);
 }
+
+/* Expandable side bar items */
+#side-bar .menu-item.expandable + .collapsible-block {
+    margin-top: 0;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-folded,
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-unfolded-link {
+    border: 0;
+    height: 0;
+    text-align: right;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-link {
+    font-size: 0;
+    position: relative;
+    top: -19px;
+}
+#side-bar .menu-item.expandable + .collapsible-block .collapsible-block-link::before {
+    font-size: 9pt;
+}
+#side-bar .menu-item.expandable + .collapsible-block .menu-item {
+    border: none;
+    border-left: 1px dashed var(--ct_col_sidebar-elements);
+    margin: 0 0 0 4px;
+    padding: 0 0 2px 17px;
+}
+#side-bar .menu-item.expandable + .collapsible-block + .menu-item {
+    margin-top: 0;
+}      
+
 
 /* SVG Social media icons */
 #side-bar .side-links.svg-icons a {
