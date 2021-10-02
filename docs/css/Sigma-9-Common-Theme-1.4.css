@@ -1243,11 +1243,11 @@ table.page-files tr.highlight td:not(:last-child) {
     background-color: var(--ct_col_toc-bg);
 }
 
-#page-content th {
+#page-content .wiki-content-table th {
     border: var(--ct_brd_table);
     background-color: var(--ct_col_table-head);
 }
-#page-content td {
+#page-content .wiki-content-table td {
     border: var(--ct_brd_table);
 }
 
