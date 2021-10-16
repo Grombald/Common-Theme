@@ -145,11 +145,11 @@
        x="0" />
     <path
        id="path1469"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 191,88.5 v 72 h -15.24805 l 24.24805,42 24.24805,-42 H 209 v -72 z"
        transform="translate(-544.99396,-553.81213)" />
     <circle
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path1498"
        cx="-344.99399"
        cy="-342.3121"
@@ -179,13 +179,13 @@
        x="0" />
     <circle
        id="circle1508"
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        transform="translate(344.99396,353.81213)"
        cx="-344.99399"
        cy="-342.3121"
        r="99" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -3e-5,-87.49997 v -84.38089"
        id="path1514" />
   </g>
@@ -197,46 +197,53 @@
      transform="translate(344.99396,353.81213)"
      sodipodi:insensitive="true">
     <path
-       style="opacity:1;fill:none;stroke:#ffcc00;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       stroke-width="1"
+       stroke="#ffcc00"
        d="m -344.994,-342.31214 5e-5,-182.99999"
-       id="path1286"
-       sodipodi:nodetypes="cc" />
+       id="path1286" />
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4, 12;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       stroke-linecap="square"
+       stroke-dasharray="4, 12"
+       stroke-width="2"
+       stroke="#000"
+       fill="none"
        id="rect1195"
        width="398"
        height="398"
        x="-543.99396"
        y="-552.81213" />
     <circle
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff2a2a;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       stroke-width="1"
+       stroke="#ff2222"
+       fill="none"
        id="path1209"
        cx="-344.99396"
        cy="-342.31213"
        r="160" />
     <path
-       sodipodi:nodetypes="cc"
+       stroke-width="1"
+       stroke="#ffcc00"
        id="path1329"
-       d="m -344.994,-342.31214 158.48262,91.50004"
-       style="opacity:1;fill:none;stroke:#ffcc00;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m -344.994,-342.31214 158.48262,91.50004" />
     <path
-       style="opacity:1;fill:none;stroke:#ffcc00;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       stroke-width="1"
+       stroke="#ffcc00"
        d="m -344.994,-342.31214 -158.48262,91.50004"
-       id="path1333"
-       sodipodi:nodetypes="cc" />
+       id="path1333" />
     <g
        transform="translate(-345.18449,-435.1336)"
-       style="display:inline;opacity:1;stroke-width:0.999999"
        id="g1151">
       <circle
+         stroke-width="2"
+         stroke="#000"
+         fill="#ffffff"
          id="path921"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          cx="0.19048867"
          cy="92.821465"
          r="24" />
       <path
+         fill="#000"
          d="M 24.190489,92.821465 A 24,24 0 0 1 0.19048867,116.82146 V 92.821465 Z"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="path1136"
          sodipodi:type="arc"
          sodipodi:arc-type="slice"
@@ -247,6 +254,7 @@
          sodipodi:cy="92.821465"
          sodipodi:cx="0.19048867" />
       <path
+         fill="#000"
          d="m 23.809511,-92.821465 a 24,24 0 0 1 -23.99999967,24 v -24 z"
          sodipodi:cx="-0.19048867"
          sodipodi:cy="-92.821465"
@@ -257,20 +265,21 @@
          sodipodi:arc-type="slice"
          sodipodi:type="arc"
          id="path1138"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          transform="scale(-1)" />
     </g>
     <g
        id="g1295"
-       style="display:inline;opacity:1;stroke-width:0.999999"
        transform="matrix(-0.30000006,0,0,0.30000006,-344.93681,-381.65857)">
       <circle
+         stroke-width="2"
+         stroke="#000"
+         fill="#ffffff"
          r="24"
          cy="92.821465"
          cx="0.19048867"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="circle1289" />
       <path
+         fill="#000"
          sodipodi:cx="0.19048867"
          sodipodi:cy="92.821465"
          sodipodi:rx="24"
@@ -280,11 +289,10 @@
          sodipodi:arc-type="slice"
          sodipodi:type="arc"
          id="path1291"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          d="M 24.190489,92.821465 A 24,24 0 0 1 0.19048867,116.82146 V 92.821465 Z" />
       <path
+         fill="#000"
          transform="scale(-1)"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="path1293"
          sodipodi:type="arc"
          sodipodi:arc-type="slice"
