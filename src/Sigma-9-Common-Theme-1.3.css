@@ -48,6 +48,7 @@
     #7.5 Mini Tablet Media Query (581px - 767px device width)
     #7.6 Tablet Media Query (768px - 979px device width)
 #8.0 Interwiki-module
+#9.0 Off-page styling
 */
 
 /* ++++++++++++++++ #0 Variables ++++++++++++++++ 
@@ -206,6 +207,20 @@ Legend:
     --ct_brd_m_sidebar-button: .2em solid #888;
     --ct_shd_m_sidebar-button: 0 0 20px 3px rgba(153,153,153,1);
     
+    /* 9 Off-page styling */
+    --ct_bg_hovertip: var(--ct_bg_body);
+    --ct_col_hovertip: var(--ct_col_body-txt);
+    --ct_brd_hovertip: solid 1px black;
+    --ct_bg_input: var(--ct_bg_body);
+    --ct_col_input: var(--ct_col_body-txt);
+    --ct_brd_input: 1px solid #777;
+    --ct_brd_input-outline: 1px solid black;
+    --ct_bg_btn: #f4f4f4;
+    --ct_col_btn: var(--ct_col_body-txt);
+    --ct_brd_btn: 1px solid #aaa;
+    --ct_bg_btn-hover: #ddd;
+    --ct_col_btn-hover: var(--ct_col_btn);
+
     /* SVG URLs (stored here not to clutter the rest when line wrap is on) */
     --ct_bg_topbar-home-hover: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cg%20transform%3D%22matrix(3.7795%200%200%203.7795%20-1.4376e-8%20-1114)%22%3E%0A%3Cpath%20d%3D%22m0.39178%20296.54%201.328-1.2608%201.328%201.2608h-0.40197v1.1204h-0.52917v-0.79375h-0.79375v0.79375h-0.52917v-1.1204z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E");
     --ct_bg_topbar-home: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22m1.4807%206.7654%205.0192-4.7652%205.0192%204.7652h-1.5192v4.2346h-2v-3h-3v3h-2v-4.2346z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.8%22%20stroke-width%3D%223.7795%22%2F%3E%0A%3C%2Fsvg%3E");
@@ -2518,4 +2533,46 @@ iframe.scpnet-interwiki-frame {
     div.scpnet-interwiki-wrapper {
         width: 18em;
     }
+}
+
+/* ++++++++++++++++ 9.0 Off-page styling ++++++++++++++++ */
+table.page-files .options {
+    background-color: #fff;
+    background-color: var(--ct_bg_body);
+}
+a.action-area-close:hover {
+    background-color: var(--ct_bg_body);
+}
+.hovertip {
+    background-color: #f3f3f3;
+    background-color: var(--ct_bg_hovertip);
+    color: #333;
+    color: var(--ct_col_hovertip)
+    border: solid 1px black;
+    border: var(--ct_brd_hovertip);
+}
+#action-area input.text {
+    background-color: #fff;
+    background-color: var(--ct_bg_input);
+    color: #000;
+    color: var(--ct_col_input);
+    border: 1px solid #777;
+    border: var(--ct_brd_input);
+}
+#action-area input.text:focus {
+    outline: 1px solid black;
+    outline: var(--ct_brd_input-outline);
+}
+div.buttons input, input.button, a.button {
+    background-color: #f4f4f4;
+    background-color: var(--ct_bg_btn);
+    color: #000;
+    color: var(--ct_col_btn);
+    border: 1px solid #aaa;
+    border: var(--ct_brd_btn);
+}
+div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.buttons input:focus, input.button:focus, button:focus, a.button:focus {
+    background-color: #ddd;
+    background-color: var(--ct_bg_btn-hover);
+    color: var(--ct_col_btn-hover);
 }
