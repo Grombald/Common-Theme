@@ -220,6 +220,10 @@ Legend:
     --ct_brd_btn: 1px solid #aaa;
     --ct_bg_btn-hover: #ddd;
     --ct_col_btn-hover: var(--ct_col_btn);
+    --ct_bg_owindow: var(--ct_bg_body);
+    --ct_brd_owdindow: 2px solid #bbb;
+    --ct_bg_owindow-header: #f5f5f5;
+    --ct_col_owindow-header: var(--ct_col_body-txt);
 
     /* SVG URLs (stored here not to clutter the rest when line wrap is on) */
     --ct_bg_topbar-home-hover: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cg%20transform%3D%22matrix(3.7795%200%200%203.7795%20-1.4376e-8%20-1114)%22%3E%0A%3Cpath%20d%3D%22m0.39178%20296.54%201.328-1.2608%201.328%201.2608h-0.40197v1.1204h-0.52917v-0.79375h-0.79375v0.79375h-0.52917v-1.1204z%22%20fill%3D%22%23b01%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E");
@@ -2536,11 +2540,7 @@ iframe.scpnet-interwiki-frame {
 }
 
 /* ++++++++++++++++ 9.0 Off-page styling ++++++++++++++++ */
-table.page-files .options {
-    background-color: #fff;
-    background-color: var(--ct_bg_body);
-}
-a.action-area-close:hover {
+table.page-files .options, a.action-area-close:hover {
     background-color: var(--ct_bg_body);
 }
 .hovertip {
@@ -2551,7 +2551,7 @@ a.action-area-close:hover {
     border: solid 1px black;
     border: var(--ct_brd_hovertip);
 }
-#action-area input.text {
+input.text {
     background-color: #fff;
     background-color: var(--ct_bg_input);
     color: #000;
@@ -2559,11 +2559,11 @@ a.action-area-close:hover {
     border: 1px solid #777;
     border: var(--ct_brd_input);
 }
-#action-area input.text:focus {
+input.text:focus {
     outline: 1px solid black;
     outline: var(--ct_brd_input-outline);
 }
-div.buttons input, input.button, a.button {
+div.buttons input, input.button, a.button, .owindow .button-bar a {
     background-color: #f4f4f4;
     background-color: var(--ct_bg_btn);
     color: #000;
@@ -2575,4 +2575,16 @@ div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.b
     background-color: #ddd;
     background-color: var(--ct_bg_btn-hover);
     color: var(--ct_col_btn-hover);
+}
+
+.owindow {
+    background-color: #fff;
+    background-color: var(--ct_bg_owindow);
+    border: 2px solid #bbb;
+    border: var(--ct_brd_owindow);
+}
+.owindow .title.owindow {
+    background-color: #f5f5f5;
+    background-color: var(--ct_bg_owindow-header);
+    color: var(--ct_col_owindow-header);
 }
