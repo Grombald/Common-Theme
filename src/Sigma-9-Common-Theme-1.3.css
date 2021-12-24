@@ -1204,7 +1204,7 @@ table.page-files tr.highlight td:not(:last-child) {
     background: #633;
     background: var(--ct_col_rate-primary);
     border: solid 1px #633;
-    border: solid 1px var(--ct_col_rate-primary);
+    border: var(--ct_brd_rate-primary);
     border-left: 0;
         -webkit-border-radius: 0 5px 5px 0;
         -moz-border-radius: 0 5px 5px 0;
