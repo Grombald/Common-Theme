@@ -220,6 +220,8 @@ Legend:
     --ct_brd_btn: 1px solid #aaa;
     --ct_bg_btn-hover: #ddd;
     --ct_col_btn-hover: var(--ct_col_btn);
+    --ct_bg_edit-info-text: #f3f3f3;
+    --ct_brd_edit-info-text: 1px solid #ccc;
     --ct_bg_owindow: var(--ct_bg_body);
     --ct_brd_owdindow: 2px solid #bbb;
     --ct_bg_owindow-header: #f5f5f5;
@@ -2575,6 +2577,13 @@ div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.b
     background-color: #ddd;
     background-color: var(--ct_bg_btn-hover);
     color: var(--ct_col_btn-hover);
+}
+
+#lock-info {
+    background-color: #f3f3f3;
+    background-color: var(--ct_bg_edit-info-text);
+    border: 1px solid #ccc;
+    border: var(--ct_brd_edit-info-text);
 }
 
 .owindow {
