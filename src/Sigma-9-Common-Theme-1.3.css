@@ -2582,20 +2582,23 @@ div.buttons input, input.button, a.button, .owindow .button-bar a {
     border: 1px solid #aaa;
     border: var(--ct_brd_btn);
 }
-div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.buttons input:focus, input.button:focus, button:focus, a.button:focus {
+div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.buttons input:focus, input.button:focus, button:focus, a.button:focus, .owindow .button-bar a:hover, .owindow .button-bar a:focus {
     background-color: #ddd;
     background-color: var(--ct_bg_btn-hover);
     color: var(--ct_col_btn-hover);
 }
+
 .change-textarea-size a:hover {
     text-decoration: none;
 }
+
 #lock-info {
     background-color: #f3f3f3;
     background-color: var(--ct_bg_edit-info-text);
     border: 1px solid #ccc;
     border: var(--ct_brd_edit-info-text);
 }
+
 .owindow {
     background-color: #fff;
     background-color: var(--ct_bg_owindow);
