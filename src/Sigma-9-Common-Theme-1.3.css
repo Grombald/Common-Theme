@@ -191,6 +191,8 @@ Legend:
     --ct_brd_blockquote: 1px dashed #999;
     --ct_col_code-bg: #f7f7f7;
     --ct_col_code-border: #ddd;
+    --ct_bg_table-header: #eee;
+    --ct_brd_table-header: 1px solid #888;
     --ct_fnt_white-paper-titles: 'Andale Mono', 'Courier New', Courier, monospace;
     --ct_bg_white-paper-sheet: #FFF;
     --ct_brd_white-paper-sheet: solid 1px #888880;
@@ -1542,6 +1544,13 @@ table.page-files tr.highlight td:not(:last-child) {
     width: 95%;
 }
 
+table.wiki-content-table th {
+    background-color: #eee;
+    background-color: var(--ct_bg_table-header);
+    border: 1px solid #888;
+    border: var(--ct_brd_table-header);
+}
+
 /* Blockquotes and fake Blockquotes */
 blockquote,
 div.blockquote,
@@ -2551,7 +2560,7 @@ table.page-files .options, a.action-area-close:hover {
     color: #333;
     color: var(--ct_col_hovertip)
     border: solid 1px black;
-    border: var(--ct_brd_hovertip);
+    border: var(--ct_brd_hovertip) !important;
 }
 input.text {
     background-color: #fff;
@@ -2578,14 +2587,15 @@ div.buttons input:hover, input.button:hover, button:hover, a.button:hover, div.b
     background-color: var(--ct_bg_btn-hover);
     color: var(--ct_col_btn-hover);
 }
-
+.change-textarea-size a:hover {
+    text-decoration: none;
+}
 #lock-info {
     background-color: #f3f3f3;
     background-color: var(--ct_bg_edit-info-text);
     border: 1px solid #ccc;
     border: var(--ct_brd_edit-info-text);
 }
-
 .owindow {
     background-color: #fff;
     background-color: var(--ct_bg_owindow);
