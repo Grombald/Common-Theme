@@ -5,7 +5,10 @@
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/img/int/body_bg_int.png');
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_int.svg');
     --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/img/int/scp-logo-int-small.png');
-    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/svg/header-logo_int.svg'); 
+    --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/svg/header-logo_int.svg');
+    /* Temporary addition for Pride month */
+    --ct_bg_header-logo: url('http://scp-int.wdfiles.com/local--files/component%3Atheme/scpintlgbt.png');
+    /* Delete when done */
     --ct_col_searchbox-gradient-1: #0f1a25;
     --ct_col_searchbox-gradient-2: #1e354c;
     --ct_col_searchbox-gradient-3: #2b4a6c;
