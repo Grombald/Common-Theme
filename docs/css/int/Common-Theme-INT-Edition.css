@@ -2,6 +2,17 @@
 @import url('http://scp-int.wdfiles.com/local--code/credit:style/1');
 /* Common Theme INT-Edition - CC BY-SA 3.0 - by Dr_Grom. See http://o5command-int.wikidot.com/tech-team:common-theme for more info. */
 :root {
+    /* 0 Fluid typescales
+    @link https://utopia.fyi/type/calculator?c=320,21,1.333,1140,20,1.414,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+    --step--2: clamp(0.63rem, calc(0.78rem + -0.22vw), 0.74rem);
+    --step--1: clamp(0.88rem, calc(1.02rem + -0.20vw), 0.98rem);
+    --step-0: clamp(1.31rem, calc(1.34rem + -0.12vw), 1.25rem);
+    --step-1: clamp(1.75rem, calc(1.74rem + 0.04vw), 1.77rem);
+    --step-2: clamp(2.33rem, calc(2.27rem + 0.33vw), 2.50rem);
+    --step-3: clamp(3.11rem, calc(2.94rem + 0.83vw), 3.53rem);
+    --step-4: clamp(4.14rem, calc(3.81rem + 1.66vw), 5.00rem);
+    --step-5: clamp(5.52rem, calc(4.92rem + 3.01vw), 7.07rem);
+
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/img/int/body_bg_int.png');
     --ct_bg_header-image: url('https://grombald.github.io/Common-Theme/svg/body_bg_int.svg');
     --ct_bg_header-logo: url('https://grombald.github.io/Common-Theme/img/int/scp-logo-int-small.png');
@@ -15,7 +26,17 @@
     --ct_col_searchbox-gradient-4: #38628f;
     --ct_dim_sidebar-link-images: 40px;
 }
- 
+
+/* Site Name */
+@media only screen and (max-width: 960px) {
+    --ct_cnt_alt-header-txt: "SCP International";
+    --ct_cnt_alt-slogan-txt: "Translation Archive";
+    --ct_fns_alt-header-txt: var(--step-2, clamp(2.27rem, calc(1.77rem + 2.47vw), 3.53rem));
+    --ct_fns_alt-slogan-txt: var(--step--1, clamp(0.88rem, calc(1.02rem + -0.20vw), 0.98rem));
+    --ct_fns_header-txt: 0;
+    --ct_fns_slogan-txt: 0;
+}
+
 div#container-wrap {
     background-image: url('https://grombald.github.io/Common-Theme/img/int/body_bg_int.png');
     background-image: var(--ct_bg_header-image); 
